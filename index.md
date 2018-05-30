@@ -1,2 +1,2 @@
 
-[link](https://computationalstylistics.github.io/tmp/)
+[link to posts](https://computationalstylistics.github.io/docs/)
