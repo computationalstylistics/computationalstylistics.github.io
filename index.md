@@ -1,5 +1,5 @@
 
-Documentation (posts, short notes, project descriptions etc.) of the Computational Stylistics Group. This posts listed below will be moved elsewhere one day, and the links will change accordingly.
+Documentation (posts, short notes, project descriptions etc.) of the Computational Stylistics Group. This posts listed below aim at documenting the [R package `stylo`](https://github.com/computationalstylistics/stylo);. They will be moved elsewhere one day, and the links will change accordingly.
 
 
 ## Posts
