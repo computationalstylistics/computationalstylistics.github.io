@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Computational Stylistics Group | Authorship verification with the package ‘stylo’</title>
+  <meta name="description" content="Website containing materials of the Computational Stylistics Group.
+">
+
+  <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/imposters/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+<!--        
+        <strong>Computational</strong> Group
+-->
+        <img src=http://localhost:4000/assets/img/csg.png height="45" align="middle"></img>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="http://localhost:4000/">about</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="http://localhost:4000/blog/">blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/events/">events</a>
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/resources/">resources</a>
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="http://localhost:4000/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Authorship verification with the package ‘stylo’</h1>
+    <p class="post-meta">May 30, 2018 • Maciej Eder</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="introduction">Introduction</h2>
+
+<p>This post introduces to a new feature of the package <code class="highlighter-rouge">stylo</code> (ver.
+0.6.7), namely the General Imposters (GI) method, also referred to as
+the second verification system (o2), introduced by Koppel and Winter
+(2014) and applied to the study of Julius Caesar’s disputed writings
+(Kestemont et al., 2016a). To quote the authors, “[t]he general
+intuition behind the GI, is not to assess whether two documents are
+simply similar in writing style, given a static feature vocabulary, but
+rather, it aims to assess whether two documents are significantly more
+similar to one another than other documents, across a variety of
+stochastically impaired feature spaces (Eder, 2012; Stamatatos, 2006),
+and compared to random selections of so-called distractor authors
+(Juola, 2015), also called ‘imposters’.” (Kestemont et al., 2016a: 88).</p>
+
+<p>The implementation provided by the package <code class="highlighter-rouge">stylo</code> is a rather faithful
+interpretation of two algorithms described in a study on authorship
+verification (Kestemont et al., 2016b). A tiny function for computing
+the score <code class="highlighter-rouge">c@1</code> used to evaluate the system is directly transplanted
+from the original implementation
+(<a href="https://github.com/mikekestemont/ruzicka">https://github.com/mikekestemont/ruzicka</a>).</p>
+
+<p>The main procedure is available via the function <code class="highlighter-rouge">imposters()</code>. It
+assumes that all the texts to be analyzed are already pre-processed and
+represented in a form of a matrix with frequencies of features (usually
+words). The function contrasts, in several iterations, a text in
+question against (1) some texts written by possible candidates to
+authorship, or the authors that are suspected of being the actual
+author, and (2) a selection of “imposters”, or the authors that could
+not have written the text to be assessed. Consequently, a given
+candidate’s class is assigned a score between 0 and 1.</p>
+
+<p>On theoretical grounds, any score above 0.5 would suggest that the
+authorship verification for a given candidate was successful. However,
+the scores such as 0.39 or 0.63 should be considered suspicious: they
+seem to suggest that the classifier had problems in making clear-cut
+decisions. Another function, namely <code class="highlighter-rouge">imposters.optimize()</code>, is meant to
+assess – via a grid search – optimal parameters defining the
+above-mentioned grey area where the classifier should keep shut. It is a
+procedure of testing iteratively each text from a training corpus (one
+at a time) against all the possible candidates. Being computationally
+intense, this is a rather time-consuming task: be prepared to leave you
+machine running for a few hours.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>The latest (and stable) version of the package <code class="highlighter-rouge">stylo</code> is usually
+available on CRAN a few days after such a new version is released. In
+this case, the installation is trivial:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.pacgages</span><span class="p">(</span><span class="s2">"stylo"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Maybe a better way to install brand-new and/or experimental versions of
+the package is to grab it directly from the GitHub repository – please
+make sure, however, that you have the package <code class="highlighter-rouge">devtools</code> installed in
+your system. The next step is straightforward:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">devtools</span><span class="p">)</span><span class="w">
+</span><span class="n">install_github</span><span class="p">(</span><span class="s2">"computationalstylistics/stylo"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>If no errors occurred during the installation, we’re all set!</p>
+
+<h2 id="a-tldr-working-example">A tl;dr working example</h2>
+
+<p>To test at a glance what the <code class="highlighter-rouge">imposters()</code> function can offer, type the
+following code. Notice that you don’t even need to prepare any corpus
+beforehand:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># activating the package 'stylo':</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stylo</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># activating one of the datasets provided by the package 'stylo';</span><span class="w">
+</span><span class="c1"># this is a table of frequences of a few novels, including "The Cuckoo's Calling"</span><span class="w">
+</span><span class="c1"># by Robert Galbraith, aka JK Rowling:</span><span class="w">
+</span><span class="n">data</span><span class="p">(</span><span class="n">galbraith</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># to learn more about the dataset, type:</span><span class="w">
+</span><span class="n">help</span><span class="p">(</span><span class="n">galbraith</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># to see the table itself, type:</span><span class="w">
+</span><span class="n">galbraith</span><span class="w">
+
+</span><span class="c1"># now, time for launching the imposters method:</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">galbraith</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>After a few seconds, the final results will be shown on the
+    screen:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## 
+
+## No candidate set specified; testing the following classes (one at a time):
+
+##   coben   lewis   rowling   tolkien
+
+## 
+
+## Testing a given candidate against imposters...
+
+## coben     0.34
+
+## lewis     0
+
+## rowling   1
+
+## tolkien   0
+
+##   coben   lewis rowling tolkien 
+##    0.34    0.00    1.00    0.00
+</code></pre></div></div>
+
+<p>The interpretation of the results is rather straightforward: “The
+Cuckoo’s Calling” was not written by CS Lewis, nor was it penned by
+JRR Tolkien. Similarly, the score for JK Rowling turned out to be very
+high (could not be higher), which clearly suggests the author of the
+analyzed novel. The only class that is difficult to interpret is Harlan
+Coben, since he was assigned 0.34. (When you run the same test again,
+the final score will probably slightly differ, due to the stochastic
+nature of the test). The score obviously falls into the &lt;0.5 category,
+but still: can we reliably say that this candidate should be rulled out?
+Or, rather, should we abstain from any conclusions here? The problem of
+defining the “I don’t know” area around the score 0.5 will be discussed
+below.</p>
+
+<h2 id="details">Details</h2>
+
+<p>As you might have noticed, the dataset <code class="highlighter-rouge">galbraith</code> contains frequencies
+for different texts by a few authors, the class <em>GALBRAITH</em>, however, is
+represented by a single text (specifically, “The Cuckoo’s Calling”).
+Whenever the function has no additional parameters passed by the user,
+it tries to identify such a single text and then assumes that this is
+the anonymous sample to be assessed.</p>
+
+<p>Despite simplicity, however, this solution is far from being flexible.
+In a vast majority of cases, one would like to have some control on
+choosing the text to be contrasted against the corpus. The function
+provides a dedicated parameter <code class="highlighter-rouge">test</code> to do the trick. Note the
+following
+code:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># getting the 8th row from the dataset (it contains frequencies for Galbraith):</span><span class="w">
+</span><span class="n">my_text_to_be_tested</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="m">8</span><span class="p">,]</span><span class="w">
+
+</span><span class="c1"># building the reference set so that it does not contain the 8th row</span><span class="w">
+</span><span class="n">my_frequency_table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">8</span><span class="p">),]</span><span class="w">
+
+</span><span class="c1"># launching the imposters method:</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_frequency_table</span><span class="p">,</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Consequently, if you want to test who wrote “The Lord of the Rings”
+(part 1), you first indicate the 24th row from the table, and exclude
+this row from your reference corpus.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">my_text_to_be_tested</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="m">24</span><span class="p">,]</span><span class="w">
+</span><span class="n">my_frequency_table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">24</span><span class="p">),]</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_frequency_table</span><span class="p">,</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>By the way, it might be non trivial to know in advance which row of the
+input table contains your disputed text. The simplest way to get the
+content of the table is to request its row names via <code class="highlighter-rouge">rownames()</code>. One
+can also use <code class="highlighter-rouge">grep()</code> to identify a given string of characters e.g.:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># getting the names of the texts</span><span class="w">
+</span><span class="n">rownames</span><span class="p">(</span><span class="n">galbraith</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># getting the row number of a particular text (known by name):</span><span class="w">
+</span><span class="n">grep</span><span class="p">(</span><span class="s2">"lewis_lion"</span><span class="p">,</span><span class="w"> </span><span class="n">rownames</span><span class="p">(</span><span class="n">galbraith</span><span class="p">))</span><span class="w"> 
+
+</span><span class="c1"># one can also combine the above-introduced snippets into one piece:</span><span class="w">
+</span><span class="n">text_name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"lewis_lion"</span><span class="p">,</span><span class="w"> </span><span class="n">rownames</span><span class="p">(</span><span class="n">galbraith</span><span class="p">))</span><span class="w">
+</span><span class="n">my_text_to_be_tested</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="n">text_name</span><span class="p">,]</span><span class="w">
+</span><span class="n">my_frequency_table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="n">text_name</span><span class="p">),]</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_frequency_table</span><span class="p">,</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>So far, I’ve been neglecting one important feature of the imposters
+method. As Kestemont et al. (2016b) show in their “Algorithm 1”, the
+method tries to compare an anonymous text against (1) a candidate set,
+containing the works of a probable candidate author, and (2) the
+imposters set, containing lots of text by people who could not have
+written the text in question. In the previous examples, where no
+canditate set was explicitly indicated, the method repeatedly tested all
+the available authors as potential candidates (one at a time). It is a
+time consuming task. If you plan to focus on just one <em>actual</em>
+candidate, e.g. if you want to test if “The cuckoo’s Calling” was
+written by JK Rowling, you should define the parameters as follows:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># indicating the text to be tested (here, "The cuckoo's Calling"):</span><span class="w">
+</span><span class="n">my_text_to_be_tested</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="m">8</span><span class="p">,]</span><span class="w">
+
+</span><span class="c1"># defining the texts by the candidate author (here, the texts by JK Rowling):</span><span class="w">
+</span><span class="n">my_candidate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="m">16</span><span class="o">:</span><span class="m">23</span><span class="p">,]</span><span class="w">
+
+</span><span class="c1"># building the reference set by excluding the already-selected rows</span><span class="w">
+</span><span class="n">my_imposters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">galbraith</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">8</span><span class="p">,</span><span class="w"> </span><span class="m">16</span><span class="o">:</span><span class="m">23</span><span class="p">),]</span><span class="w">
+
+</span><span class="c1"># launching the imposters method:</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_imposters</span><span class="p">,</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">,</span><span class="w"> </span><span class="n">candidate.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">my_candidate</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>The above code shows a standard application of the General Imposters
+method. In practice, however, I’d rather test <em>all</em> the authors
+iteratively, even if this requires quite a lot of time to complete the
+task. The reason is, this will serve as an additional cross-validation
+step. To put it simply, one is able to check if all the <em>remaining</em>
+authors – tested as if they were candidates – are indeed getting 0s
+(which is expected). In an authorship verification setup, I’d rather
+compare the behavior of JK Rowling in comparison to all possible
+candidate authors, even if Rowling is the only class I believe would get
+a reasonable score.</p>
+
+<h2 id="loading-a-corpus-from-text-files">Loading a corpus from text files</h2>
+
+<p>I am fully aware that the function <code class="highlighter-rouge">imposters()</code> in its current form
+requires some advanced knowledge of R, since it does not provide any
+corpus pre-processing (as the main functions of the package <code class="highlighter-rouge">stylo</code> do).
+Specifically, one needs to know in advance how to produce the table of
+frequencies. This step has been already described elsewhere (Eder et
+al., 2016: 109–11), therefore I will not go into nuanced details here. A
+straightforward way from raw text files to the final results of the
+<code class="highlighter-rouge">imposters()</code> function might look as follows:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># activating the package</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stylo</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># setting a working directory that contains the corpus, e.g.</span><span class="w">
+</span><span class="n">setwd</span><span class="p">(</span><span class="s2">"/Users/m/Desktop/A_Small_Collection_of_British_Fiction/corpus"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># loading the files from a specified directory:</span><span class="w">
+</span><span class="n">tokenized.texts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">load.corpus.and.parse</span><span class="p">(</span><span class="n">files</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># computing a list of most frequent words (trimmed to top 2000 items):</span><span class="w">
+</span><span class="n">features</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">make.frequency.list</span><span class="p">(</span><span class="n">tokenized.texts</span><span class="p">,</span><span class="w"> </span><span class="n">head</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2000</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># producing a table of relative frequencies:</span><span class="w">
+</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">make.table.of.frequencies</span><span class="p">(</span><span class="n">tokenized.texts</span><span class="p">,</span><span class="w"> </span><span class="n">features</span><span class="p">,</span><span class="w"> </span><span class="n">relative</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># who wrote "Pride and Prejudice"? (in my case, this is the 4th row in the table):</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">4</span><span class="p">),],</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">[</span><span class="m">4</span><span class="p">,])</span><span class="w">
+</span></code></pre></div></div>
+
+<p>One important remark to be made, is that the frequency table is analyzed
+in its entirety. In the above example, the input vector of features
+(most frequent words) has 2000 elements. If you want to run the
+<code class="highlighter-rouge">imposters()</code> function on a shorter vector of words, you should select
+them in advance, e.g. to get 100 most frequent words, type:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">imposters</span><span class="p">(</span><span class="n">reference.set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">4</span><span class="p">),</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="m">100</span><span class="p">],</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">[</span><span class="m">4</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="m">100</span><span class="p">])</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="optimizing-the-decision-scores">Optimizing the decision scores</h2>
+
+<p>So far so good. One issue has not been resolved, though. In the example
+discussed above, the novel entitled “The Cuckoo’s Calling” was assigned
+the score 0.34 when tested against Harlan Coben. Is it much? Well, it
+depends. Some authors might exhibit stronger signal, some other might be
+stylometrically blurry. It depends on many factors which cannot be
+simply accounted for once and forever. Instead, however, one might
+thoroughly examine a given corpus, in order to estimate an average
+proximity between any two texts written by the same author, and an
+average proximity between a text by a given author and any text written
+by someone else. Having done that, one can define a margin where a
+classifier is (on average) wrong. This is a grey area where we should
+abstain from making any “yes” or “no” conclusions.</p>
+
+<p>The prodedure proposed for the General Imposters method involves a score
+shifting algorithm (Kestemont et al., 2016b), which is based on the
+<code class="highlighter-rouge">c@1</code> measure of classifier’s performance (Peñas and Rodrigo, 2011). In
+the recent implementation, a dedicated function <code class="highlighter-rouge">imposters.optimize()</code>
+takes care of finding optimal parameters. The only dataset it needs is a
+table with frequencies: please make sure that the authorial classes are
+represented by &gt;1 texts (single texts are automatically excluded from
+the analysis). Type the following code:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># activating another dataset, which contains Southern American novels:</span><span class="w">
+</span><span class="n">data</span><span class="p">(</span><span class="n">lee</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># getting some more information about the dataset</span><span class="w">
+</span><span class="n">help</span><span class="p">(</span><span class="n">lee</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># running the computationally-intense optimalization</span><span class="w">
+</span><span class="n">imposters.optimize</span><span class="p">(</span><span class="n">lee</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Be prepared to wait… Since the above dataset is quite small, the results
+should be ready in less than 10 minutes. In some other setups, however,
+it might take many hours. You’ll probably find it a bit disappointing to
+see just two numbers (the parameters <em>p1</em> and <em>p2</em>) as the final
+results:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## [1] 0.43 0.55
+</code></pre></div></div>
+
+<p>These two single scores (note that your scores might differ a bit) give
+us some knowledge of how to interpret the results obtained by the
+<code class="highlighter-rouge">imposters()</code> function. Any values smaller than 0.43 and greater than
+0.55 can be, with a high degree of confidence, translated into binary
+answers of “no” and “yes”, respectively.</p>
+
+<p>And what about the aforementioned Coben, with the value 0.34? Is it high
+enough to claim that he penned “The Cuckoo’s Calling”? To answer this
+question, you have to compute the <em>p1</em> and <em>p2</em> values for the dataset
+<code class="highlighter-rouge">galbraith</code>!</p>
+
+<h2 id="parameters">Parameters</h2>
+
+<p>In its current form, the function <code class="highlighter-rouge">imposters()</code> works with the Delta
+method only. Next versions will provide SVM, NSC, kNN and NaiveBayes. As
+most of you know very well, the general Delta framework can be combined
+with many different distance measures. E.g. in their paper introducing
+the imposters method (Kestemont et al., 2016b), the authors argue that
+the Ruzicka metrics (aka Minmax) outperforms other measures. Similarly,
+the Wurzburg guys (Evert et al., 2017) show that the Cosine Delta
+metrics does really well when compared to other distances. It’s true
+that my implementation of the <code class="highlighter-rouge">imposters()</code> invokes Classic Delta by
+default, but other measures can be used as well. Try the following
+options:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># activating the package 'stylo':</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stylo</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># activating one of the datasets provided by the package 'stylo':</span><span class="w">
+</span><span class="n">data</span><span class="p">(</span><span class="n">galbraith</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Classic Delta distance</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">galbraith</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"delta"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Cosine Delta (aka Wurzburg Distance)</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">galbraith</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"wurzburg"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Ruzicka Distance (aka Minmax Distance)</span><span class="w">
+</span><span class="c1"># (please keep in mind that it takes AGES to compute it!)</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">galbraith</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"minmax"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Not really impressed, right? This is because the signal of JK Rowling is
+really strong, and all the measures perform just fine. Let’s try
+something more difficult. Did you know that “In Cold Blood” by Truman
+Capote is stylometrically hard to associate with its actual author?
+Execute the following code:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># activating the package 'stylo':</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stylo</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># activating another dataset, which contains Southern American novels:</span><span class="w">
+</span><span class="n">data</span><span class="p">(</span><span class="n">lee</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># defining the test text, i.e. "In Cold Blood"</span><span class="w">
+</span><span class="n">my_text_to_be_tested</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lee</span><span class="p">[</span><span class="m">1</span><span class="p">,]</span><span class="w">
+
+</span><span class="c1"># defining the comparison corpus</span><span class="w">
+</span><span class="n">my_reference_set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lee</span><span class="p">[</span><span class="o">-</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">),]</span><span class="w">
+
+</span><span class="c1"># NOW, time to test 4 different distance measures:</span><span class="w">
+
+</span><span class="c1"># Classic Delta distance</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"delta"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Eder's Delta distance</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"eder"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Cosine Delta (aka Wurzburg Distance)</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"wurzburg"</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Ruzicka Distance (aka Minmax Distance)</span><span class="w">
+</span><span class="c1"># (please keep in mind that it takes AGES to compute it!)</span><span class="w">
+</span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">my_text_to_be_tested</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"minmax"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Have you noticed the reasonable improvement of Wurzburg Delta over the
+other measures? It’s really cool!</p>
+
+<p>Other parameters of the function <code class="highlighter-rouge">imposters()</code> include:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">iterations</code> (default: 100) is a parameter defining the number of
+independent tests to be performed, provided that in each iteration a
+variety of randomly chosen features and/or imposters’ texts is being
+assessed.</li>
+  <li><code class="highlighter-rouge">features</code> (default: 0.5) indicates the share of features
+(e.g. words) to be randomly picked in each iteration. If the
+feature vector has 500 most frequent words, and the <code class="highlighter-rouge">features</code>
+parameter is set to the value 0.1, then in each iteration a random
+subset of 10% of the words (i.e. 50) is selected.</li>
+  <li><code class="highlighter-rouge">imposters</code> (default: 0.5) is very similar to the <code class="highlighter-rouge">features</code>, except
+that it indicates the proportion of imposters’ texts to be randomly
+assessed. The default value 0.5 means that in each iteration one
+half of the texts is picked by the algorithm.</li>
+</ul>
+
+<p>Some other, more techical, parameters can be found in the manual page of
+the function. Type <code class="highlighter-rouge">help(imposters)</code> for the details.</p>
+
+<p>Certainly, the same applied to the <code class="highlighter-rouge">imposters.optimize()</code> function. The
+same parameters that were introduced immediately above, can be passed to
+the fine-tuning function, e.g.:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">results</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"wurzburg"</span><span class="p">)</span><span class="w">
+
+</span><span class="n">results1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">imposters</span><span class="p">(</span><span class="n">my_reference_set</span><span class="p">,</span><span class="w"> </span><span class="n">distance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"wurzburg"</span><span class="p">,</span><span class="w"> </span><span class="n">imposters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.8</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Try all of them!</p>
+
+<h2 id="references">References</h2>
+
+<p><strong>Eder, M.</strong> (2012). Computational stylistics and Biblical translation:
+How reliable can a dendrogram be? In Piotrowski, T. and Grabowski, Ł.
+(eds), <em>The Translator and the Computer</em>. Wrocław: WSF Press, pp. 155–70
+<a href="https://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf">https://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf</a>.</p>
+
+<p><strong>Eder, M., Rybicki, J. and Kestemont, M.</strong> (2016). Stylometry with R: A
+package for computational text analysis. <em>R Journal</em>, <strong>8</strong>(1): 107–21
+<a href="https://journal.r-project.org/archive/2016/RJ-2016-007/index.html">https://journal.r-project.org/archive/2016/RJ-2016-007/index.html</a>.</p>
+
+<p><strong>Evert, S., Proisl, T., Jannidis, F., Reger, I., Pielström, S., Schöch,
+C. and Vitt, T.</strong> (2017). Understanding and explaining Delta measures
+for authorship attribution. <em>Digital Scholarship in the Humanities</em>,
+<strong>32</strong>(suppl. 2): 4–16
+doi:<a href="https://doi.org/10.1093/llc/fqx023">10.1093/llc/fqx023</a>.
+<a href="http://dx.doi.org/10.1093/llc/fqx023">http://dx.doi.org/10.1093/llc/fqx023</a>.</p>
+
+<p><strong>Juola, P.</strong> (2015). The Rowling case: A proposed standard protocol for
+authorship attribution. <em>Digital Scholarship in the Humanities</em>,
+<strong>30</strong>(suppl. 1): 100–13
+doi:<a href="https://doi.org/10.1093/llc/fqv040">10.1093/llc/fqv040</a>.</p>
+
+<p><strong>Kestemont, M., Stover, J., Koppel, M., Karsdorp, F. and Daelemans,
+W.</strong> (2016a). Authenticating the writings of Julius Caesar. <em>Expert
+Systems with Applications</em>, <strong>63</strong>: 86–96.</p>
+
+<p><strong>Kestemont, M., Stover, J., Koppel, M., Karsdorp, F. and Daelemans,
+W.</strong> (2016b). Authorship verification with the Ruzicka metric. In,
+<em>Digital Humanities 2016: Conference Abstracts</em>. Kraków: Jagiellonian
+University &amp; Pedagogical University, pp. 246–49
+<a href="http://dh2016.adho.org/abstracts/402">http://dh2016.adho.org/abstracts/402</a>.</p>
+
+<p><strong>Koppel, M. and Winter, Y.</strong> (2014). Determining if two documents are
+written by the same author. <em>Journal of the Association for Information
+Science and Technology</em>, <strong>65</strong>(1): 178–87
+doi:<a href="https://doi.org/10.1002/asi.22954">10.1002/asi.22954</a>.
+<a href="http://dx.doi.org/10.1002/asi.22954">http://dx.doi.org/10.1002/asi.22954</a>.</p>
+
+<p><strong>Peñas, A. and Rodrigo, A.</strong> (2011). A simple measure to assess
+non-response. In, <em>Proceedings of the 49th Annual Meeting of the
+Association for Computational Linguistics: Human Language Technologies</em>,
+vol. 1. Portland, Oregon, pp. 1415–24.</p>
+
+<p><strong>Stamatatos, E.</strong> (2006). Authorship attribution based on feature set
+subspacing ensembles. <em>International Journal on Artificial Intelligence
+Tools</em>, <strong>15</strong>(05): 823–38
+doi:<a href="https://doi.org/10.1142/S0218213006002965">10.1142/S0218213006002965</a>.</p>
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2018 Computational Stylistics Group.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="http://localhost:4000/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="http://localhost:4000/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
