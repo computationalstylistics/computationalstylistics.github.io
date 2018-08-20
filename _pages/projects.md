@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A showcase of the projects conducted by the Computational Stylistics Group.
 ---
 
 {% for project in site.projects %}
