@@ -21,6 +21,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Woźniak, M., Wołos, A., Modrzyk, U., Górski, R. L., Winkowski, J., Bajczyk, M., Szymkuć, S., Grzybowski, B. and Eder, M.** (2018). [Linguistic measures of chemical diversity and the ‘keywords’ of molecular collections](http://www.nature.com/articles/s41598-018-25440-6). _Scientific Reports_, **8**(1), 7598.
 
+**Eder, M., Winkowski, J., Woźniak, M., Górski, R. L., and Grzybowski, B.** (2018). Text mining methods to solve organic chemistry problems, or topic modeling applied to chemical molecules. _Digital Humanities 2018: Book of Abstracts_. Mexico City, pp. 562–65, [https://dh2018.adho.org/en/abstracts/](https://dh2018.adho.org/en/abstracts/).
+
 **O’Sullivan, J., Bazarnik, K., Eder, M. and Rybicki, J.** (2018). Measuring Joycean Influences on Flann O’Brien. _Digital Studies / Le champ numérique_, **8**(1): 1–25, [doi.org/10.16995/dscn.288](http://doi.org/10.16995/dscn.288).
 
 **Piasecki, M., Walkowiak, T. and Eder, M.** (2018). Open stylometric system WebSty: Integrated language processing, analysis and visualisation. _Computational Methods in Science and Technology_, **24**(1): 43–58, [doi:10.12921/cmst.2018.0000007](http://doi.org/10.12921/cmst.2018.0000007).

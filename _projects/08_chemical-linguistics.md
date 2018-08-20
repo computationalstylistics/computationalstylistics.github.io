@@ -20,6 +20,13 @@ Interested in identifying molecule fragments that are “meaningful”? Want to 
 **Woźniak, M., Wołos, A., Modrzyk, U., Górski, R. L., Winkowski, J., Bajczyk, M., Szymkuć, S., Grzybowski, B. and Eder, M.** (2018). [Linguistic measures of chemical diversity and the ‘keywords’ of molecular collections](http://www.nature.com/articles/s41598-018-25440-6). _Scientific Reports_, **8**(1), 7598.
 
 
+## defining chemical “words”
+
+**Eder, M., Woźniak, M., Modrzyk, U. and Górski, R. L.** (2017). If an atom is a letter, then a molecule is a word: applying corpus linguistic methods to chemistry. _Corpus Linguistics 2017: Conference Abstracts_. University of Birmingham, pp. 743–44, [link to the paper](https://www.birmingham.ac.uk/Documents/college-artslaw/corpus/conference-archives/2017/general/paper366.pdf).
+
+
+
+
 ## topic modeling applied to chemistry
 
 **Eder, M., Winkowski, J., Woźniak, M., Górski, R. L., and Grzybowski, B.** (2018). 
