@@ -26,7 +26,7 @@ description: Computational Stylistic Group somewhat unofficial, and so is its me
 
 <div class="img_row_people">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/kestemont_pers.jpg" alt="" title="example image"/>
-    <p class="col two left"><strong>Mike Kestemont</strong>: Assistant Professor at the University of Antwerp for the Research Foundation of Flanders (<a href="http://www.mike-kestemont.org" target="_blank">personal webpage</a>). His interest lies with the computational text analysis of historic texts, in particular medieval texts from western Europe. Much of his publications are concerned with stylometric authorship attribution.</p>
+    <p class="col two left"><strong>Mike Kestemont</strong>: Assistant Professor at the University of Antwerp (<a href="http://www.mike-kestemont.org" target="_blank">personal webpage</a>). His interest lies with the computational text analysis of historic texts, in particular medieval texts from western Europe. Much of his publications are concerned with stylometric authorship attribution.</p>
 </div>
 
 <div class="img_row_people">
