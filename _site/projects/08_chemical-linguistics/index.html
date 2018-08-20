@@ -106,17 +106,39 @@
 namely, the use of computers to design optimal, multistep chemical pathways leading to lifesaving drugs, pigments or dyes, complex natural products, and many more. Our proposal
 unites the efforts of Poland’s best chemists, computer scientists and linguistics experts to challenge this prevailing view of chemistry and demonstrate – both in silico and through experimental validation – that by uniting the tools of computational linguistics (or corpus linguistics), data mining, machine learning, and algorithm theory, it is possible to teach computers chemistry to the level of top-notch organic chemists and then use these computers to plan complex synthetic transformations.</p>
 
+<div>
+    <img class="col three left" src="/assets/img/41598_2018_25440_Fig1_HTML.jpg" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Fig. 1. Chemical words and vocabularies. (a) A common maximal substructure, MCS (colored red), between two molecules. (b) Language laws in MSC “words” for the entire 1.75-million-rich chemical vocabulary, compared with the works by Conan Doyle, Shakespeare, and Joyce’s “Finnegans Wake”. (c) Examples of chemical words – frequent “function” versus unfrequent “content” words ((from left to right: penicillins, coumarins, carbohydrates, steroids).
+</div>
+
 <h2 id="chemical-keywords">chemical “keywords”?</h2>
 
 <p>Interested in identifying molecule fragments that are “meaningful”? Want to see how keyword extraction works outside the text analysis world? This paper describes how such corpus-linguistic concepts can be extended to chemistry based on characteristic “chemical words” that span more than traditional functional groups and, instead, look at common structural fragments molecules share. Using these words, it is possible to quantify the diversity of chemical collections/databases in new ways and to define molecular “keywords” by which such collections are best characterized and annotated:</p>
 
 <p><strong>Woźniak, M., Wołos, A., Modrzyk, U., Górski, R. L., Winkowski, J., Bajczyk, M., Szymkuć, S., Grzybowski, B. and Eder, M.</strong> (2018). <a href="http://www.nature.com/articles/s41598-018-25440-6">Linguistic measures of chemical diversity and the ‘keywords’ of molecular collections</a>. <em>Scientific Reports</em>, <strong>8</strong>(1), 7598.</p>
 
-<h2 id="defining-chemical-words">defining chemical “words”</h2>
+<h2 id="words-in-chemical-molecules">“words” in chemical molecules</h2>
+
+<p>If we name the “meaningful” groups of atoms as “words”, we need a device
+for finding them in our corpus since there are no explicit word boundaries. In the approach presented in this study, we adopt a method for establishing word boundaries in Chinese. The method uses the concept of sliding window, which divides a string of
+characters into chunks, and then computes an association measures inside the
+window as it moves. The association measure is a combination of two classical
+indexes: Mutual Information and t-tests. Here’s the paper:</p>
 
 <p><strong>Eder, M., Woźniak, M., Modrzyk, U. and Górski, R. L.</strong> (2017). If an atom is a letter, then a molecule is a word: applying corpus linguistic methods to chemistry. <em>Corpus Linguistics 2017: Conference Abstracts</em>. University of Birmingham, pp. 743–44, <a href="https://www.birmingham.ac.uk/Documents/college-artslaw/corpus/conference-archives/2017/general/paper366.pdf">link to the paper</a>.</p>
 
 <h2 id="topic-modeling-applied-to-chemistry">topic modeling applied to chemistry</h2>
+
+<p>In this paper, we analyzed a corpus of chemical molecules using topic modeling, a technique that attracted a good share of attention in Digital Humanities, but has never been popular beyond text-centric applications. The aim was to identify any relations between chemical “words”. Topic modeling belongs to a group of distributional semantics methods, which are based on a general assumption that the meaning of a word is defined by its lexical context. Topic modeling, usually computed via the LDA algorithm, assumes the “bag-of-words” type of context, which means that the sequence of words in a sentence is irrelevant. This feature allows for computing chemical “words”, which, essentially, do not follow any linear sequence. Here’s the poster we presented at the Digital Humanities 2018 conference; a link to the paper goes below:</p>
+
+<div>
+    <img class="col three left" src="/assets/img/CHEM_poster_ver7.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Fig. 1. Topic modeling applied to organic chemistry.
+</div>
 
 <p><strong>Eder, M., Winkowski, J., Woźniak, M., Górski, R. L., and Grzybowski, B.</strong> (2018). 
 Text mining methods to solve organic chemistry problems, or topic modeling applied to chemical molecules. <em>Digital Humanities 2018: Book of Abstracts</em>. Mexico City, pp. 562–65, <a href="https://dh2018.adho.org/en/abstracts/">https://dh2018.adho.org/en/abstracts/</a>.</p>
