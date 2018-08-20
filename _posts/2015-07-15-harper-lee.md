@@ -3,7 +3,6 @@ layout: post
 title:  Go Set A Watchman while we Kill the Mockingbird In Cold Blood
 author: Maciej Eder and Jan Rybicki
 date:   2015-07-15 21:20:56
-# description: Testing rolling stylometry
 ---
 
 
