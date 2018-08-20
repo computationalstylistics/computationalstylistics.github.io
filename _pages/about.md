@@ -18,7 +18,7 @@ Computational Stylistics Group is a cross-institutional research team focused on
 
 Even if the Group has been involved in several research projects (some of them are listed on this website, on the ‘projects’ subpage), it is probably known – at the first place – for the R package ‘stylo’, which is a comprehensive collection of functions written in the programming language R, aimed at performing a variety of experiments in computational stylistics. More about the package can be found [here](https://github.com/computationalstylistics/stylo). Also, please check a [discussion list](https://groups.google.com/forum/#!forum/computationalstylistics) dedicated to different issues in stylometry and beyond. 
 
-The Computational Stylistics Group is a member of the [Federation of Stylometry Labs](https://fosl.ijp.pan.pl/) (FoSL), and closely collaborates with the [COST Action ‘Distant Reading’](https://www.distant-reading.net/).
+The Computational Stylistics Group is a member of the [Federation of Stylometry Labs](https://fosl.ijp.pan.pl/) (FoSL), and closely collaborates with the [COST Action ‘Distant Reading’](https://www.distant-reading.net/), as well as the [Digital Literary Stylistics](https://dls.hypotheses.org/) Special Interest Group (SIG) affiliated with the [Alliance of Digital Humanities Organizations](https://adho.org/). Being based mostly in Krakow, it is also a part of the [DH Krakow](https://twitter.com/dhkrakow) initiative.
 
 
 

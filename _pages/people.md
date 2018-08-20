@@ -20,8 +20,8 @@ description: Computational Stylistic Group somewhat unofficial, and so is its me
 </div>
 
 <div class="img_row_people">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/joanna_byszuk.jpg" alt="" title="example image"/>
-    <p class="col two left"><strong>Joanna Byszuk</strong>: PhD student at the Institute of Polish Language (Polish Academy of Sciences). Interested in ............</p>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/joanna_byszuk.png" alt="" title="example image"/>
+    <p class="col two left"><strong>Joanna Byszuk</strong>: a PhD candidate and a full-time researcher at the Institute of Polish Language (Polish Academy of Sciences). Her interests include computational stylistics and discourse analysis, in particular their methodology, limitations, and application to audiovisual and historical works. She frequently works on examining authorship in texts written in collaboration and on cross-lingual problems, and has her ongoing project applying stylometry to the study of authorship patterns in audiovisual works.</p>
 </div>
 
 <div class="img_row_people">
