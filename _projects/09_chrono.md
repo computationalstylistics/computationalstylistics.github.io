@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Language Change
-description: 
+description: ... assessed quantitatively
 img: /assets/img/coha_features_trimmed.png
 ---
 
@@ -12,6 +12,12 @@ img: /assets/img/coha_features_trimmed.png
 This 3-year project, founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (2013/11/B/HS2/02795), entitled “Przebiegi zmian gramatycznych i leksykalnych w historii języka polskiego – metody korpusowe i kwantytatywne w językoznawstwie diachronicznym” (“Course of grammatical and lexical changes in the history of the Polish language – corpus-driven quantitative methods in diachronic linguistics”), is aimed at an investigation of grammatical and lexical changes, focusing on trends and dynamics of changes in the middle and modern Polish period. What makes this approach innovative is an extensive use of methods elaborated by quantitative and corpus linguistics. A purpose-built diachronic corpus of Polish (ca. 25 mln word tokens) has been statistically analysed in order to observe various changes in the course of development of the Polish language.
 
 The second objective (considered even more important by the authors) is to elaborate statistical tools, which allow for description of the course of linguistic changes, their dynamics, and particularly their parallel coocurrences. We aim at developing a methodology which will combine a diachronic large-scale analysis with an automatic identification of the specific grammatical and lexical features responsible for a language change.
+
+The team of the project includes:
+
+* Rafał L. Górski (PI)
+* Magdalena Król
+* Maciej Eder
 
 Below, we briefly present – as appetizers of full-length papers to appear – two studies conducted within the project. The first study aims at modeling isolated language changes using logistic regression, whereas the second introduces a new method of assessing the dynamics of language change _en mass_.
 
@@ -76,7 +82,7 @@ Despite the above general picture, quite interesting are individual trajectories
 
 ## papers
 
-**Eder, M.** (2018). Words that have made history, or modeling the dynamics of linguistic changes. _Digital Humanities 2018: Book of Abstracts_. Mexico City, pp. 362–65 [https://dh2018.adho.org/en/abstracts/](https://dh2018.adho.org/en/abstracts/).
+**Eder, M.** (2018). Words that have made history, or modeling the dynamics of linguistic changes. _Digital Humanities 2018: Book of Abstracts_. Mexico City, pp. 362–65, [https://dh2018.adho.org/en/abstracts/](https://dh2018.adho.org/en/abstracts/).
 
 **Eder, M. and Górski, R. L.** (2016). Historical linguistics’ new toys, or stylometry applied to the study of language change. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 182–84 [http://dh2016.adho.org/abstracts/398](http://dh2016.adho.org/abstracts/398).
 

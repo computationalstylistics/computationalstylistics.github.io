@@ -6,7 +6,15 @@ img: /assets/img/topic-54.png
 ---
 
 
-This 5-year project entitled “Development of Computational Chemical Linguistics and its Applications to the Efficient Planning of Multistep Chemical Syntheses” and founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (2014/12/W/ST5/00592), is a joint initiative of three research teams, based at the Institute of Organic Chemistry (Polish Academy of Sciences), the Institute of Mathematics (University of Warsaw) and at the Institute of Polish Language (Polish Academy of Sciences), representing three different disciplines: chemistry, computer sciences, and linguistics. 
+This 5-year project entitled “Development of Computational Chemical Linguistics and its Applications to the Efficient Planning of Multistep Chemical Syntheses” and founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (SYMFONIA 2014/12/W/ST5/00592), is a joint initiative of three research teams, based at the Institute of Organic Chemistry (Polish Academy of Sciences), the Institute of Mathematics (University of Warsaw) and at the Institute of Polish Language (Polish Academy of Sciences), representing three different disciplines: chemistry, computer sciences, and linguistics. 
+
+The project’s PI is prof. Bartosz Grzybowski from the Institute of Organic Chemistry (Polish Academy of Sciences) and the Ulsan National Institute of Science and Technology. The linguistic team has been represented by the following scholars:
+
+* Maciej Eder (head of the linguistic team)
+* Rafał L. Górski
+* Jan Winkowski
+* Michał Woźniak
+* Urszula Modrzyk
 
 The project addresses one of the greatest and outstanding challenges of modern chemistry –
 namely, the use of computers to design optimal, multistep chemical pathways leading to lifesaving drugs, pigments or dyes, complex natural products, and many more. Our proposal
@@ -15,14 +23,10 @@ unites the efforts of Poland’s best chemists, computer scientists and linguist
 
 
 
-
-
-
-
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/41598_2018_25440_Fig1_HTML.jpg" alt="" title="example image"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/41598_2018_25440_Fig1_HTML.jpg" alt="" title="example image"/>
 </div>
-<div class="col three caption">
+<div class="col two caption">
     Fig. 1. Chemical words and vocabularies. (a) A common maximal substructure, MCS (colored red), between two molecules. (b) Language laws in MSC “words” for the entire 1.75-million-rich chemical vocabulary, compared with the works by Conan Doyle, Shakespeare, and Joyce’s “Finnegans Wake”. (c) Examples of chemical words – frequent “function” versus unfrequent “content” words ((from left to right: penicillins, coumarins, carbohydrates, steroids).
 </div>
 
