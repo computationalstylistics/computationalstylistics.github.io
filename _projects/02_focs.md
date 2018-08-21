@@ -7,7 +7,14 @@ img: /assets/img/fox.jpg
 
 
 
-This is a 5-year research project founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (2017/26/E/HS2/01019) is aimed to develop, evaluate and apply an innovative methodology of comparing large texts collections, in order to identify hidden patterns and similarities invisible to the naked eye. The official title of the project reads: “Wielkoskalowa analiza tekstu i metodologiczne podstawy stylistyki komputerowej”, which can be translated into English as: “Large-Scale Text Analysis and Methodological Foundations of Computational Stylistics”. Since the title is somewhat too long, we dropped its first part; hence the handy version “Foundations of Computational Stylistics”.
+This 5-year research project founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (SONATA-BIS 2017/26/E/HS2/01019) is carried out at the Institute of Polish Language (Polish Academy of Sciences). It is aimed to develop, evaluate and apply an innovative methodology of comparing large texts collections, in order to identify hidden patterns and similarities invisible to the naked eye. The official title of the project reads: “Wielkoskalowa analiza tekstu i metodologiczne podstawy stylistyki komputerowej”, which can be translated into English as: “Large-Scale Text Analysis and Methodological Foundations of Computational Stylistics”. Since the title is somewhat too long, we dropped its first part; hence the handy version “Foundations of Computational Stylistics” (FoCS).
+
+The project will involve a team of 5-6 people; right now, there’s only two of us:
+
+* Maciej Eder (PI)
+* Joanna Byszuk (PhD candidate)
+
+
 
 The assumed impact of the project is:
 
