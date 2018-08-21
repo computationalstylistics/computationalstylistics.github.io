@@ -3,6 +3,7 @@ layout: page
 title: American Colonial Sermons
 description: stylometric analyses
 img: /assets/img/jonathan_edwards.jpg
+youtubeId: --u-yIsCj5KVg
 ---
 
 
@@ -34,7 +35,8 @@ As explained by the Choiński and Rybicki, “The research proves that the image
 The three-dimensional network diagram below shows the scale of similarities and differences between individual texts by two colonial preachers, Jonathan Edwards and George Whitefield (1714–1770), based on the frequencies of the most often occurring words. Noteworthy is the closeness of Edwards’s sermons and one of Whitefield’s texts – a sermon _The Care of the Soul urged as the One Thing Needful_. Whitefield delivered this sermon on Kennington Common on May 20th 1739. Normally, such affinity could be indicative of authorial collaboration (or, at least, the use of similar rhetorical mechanisms).
 
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/u-yIsCj5KVg" frameborder="0" allowfullscreen></iframe>
+{% include youtubePlayer.html id=page.youtubeId %}
+
 
 
 

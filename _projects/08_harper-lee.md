@@ -14,6 +14,11 @@ img: /assets/img/harper_lee.jpg
 </div>
 
 
+## 
+
+[a post](https://computationalstylistics.github.io/blog/harper-lee/) by Maciej Eder and Jan Rybicki.
+
+
 ## data miners dig into Lee
 
 A post by Ellen Gamerman published in _The Wall Street Journal_ on July 16, 2015, entitled [Data Miners Dig Into ‘Go Set a Watchman’](https://www.wsj.com/articles/data-miners-dig-into-go-set-a-watchman-1437096631): Two scholars who analyzed Harper Lee’s prose for The Wall Street Journal found the Pulitzer winner’s writing style more consistent in ‘Go Set a Watchman’ than ‘To Kill a Mockingbird’.
