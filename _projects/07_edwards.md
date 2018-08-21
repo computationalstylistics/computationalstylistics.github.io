@@ -3,7 +3,7 @@ layout: page
 title: American Colonial Sermons
 description: stylometric analyses
 img: /assets/img/jonathan_edwards.jpg
-youtubeId: --u-yIsCj5KVg
+youtubeId: u-yIsCj5KVg
 ---
 
 
