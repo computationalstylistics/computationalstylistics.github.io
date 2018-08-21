@@ -49,9 +49,9 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2015d). In search of the author of “Chronica Polonorum” ascribed to Gallus Anonymous: A stylometric reconnaissance. _Acta Poloniae Historica_, **112**: 5-23, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Author_of_Chronica_Polonorum.pdf)].
 
-**Eder, M.** (2015c). Taking stylometry to the limits: benchmark study on 5,281 texts from “Patrologia Latina”, [http://dh2015.org/abstracts](http://dh2015.org/abstracts).
+**Eder, M.** (2015c). Taking stylometry to the limits: benchmark study on 5,281 texts from “Patrologia Latina”. In: _Digital Humanities 2015: Book of Abstracts_, University of Western Sydney, [http://dh2015.org/abstracts](http://dh2015.org/abstracts).
 
-**Eder, M.** (2015b). Through the magnifying glass: rolling stylometry for collaborative authorship, [http://dh2015.org/abstracts](http://dh2015.org/abstracts).
+**Eder, M.** (2015b). Through the magnifying glass: rolling stylometry for collaborative authorship. In: _Digital Humanities 2015: Book of Abstracts_, University of Western Sydney, [http://dh2015.org/abstracts](http://dh2015.org/abstracts), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/poster_DH2015.pdf)].
 
 **Eder, M.** (2015a). [Does size matter? Authorship attribution, small samples, big problem](https://academic.oup.com/dsh/article/30/2/167/390738). _Digital Scholarship in the Humanities_, **30**(2): 167-182, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Does_size_matter.pdf)].
 
@@ -59,7 +59,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Pawłowski, A. and Eder, M.** (2015). Sequential structures in Dalimil's Chronicle: quantitative analysis of style variation. In: J. Mačutek and G. Mikros (eds.), _Sequences in Language and Text_. Walter de Gruyter, pp. 147-70.
 
-**Eder, M.** (2014c). Stylometry, network analysis and Latin literature. In: _Digital Humanities 2014: Book of Abstracts_, EPFL-UNIL, Lausanne, pp. 457-58, [http://dharchive.org/paper/DH2014/Poster-324.xml](http://dharchive.org/paper/DH2014/Poster-324.xml), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/m-eder_poster_DH2014.pdf)].
+**Eder, M.** (2014c). Stylometry, network analysis and Latin literature. In: _Digital Humanities 2014: Book of Abstracts_, EPFL-UNIL, Lausanne, pp. 457-58, [http://dharchive.org/paper/DH2014/Poster-324.xml](http://dharchive.org/paper/DH2014/Poster-324.xml), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/poster_DH2014.pdf)].
 
 **Eder, M.** (2014b). Large-scale stylometry using network analysis. In: _Qualico 2014: Book of Abstracts_, Olomouc: Palacky University, pp. 38-39, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_qualico-2014_abstract.pdf)].
 
@@ -81,7 +81,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Rybicki, J. and Heydel, M.** (2013). [The stylistics and stylometry of collaborative translation: Woolf's 'Night and Day' in Polish](http://llc.oxfordjournals.org/content/28/4/708). _Literary and Linguistic Computing_, **28**(4): 708-17, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Heydel%20Rybicki%20Collaborative%20Translation.pdf)].
 
-**Eder, M., Kestemont, M. and Rybicki, J.** (2013). Stylometry with R: a suite of tools. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 487-89, [http://dh2013.unl.edu/abstracts](http://dh2013.unl.edu/abstracts), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Kestemont-Rybicki_Stylometry_with_R.pdf), and [the poster itself](https://github.com/computationalstylistics/preprints/blob/master/stylometry_and_R.pdf)].
+**Eder, M., Kestemont, M. and Rybicki, J.** (2013). Stylometry with R: a suite of tools. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 487-89, [http://dh2013.unl.edu/abstracts](http://dh2013.unl.edu/abstracts), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Kestemont-Rybicki_Stylometry_with_R.pdf), and [the poster itself](https://github.com/computationalstylistics/preprints/blob/master/poster_DH2013.pdf)].
 
 **Rybicki, J., Kestemont, M. and Hoover, D.** (2013). Collaborative authorship: Conrad, Ford and rolling Delta. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 368-71, [http://dh2013.unl.edu/abstracts](http://dh2013.unl.edu/abstracts).
 
@@ -93,7 +93,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2011). [Style-markers in authorship attribution: a cross-language study of authorial fingerprint](http://www.ejournals.eu/SPL/2011/SPL-vol-6-2011/art/1171/). _Studies in Polish Linguistics_, **6**, 99-114, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Style-markers_SLP.pdf)].
 
-**Eder, M. and Rybicki, J.** (2011). Stylometry with R. _Digital Humanities 2011: Conference Abstracts_. Stanford University, Stanford, pp. 308-11, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Rybicki_Stylometry_with_R.pdf)].
+**Eder, M. and Rybicki, J.** (2011). Stylometry with R. _Digital Humanities 2011: Conference Abstracts_. Stanford University, Stanford, pp. 308-11, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Rybicki_Stylometry_with_R.pdf), and [the poster itself](https://github.com/computationalstylistics/preprints/blob/master/poster_DH2011.pdf)].
 
 **Rybicki, J.** (2011). [Alma Cardell Curtin and Jeremiah Curtin: the translator's wife's stylistic fingerprint](http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-195.xml). _Digital Humanities 2011: Conference Abstracts_. Stanford University, Stanford, pp. 308-11.
 

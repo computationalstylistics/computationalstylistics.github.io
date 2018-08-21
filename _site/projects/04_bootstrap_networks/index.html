@@ -100,42 +100,96 @@
   </header>
 
   <article class="post-content Bootstrap Consensus Networks clearfix">
-    <p>In the present study, stylometric techniques are combined with network analysis to reveal the strongest similarities between analyzed texts on the one hand, and some deeper or less obvious relations, usually filtered out by standard nearest neighbor methods, on the other (Eder, forthcoming)5. Consensus network visualizations (cf. Fig. 1) attempt to overcome drawbacks of Cluster Analysis and other explanatory multidimensional techniques. Firstly, these methods are highly dependent on the number of features (e.g. word frequencies) analyzed, secondly, they are not suitable to visualize large datasets. The technique applied in this study counts frequencies of frequent words in a corpus, computes distances (differences) between samples, and for each sample identifies its nearest neighbors (i.e. the samples that turned out to be the most similar). Next, neighboring samples are turned into connected nodes of a network. The above procedure is repeated many times, in each iteration a different range of frequent words is analyzed. Finally, particular networks produced for each iteration are combined into a single consensus network.</p>
+    <div>
+    <img class="col three left" src="/assets/img/66_English_novels_network.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Fig. 1. Bootstrap consensus network of 66 English novels. Calculations performed by R and ‘Stylo’, network visualization prepared using Gephi, labels added with Adobe Illustrator.
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>The aim of this project (it started as an ad-hoc idea, and then turned into something bigger…) is to discuss reliability issues of a few visual techniques used in stylometry, and to introduce <strong>a new method</strong> that enhances the explanatory power of visualization with a procedure of validation inspired by advanced statistical methods. Since it is based on the idea of Bootstrap Consensus Trees (Eder, 2013), it has been named accordingly: <strong>Bootstrap Consensus Networks</strong>.</p>
+
+<p>The following description is but an appetizer. For a detailed explanation of its theoretical assumptions, features, and implementation refer to the following paper:</p>
+
+<blockquote>
+  <p>Eder, M. (2017). <a href="http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061">Visualization in stylometry: cluster analysis using networks</a>. <em>Digital Scholarship in the Humanities</em>, 32(1): 50-64, [<a href="https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf">pre-print</a>].</p>
+</blockquote>
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Most unsupervised (explanatory) methods used in stylometry, such as principal components analysis, multidimensional scaling or cluster analysis, lack an important feature: it is hard to assess the robustness of the estimated model. While supervised classification methods exploit the idea of cross-validation, unsupervised clustering techniques remain, well…, unsupervised. On the other hand, however, the results obtained using these techniques “speak for themselves”, which gives a practitioner an opportunity to notice with the naked eye any peculiarities or unexpected behavior in the analyzed corpus. Also, given a tree-like graphical representation of similarities between particular samples, one can easily interpret the results in terms of finding out the group of texts to which a disputed sample belongs.</p>
+
+<p>One of the biggest problems with cluster analysis, however, is that it highly depends on the number of analyzed features (e.g. frequent words), the linkage algorithm, and the distance measure applied. The decision which of the parameters reveal the actual separation of the samples and which show fake similarities is not trivial at all. Worse, generating hundreds of dendrograms covering the whole spectrum of MFWs, a variety of linkage algorithms, and a number of distance measures, would make this choice even more difficult. At this point, a stylometrist inescapably faces the above-mentioned cherry-picking problem (Rudman, 2003). When it comes to choosing the plot that is the most likely to be “true”, scholars are often in danger of more or less unconsciously picking the one that looks more reliable than others, or that simply confirms their hypotheses.</p>
+
+<h2 id="bootstrap-consensus-trees">Bootstrap consensus trees</h2>
+
+<p>A partial solution of the cherry-picking problem involves combining the information revealed by numerous dendrograms into a single consensus plot. This technique has been developed in phylogenetics (Paradis et al., 2004) and later used to assess differences between Papuan languages (Dunn et al., 2005). It has been also introduced into stylometry (Eder, 2013) and applied in a number of stylometric studies (many of them mentioned elsewhere on this website). This approach assumes that, in a large number of “snapshots” (e.g. for 100, 200, 300, 400, …, 1,000 MFWs), actual groupings tend to reappear, and apparent similarities are likely to remain accidental. The goal, then, is to capture the robust patterns across a set of generated snapshots. The procedure is aimed at producing a number of virtual dendrograms, and then at evaluating robustness of groupings across these dendrograms (Fig. 2).</p>
+
+<div>
+    <img class="col two left" src="/assets/img/English_poetry.png" alt="" title="example image" />
+</div>
+<div class="col two caption">
+    Fig. 2. An example of a bootstrap consensus tree: 18 English epic poems clustered according to their stylistic similarities.
+</div>
+
+<h2 id="bootstrap-consensus-networks">Bootstrap consensus networks</h2>
+
+<p>Although the problem of unstable results can be partially by-passed using consensus techniques, two other issues remain unresolved. Firstly, when the number of analyzed texts exceeds a few dozen, the consensus tree becomes considerably cluttered. Secondly, the procedure of hammering out the consensus is aimed at identifying nearest neighbors only, which means extracting the strongest patterns (usually, the authorial signal) and filtering out weaker textual similarities. To overcome the two aforementioned issues, two tailored algorithms have been introduced.</p>
 
 <div>
     <img class="col three left" src="/assets/img/diagram_1.png" alt="" title="example image" />
 </div>
 <div class="col three caption">
-    Fig. 1. Two algorithms of establishing network connections.
+    Fig. 3. Two algorithms of establishing network connections.
 </div>
 
-<p>What about an idea of representing nearest neighbors as connections in a network? And what about including not only the first-ranked candidate (i.e. the nearest neighbor), but also two runners-up? Since it is not surprising to see <em>Tristam Shandy</em> by Sterne linked to <em>Sentimental Journey</em> by the same author, it is much more interesting to learn that next similar authors are Swift and Scott. It can be represented as a network of mutual similarities. The above algorithm, introduced by Eder, has been implemented in recent versions of the package ‘Stylo’. When the results are loaded into network visualization software, e.g. Gephi, then… Well, have a look at the following pictures:</p>
+<p>Let the first algorithm establish, for every single node, a strong connection to its nearest neighbor (i.e. the most similar text), and two weaker connections to the 1st and the 2nd runner-up (Fig. 3, top). Consequently, the final network will contain a number of weighted links, some of them being thicker (close similarities), some other revealing weaker connections between samples. The second algorithm (Fig. 3, bottom) is aimed at overcoming the problem of unstable results. It is an implementation of the idea of consensus dendrograms as discussed above into network analysis. The goal is to perform a large number of tests for similarity with different number of features analyzed (e.g. 100, 200, 300, …, 1,000 MFWs). Finally, all the connections produced in particular “snapshots” are added, resulting in a consensus network. Weights of these final connections tend to differ significantly: the strongest ones mean robust nearest neighbors, while weak links stand for secondary and/or accidental similarities. Validation of the results – or rather self-validation – is provided by the fact that consensus of many single approaches to the same corpus sanitizes robust textual similarities and filters out apparent clusterings.</p>
 
-<div>
-    <img class="col three left" src="/assets/img/66_English_novels_network.png" alt="" title="example image" />
-</div>
-<div class="col three caption">
-    Fig. 2. Bootstrap consensus network of 66 English novels. Calculations performed by R and ‘Stylo’, network visualization prepared using Gephi, labels added with Adobe Illustrator.
-</div>
+<p>What’s the added value here? Why include not only the first-ranked candidate (i.e. the nearest neighbor), but also two runners-up? Why bother? Frankly, the idea might seem a bit odd indeed. However, this is exactly the reason why this method proves so powerful. Since it is not surprising to see <em>Tristam Shandy</em> by Sterne linked to <em>Sentimental Journey</em> by the same author, it is much more interesting to learn that next similar authors are Swift and Scott. It can be represented as a network of mutual similarities, where some of the connections are very strong, and some other remain ethereal. More specifically, the algorithms used in Bootstrap Consensus Networks are, in a way, equivalent to the <em>k</em>-NN classifier with <em>k</em> = 3.</p>
+
+<p>Establishing the links between the texts is undoubtedly the most important part of the procedure. However, the final step is to arrange the nodes on a plane in such a way that they reveal as much information about linkage as possible. There is a number of out-of-the-box layout algorithms reported in the literature. The members of the Computational Stylistics Group, however, usually choose one of the force-directed layouts: ForceAtlas2 embedded in Gephi, an open-source tool for network manipulation and visualization (Bastian et al., 2009).</p>
 
 <div>
     <img class="col three left" src="/assets/img/124_Greek_texts.png" alt="" title="example image" />
 </div>
 <div class="col three caption">
-    Fig. 3. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
+    Fig. 4. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
 </div>
+
+<div>
+    <img class="col three left" src="/assets/img/network_translationese.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    Fig. 4. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
+</div>
+
+<h2 id="applications">Applications</h2>
+
+<p>The method has been quite extensively applied by the members of the Computational Stylistics Group. Some of the references can be found at the bottom of this post; vast majority of the applications are listed in the <a href="https://computationalstylistics.github.io/publications/">publications</a> section of this website.</p>
 
 <h2 id="references">References</h2>
 
-<p><strong>Eder, M.</strong> (2013a). <a href="http://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf">Computational stylistics and Biblical translation: how reliable can a dendrogram be?</a> In: T. Piotrowski and Ł. Grabowski (eds.) <em>The translator and the computer</em>. Wrocław: WSF Press, pp. 155–170, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Reliability_issues_11122012.pdf">pre-print</a>].</p>
+<p><strong>Bastian, M., Heymann, S. and Jacomy, M.</strong> (2009). Gephi: an open source software for exploring and manipulating networks. In: <em>International AAAI Conference on Weblogs and Social Media</em>, <a href="http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154">http://www.aaai.org/ocs/index.php/ICWSM/09/paper/view/154</a>.</p>
 
-<p><strong>Eder, M.</strong> (2017b). <a href="http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061">Visualization in stylometry: cluster analysis using networks</a>. <em>Digital Scholarship in the Humanities</em>, <strong>32</strong>(1), 50-64, [<a href="https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf">pre-print</a>].</p>
+<p><strong>Dunn, M., Terrill, A., Reesink, G., Foley, R. and Levinson, S.</strong> (2005). Structural phylogenetics and the reconstruction of ancient language history. <em>Science</em>, <strong>309</strong>: 2072–75.</p>
 
-<p><strong>Eder, M.</strong> (2016b). A bird’s eye view of early modern Latin: distant reading, network analysis and style variation. In: M. Ullyot, D. Jakacki, and L. Estill (eds.), <em>Early Modern Studies and the Digital Turn</em>. Toronto and Tempe: Iter and ACMRS, pp. 63-89 (New Technologies in Medieval and Renaissance Studies, vol. 6), <a href="http://ems.itercommunity.org">http://ems.itercommunity.org</a>, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Early_modern_latin_PRE-PRINT.pdf">pre-print</a>].</p>
+<p><strong>Eder, M.</strong> (2013). <a href="http://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf">Computational stylistics and Biblical translation: how reliable can a dendrogram be?</a> In: T. Piotrowski and Ł. Grabowski (eds.) <em>The translator and the computer</em>. Wrocław: WSF Press, pp. 155–170, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Reliability_issues_11122012.pdf">pre-print</a>].</p>
 
-<p><strong>Eder, M.</strong> (2014c). Stylometry, network analysis and Latin literature. In: <em>Digital Humanities 2014: Book of Abstracts</em>, EPFL-UNIL, Lausanne, pp. 457-58, <a href="http://dharchive.org/paper/DH2014/Poster-324.xml">http://dharchive.org/paper/DH2014/Poster-324.xml</a>, [<a href="https://github.com/computationalstylistics/preprints/blob/master/m-eder_poster_DH2014.pdf">the poster itself</a>].</p>
+<p><strong>Eder, M.</strong> (2014a). Stylometry, network analysis and Latin literature. In: <em>Digital Humanities 2014: Book of Abstracts</em>, EPFL-UNIL, Lausanne, pp. 457-58, <a href="http://dharchive.org/paper/DH2014/Poster-324.xml">http://dharchive.org/paper/DH2014/Poster-324.xml</a>, [<a href="https://github.com/computationalstylistics/preprints/blob/master/m-eder_poster_DH2014.pdf">the poster itself</a>].</p>
 
-<p><strong>Eder, M.</strong> (2014a). Metody ścisłe w literaturoznawstwie i pułapki pozornego obiektywizmu - przykład stylometrii. <em>Teksty Drugie</em>, <strong>2</strong>: 90-105.</p>
+<p><strong>Eder, M.</strong> (2014b). Metody ścisłe w literaturoznawstwie i pułapki pozornego obiektywizmu - przykład stylometrii. <em>Teksty Drugie</em>, <strong>2</strong>: 90-105.</p>
+
+<p><strong>Eder, M.</strong> (2017). <a href="http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061">Visualization in stylometry: cluster analysis using networks</a>. <em>Digital Scholarship in the Humanities</em>, <strong>32</strong>(1): 50-64, [<a href="https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf">pre-print</a>].</p>
+
+<p><strong>Eder, M.</strong> (2016). A bird’s eye view of early modern Latin: distant reading, network analysis and style variation. In: M. Ullyot, D. Jakacki, and L. Estill (eds.), <em>Early Modern Studies and the Digital Turn</em>. Toronto and Tempe: Iter and ACMRS, pp. 63-89 (New Technologies in Medieval and Renaissance Studies, vol. 6), <a href="http://ems.itercommunity.org">http://ems.itercommunity.org</a>, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Early_modern_latin_PRE-PRINT.pdf">pre-print</a>].</p>
+
+<p><strong>Paradis, E., Claude, J. and Strimmer, K.</strong> (2004). APE: analyses of phylogenetics and evolution in R language. <em>Bioinformatics</em>, <strong>20</strong>: 289–90.</p>
+
+<p><strong>Rudman, J.</strong> (2003). Cherry picking in nontraditional authorship attribution studies. <em>Chance</em>, <strong>16</strong>: 26–32.</p>
+
+<p><strong>Rybicki, J.</strong> (2015). Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies. <em>Digital Scholarship in the Humanities</em>, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Difference%20preprint.pdf">pre-print</a>].</p>
 
 <p><strong>Rybicki, J., Eder, M. and Hoover, D.</strong> (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), <em>Doing Digital Humanities</em>, London and New York: Routledge, pp. 123-144.</p>
 
