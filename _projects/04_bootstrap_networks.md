@@ -8,7 +8,7 @@ img: /assets/img/bootstrap_network.png
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/66_English_novels_network.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/66_English_novels_network.png" alt="" title="Bootstrap consensus network of 66 English novels"/>
 </div>
 <div class="col three caption">
     Fig. 1. Bootstrap consensus network of 66 English novels. Calculations performed by R and ‘Stylo’, network visualization prepared using Gephi, labels added with Adobe Illustrator.
@@ -38,7 +38,7 @@ One of the biggest problems with cluster analysis, however, is that it highly de
 A partial solution of the cherry-picking problem involves combining the information revealed by numerous dendrograms into a single consensus plot. This technique has been developed in phylogenetics (Paradis et al., 2004) and later used to assess differences between Papuan languages (Dunn et al., 2005). It has been also introduced into stylometry (Eder, 2013) and applied in a number of stylometric studies (many of them mentioned elsewhere on this website). This approach assumes that, in a large number of “snapshots” (e.g. for 100, 200, 300, 400, …, 1,000 MFWs), actual groupings tend to reappear, and apparent similarities are likely to remain accidental. The goal, then, is to capture the robust patterns across a set of generated snapshots. The procedure is aimed at producing a number of virtual dendrograms, and then at evaluating robustness of groupings across these dendrograms (Fig. 2). 
 
 <div>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/English_poetry.png" alt="" title="example image"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/English_poetry.png" alt="" title="An example of a bootstrap consensus tree"/>
 </div>
 <div class="col two caption">
     Fig. 2. An example of a bootstrap consensus tree: 18 English epic poems clustered according to their stylistic similarities.
@@ -50,7 +50,7 @@ A partial solution of the cherry-picking problem involves combining the informat
 Although the problem of unstable results can be partially by-passed using consensus techniques, two other issues remain unresolved. Firstly, when the number of analyzed texts exceeds a few dozen, the consensus tree becomes considerably cluttered. Secondly, the procedure of hammering out the consensus is aimed at identifying nearest neighbors only, which means extracting the strongest patterns (usually, the authorial signal) and filtering out weaker textual similarities. To overcome the two aforementioned issues, two tailored algorithms have been introduced.
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/diagram_1.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/diagram_1.png" alt="" title="Two algorithms of establishing network connections"/>
 </div>
 <div class="col three caption">
     Fig. 3. Two algorithms of establishing network connections.
@@ -65,7 +65,7 @@ Establishing the links between the texts is undoubtedly the most important part 
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/124_Greek_texts.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/124_Greek_texts.png" alt="" title="Bootstrap consensus network of 124 ancient Greek texts"/>
 </div>
 <div class="col three caption">
     Fig. 4. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
@@ -81,7 +81,7 @@ The networks are quite neat as they are, but at the same time they can be enhanc
 Bootstrap consensus networks prove to be very attractive in any “distant reading” approaches to literature, or experiments in which one tries to capture a broader picture of literary periods, genres, and so forth. Below (Fig. 5), a large-ish corpus of 150 Latin texts is shown, where the colors represent three different periods of Latin literature. As one can see, there is some separation between ancient, medieval, and early modern texts, although the separation is not clear-cut. This example comes from a study on distant reading and style variation in Latin (Eder, 2016).
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/latin_network.jpg" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/latin_network.jpg" alt="" title="Bootstrap consensus network of 150 Latin texts"/>
 </div>
 <div class="col three caption">
     Fig. 5. Bootstrap consensus network of 150 Latin texts (ancient, medieval, early modern).
@@ -90,7 +90,7 @@ Bootstrap consensus networks prove to be very attractive in any “distant readi
 What about a really large-scale experiment? Here’s a network of 2,000 novels, produced by Jan Rybicki (Fig. 6). It consists of 1,000 novels written originally in Polish, and 1,000 translations into Polish from a few languages, including English, Russian, and French. Refer to this [post](https://sites.google.com/site/computationalstylistics/projects/translationese) for more details!
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/network_translationese.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/network_translationese.png" alt="" title="Bootstrap consensus network of 2,000 texts in Polish"/>
 </div>
 <div class="col three caption">
     Fig. 6. Bootstrap consensus network of 1,000 texts originally written in Polish, and 1,000 translations into Polish from a few languages.

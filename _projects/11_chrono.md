@@ -31,7 +31,7 @@ On theoretical grounds, a change in language can follow two main scenarios. Firs
 This study explores language change that can be modelled using logistic regression, which in the context of historical linguistics is often referred to as Piotrowski’s law. The examples are drawn from the Polish language. Namely, a few changes that are reported in handbooks of the history of Polish to have taken place between mid-15<sup>th</sup> and mid-19<sup>th</sup> centuries, have been used to validate the theoretical models.
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/piotrowski_wiekszy.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/piotrowski_wiekszy.png" alt="" title="Piotrowski’s law (logistic regression) used to model the change większy::więtszy"/>
 </div>
 <div class="col three caption">
     Fig. 1. Piotrowski’s law (logistic regression) used to model the change <i>większy::więtszy</i>.
@@ -42,7 +42,7 @@ Interesting as it is, such a model cannot overcome the problem of possible co-oc
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/piotrowski_multiple.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/piotrowski_multiple.png" alt="" title="Logistic regression model applied to multiple language changes"/>
 </div>
 <div class="col three caption">
     Fig. 2. Logistic regression model applied to multiple language changes.
@@ -58,7 +58,7 @@ The most natural choice to assess the discriminative power of numerous features 
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/coha_accuracy.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/coha_accuracy.png" alt="" title="Language change accelleration in the American English corpus: classification accuracy over the years 1835–1985"/>
 </div>
 <div class="col three caption">
     Fig. 3. Language change accelleration in the American English corpus: classification accuracy over the years 1835–1985.
@@ -68,7 +68,7 @@ The most natural choice to assess the discriminative power of numerous features 
 Despite the above general picture, quite interesting are individual trajectories of the high-impact words. In Fig. 4, one can observe a collinearity of function words: _the_, _and_, _that_, _is_, _been_, as opposed to the possessive _’s_. These function words seem to have impacted the language change at the turn of the 19<sup>th</sup> century.
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/coha_funciton_words.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/coha_funciton_words.png" alt="" title="Function words of the biggest impact on the stylistic drift"/>
 </div>
 <div class="col three caption">
     Fig. 4. Function words of the biggest impact on the stylistic drift.

@@ -22,7 +22,7 @@ As explained by the Choiński and Rybicki, “The research proves that the image
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/edwards_manuscript.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/edwards_manuscript.png" alt="" title="Preaching notes used by Jonathan Edwards for the delivery of Sinners in the Hands of an Angry God in 1740"/>
 </div>
 <div class="col three caption">
     Fig. 1. Preaching notes used by Jonathan Edwards for the delivery of <i>Sinners in the Hands of an Angry God</i> in 1740. Photo taken by dr Michał Choiński during his research stay at Yale University in October 2017.
@@ -69,8 +69,8 @@ as well as at number of guest talks delivered at:
 The project was featured in [an article](http://scienceinpoland.pap.pl/en/news/news%2C407979%2Cthey-study-literary-style-like-fingerprints.html) of Science in Poland ([scienceinpoland.pl](scienceinpoland.pl)).
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/choinski_in_salem.png" alt="" title="example image"/>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/choinski_at_DH2016.jpg" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/choinski_in_salem.png" alt="" title="Dr Michał Choiński presenting the project at Salem State University"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/choinski_at_DH2016.jpg" alt="" title="Dr Michał Choiński and dr Jan Rybicki presenting the project at the Digital Humanities Conference in Kraków"/>
 </div>
 <div class="col three caption">
     Fig. 2. Dr Michał Choiński presenting the project at Salem State University in September 2017 (left); dr Michał Choiński and dr Jan Rybicki presenting the project at the Digital Humanities Conference in Kraków in 2016 (right).

@@ -24,7 +24,7 @@ unites the efforts of Poland’s best chemists, computer scientists and linguist
 
 
 <div>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/41598_2018_25440_Fig1_HTML.jpg" alt="" title="example image"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/41598_2018_25440_Fig1_HTML.jpg" alt="" title="Chemical words and vocabularies"/>
 </div>
 <div class="col two caption">
     Fig. 1. Chemical words and vocabularies. (a) A common maximal substructure, MCS (colored red), between two molecules. (b) Language laws in MSC “words” for the entire 1.75-million-rich chemical vocabulary, compared with the works by Conan Doyle, Shakespeare, and Joyce’s “Finnegans Wake”. (c) Examples of chemical words – frequent “function” versus unfrequent “content” words ((from left to right: penicillins, coumarins, carbohydrates, steroids).
@@ -58,10 +58,10 @@ indexes: Mutual Information and t-tests. Here’s the paper:
 In this paper, we analyzed a corpus of chemical molecules using topic modeling, a technique that attracted a good share of attention in Digital Humanities, but has never been popular beyond text-centric applications. The aim was to identify any relations between chemical “words”. Topic modeling belongs to a group of distributional semantics methods, which are based on a general assumption that the meaning of a word is defined by its lexical context. Topic modeling, usually computed via the LDA algorithm, assumes the “bag-of-words” type of context, which means that the sequence of words in a sentence is irrelevant. This feature allows for computing chemical “words”, which, essentially, do not follow any linear sequence. Here’s the poster we presented at the Digital Humanities 2018 conference; a link to the paper goes below:
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/CHEM_poster_ver7.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/CHEM_poster_ver7.png" alt="" title="Topic modeling applied to organic chemistry"/>
 </div>
 <div class="col three caption">
-    Fig. 1. Topic modeling applied to organic chemistry.
+    Fig. 2. Topic modeling applied to organic chemistry.
 </div>
 
 **Eder, M., Winkowski, J., Woźniak, M., Górski, R. L., and Grzybowski, B.** (2018). 

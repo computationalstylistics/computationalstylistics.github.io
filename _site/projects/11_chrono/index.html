@@ -123,7 +123,7 @@
 <p>This study explores language change that can be modelled using logistic regression, which in the context of historical linguistics is often referred to as Piotrowski’s law. The examples are drawn from the Polish language. Namely, a few changes that are reported in handbooks of the history of Polish to have taken place between mid-15<sup>th</sup> and mid-19<sup>th</sup> centuries, have been used to validate the theoretical models.</p>
 
 <div>
-    <img class="col three left" src="/assets/img/piotrowski_wiekszy.png" alt="" title="example image" />
+    <img class="col three left" src="/assets/img/piotrowski_wiekszy.png" alt="" title="Piotrowski’s law (logistic regression) used to model the change większy::więtszy" />
 </div>
 <div class="col three caption">
     Fig. 1. Piotrowski’s law (logistic regression) used to model the change <i>większy::więtszy</i>.
@@ -132,7 +132,7 @@
 <p>Interesting as it is, such a model cannot overcome the problem of possible co-occurrences of several language changes. In our approach, we propose to combine multiple logistic regression models into one broader picture. An exemplary plot of such a combination is shown in Fig. 2.</p>
 
 <div>
-    <img class="col three left" src="/assets/img/piotrowski_multiple.png" alt="" title="example image" />
+    <img class="col three left" src="/assets/img/piotrowski_multiple.png" alt="" title="Logistic regression model applied to multiple language changes" />
 </div>
 <div class="col three caption">
     Fig. 2. Logistic regression model applied to multiple language changes.
@@ -145,7 +145,7 @@
 <p>The most natural choice to assess the discriminative power of numerous features at a time is to apply one of the multivariate methods. To this end, an iterative procedure of automatic text classification was applied. Its underlying idea is fairly simple: first, we formulate a working hypothesis that a certain year – be it 1835 – marks a major linguistic break. The procedure randomly picks <em>n</em> text samples written before and after the assumed break; the samples then go into the <em>ante</em> and <em>post</em> subsets. In this study, a period of 20 years before and after the assumed break was covered (with an additional gap of 10 years), 500 text samples of 1,000 tokens were harvested into each of the subsets. To give an example: for the year 1835, 500 random samples covering the time span 1810–1830 were picked into the first subset, and another 500 samples from the years 1840–1860 into the second subset. Next, the both subsets are randomly divided into two halves, so that the training set and the test contain 500 samples representing two classes (<em>ante</em> and <em>post</em>). Then we train a supervised classifier – in this case, Nearest Shrunken Centroids – and record the cross-validated accuracy rates. Then we <em>dismiss</em> the original hypothesis, in order to test new ones: we iterate over the timeline, testing the years 1836, 1837, 1838, 1839, … for their discriminating power. The assumption is simple here: any acceleration of linguistic change will be reflected by higher accuracy scores.</p>
 
 <div>
-    <img class="col three left" src="/assets/img/coha_accuracy.png" alt="" title="example image" />
+    <img class="col three left" src="/assets/img/coha_accuracy.png" alt="" title="Language change accelleration in the American English corpus: classification accuracy over the years 1835–1985" />
 </div>
 <div class="col three caption">
     Fig. 3. Language change accelleration in the American English corpus: classification accuracy over the years 1835–1985.
@@ -154,7 +154,7 @@
 <p>Despite the above general picture, quite interesting are individual trajectories of the high-impact words. In Fig. 4, one can observe a collinearity of function words: <em>the</em>, <em>and</em>, <em>that</em>, <em>is</em>, <em>been</em>, as opposed to the possessive <em>’s</em>. These function words seem to have impacted the language change at the turn of the 19<sup>th</sup> century.</p>
 
 <div>
-    <img class="col three left" src="/assets/img/coha_funciton_words.png" alt="" title="example image" />
+    <img class="col three left" src="/assets/img/coha_funciton_words.png" alt="" title="Function words of the biggest impact on the stylistic drift" />
 </div>
 <div class="col three caption">
     Fig. 4. Function words of the biggest impact on the stylistic drift.

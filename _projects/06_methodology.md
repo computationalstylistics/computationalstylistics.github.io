@@ -12,7 +12,7 @@ The Computational Stylistics Group has always had an ambition to understand – 
 
 
 <div>
-    <img class="col two left" src="{{ site.baseurl }}/assets/img/sample_size_EN.png" alt="" title="example image"/>
+    <img class="col two left" src="{{ site.baseurl }}/assets/img/sample_size_EN.png" alt="" title="Dependence of attribution accuracy and length of text samples: 63 English novels"/>
 </div>
 <div class="col two caption">
     Fig. 1. Dependence of attribution accuracy and length of text samples: 63 English novels (200 MFWs tested). Black circles indicate the ‘bags of words’ type of sampling, grey circles indicate excerpted passages.
@@ -31,9 +31,9 @@ The Computational Stylistics Group has always had an ambition to understand – 
 
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_EN.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_LL.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_PL.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_EN.png" alt="" title="Attribution accuracy (percentage of correct attributions) for 65 English novels"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_LL.png" alt="" title="Attribution accuracy (percentage of correct attributions) for 94 Latin prose texts"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/heatmap_PL.png" alt="" title="Attribution accuracy (percentage of correct attributions) for 69 Polish novels"/>
 </div>
 <div class="col three caption">
     Fig. 2. Attribution accuracy (percentage of correct attributions) for three corpora: 65 English novels (left), 94 Latin prose texts (center), and 69 Polish novels (right). Color coding is from low (blue) to high (brown). 

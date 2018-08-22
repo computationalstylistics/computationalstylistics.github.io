@@ -7,7 +7,7 @@ img: /assets/img/harper_lee.jpg
 
 
 <div class="img_row">
-    <img class="col one left" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/HarperLee_2007Nov05.jpg" alt="" title="example image"/>
+    <img class="col one left" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/HarperLee_2007Nov05.jpg" alt="" title="Harper Lee at the Presidential Medal of Freedom ceremony on November 5, 2007. Photo by Eric Draper, retrieved from Wikimedia Commons"/>
 </div>
 <div class="col one caption">
     Harper Lee at the Presidential Medal of Freedom ceremony on November 5, 2007. Photo by Eric Draper, retrieved from Wikimedia Commons.
