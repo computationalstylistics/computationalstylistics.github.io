@@ -56,7 +56,7 @@ stripe bold.
 
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-svm_100-features_5000-per-slice.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-svm_100-features_5000-per-slice.png" alt="" title="Roman de la Rose assessed using Rolling SVM and 100 MFWs"/>
 </div>
 <div class="col three caption">
     Fig. 1: Roman de
@@ -71,7 +71,7 @@ stripe bold.
 
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-nsc_50-features_5000-per-slice_0-cullng.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-nsc_50-features_5000-per-slice_0-cullng.png" alt="" title="Queen Sophia’s Bible assessed using Rolling NSC and 50 MFWs"/>
 </div>
 <div class="col three caption">
     Fig. 2:
@@ -84,7 +84,8 @@ stripe bold.
 
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-delta-CD_1000-features_5000-per-slice_no-sampling.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-delta-CD_1000-features_5000-per-slice_no-sampling.png" alt="" title="The Inheritors by Conrad/Ford assessed using Rolling Delta and
+    1,000 MFWs"/>
 </div>
 <div class="col three caption">
     Fig. 3: The Inheritors by Conrad/Ford assessed using Rolling Delta and
@@ -97,7 +98,7 @@ stripe bold.
 
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-delta-CD_500-features_5000-per-slice_no-sampling.png" alt="" title="example image"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/rolling-delta-CD_500-features_5000-per-slice_no-sampling.png" alt="" title="The Inheritors by Conrad/Ford assessed using Rolling Delta and 500 MFWs"/>
 </div>
 <div class="col three caption">
     Fig. 4: The Inheritors by Conrad/Ford assessed using Rolling Delta and 500 MFWs.

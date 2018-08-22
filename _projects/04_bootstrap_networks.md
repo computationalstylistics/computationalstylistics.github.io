@@ -17,9 +17,9 @@ img: /assets/img/bootstrap_network.png
 
 ## Abstract
 
-The aim of this project (it started as an ad-hoc idea, and then turned into something bigger...) is to discuss reliability issues of a few visual techniques used in stylometry, and to introduce **a new method** that enhances the explanatory power of visualization with a procedure of validation inspired by advanced statistical methods. Since it is based on the idea of Bootstrap Consensus Trees (Eder, 2013), it has been named accordingly: **Bootstrap Consensus Networks**.
+The aim of this project (it started as an _ad-hoc_ idea, and then turned into something bigger...) is to discuss reliability issues of a few visual techniques used in stylometry, and to introduce **a new method** that enhances the explanatory power of visualization with a procedure of validation inspired by advanced statistical methods. Since it is based on the idea of Bootstrap Consensus Trees (Eder, 2013), it has been named accordingly: **Bootstrap Consensus Networks**.
 
-The following description is but an appetizer. For a detailed explanation of its theoretical assumptions, features, and implementation refer to the following paper:
+The following description is but an appetizer. For a detailed explanation of the method’s theoretical assumptions, features, and implementation refer to the following paper:
 
 > Eder, M. (2017). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, 32(1): 50-64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
 
