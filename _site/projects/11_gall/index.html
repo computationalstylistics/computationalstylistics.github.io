@@ -100,14 +100,28 @@
   </header>
 
   <article class="post-content Gallus Anonymous clearfix">
-    <p>[TBD]</p>
+    <p>The 13<sup>th</sup>-century work entitled <em>Chronica Polonorum</em> (or <em>Gesta principium Polonorum</em> [<em>The Deeds of the Princes of the Poles</em>]), also known as <em>The Polish Chronicle</em>, is one of the earliest written documents on the history of Poland. It is also regarded to commence the Polish literary tradition, even if the text itself is in Latin. Despite the importance of the chronicle, however, very little is known about its author. Traditionally called “Gallus” (a person from Gaul, which might have meant either France, or Ireland) and probably a non-Pole, he seem to have been a benedictine monk. A few hypotheses about the author’s origin have been formulated. As early as in the 16<sup>th</sup> century, the claim about him being a “Gallus” surfaced. Then it came the Hungarian hypothesis in the 19<sup>th</sup> century, followed by the Venetian hypothesis as formulated in the 1960s by Danuta Borawska, and recently elaborated by Tomasz Jasiński. The Venetian theory is based on some textual similarities observed between <em>Translatio Sancti Nicolai</em> by an author referred to as the “Monk of Lido” (Monachus Littorensis) and the <em>Chronicle</em>.</p>
+
+<p>In his original study, Jasiński tested rhythmical patterns of Gallus’ sentence endings and found striking similarities with those of Monk of Lido (Jasiński, 2005). The findings were then extended by some extra-textual evindence, in later studies (Jasiński, 2006; 2008; 2009). A motivation to undertake the present study, was the fact that the simple stylometric method proposed by Jasiński was carried out in isolation from the existing state-of-the-art attribution methodology.</p>
+
+<p>The outcomes of the experiments have been published in the following paper:</p>
+
+<blockquote>
+  <p>Eder, M. (2015). In search of the author of “Chronica Polonorum” ascribed to Gallus Anonymous: A stylometric reconnaissance. <em>Acta Poloniae Historica</em>, 112: 5-23, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Author_of_Chronica_Polonorum.pdf">pre-print</a>].</p>
+</blockquote>
+
+<p>A slightly extended version in Polish is also available (Eder, 2017). Below, a few key findings (or, an appetizer) have been reported.</p>
 
 <div>
     <img class="col two left" src="/assets/img/gallus_PCA.png" alt="" title="example image" />
 </div>
 <div class="col two caption">
-    Fig. 1: Gallus’ <i>Chronicle</i> vs. Monachus’s <i>Translatio</i>: multidimensional scaling based on 100 most frequent words.
+    Fig. 1: Gallus’ <i>Chronicle</i> vs. Monachus’s <i>Translatio</i>: Principal Components Analysis based on 100 most frequent words.
 </div>
+
+<p>Fig. 1 shows a direct comparison of the <em>Translatio</em> and the <em>Chronica</em> against each other, with no reference (yet) to the comparative corpus. Both texts have been divided into sections of 10,000 words each. As a result, <em>Translatio</em> is represented by three samples, the <em>Chronicle</em> by eight samples: the first three almost exactly coinciding with Book I, samples 5, 6 and a part of 7 belong to Book II, whereas a lion’s share of sample 7 and the whole of 8 form Book III. Quite striking is the concentrated distribution of the <em>Translatio</em> samples. Most interestingly, however, one has to do here with an evolution – from the earliest to the latest fragments of the work, and with a fairly clear division into Book I (samples 1–3, drifting in the upper area), Book II (the three samples at the centre) and Book III (the less clearly separated samples 7 and 8). This might obviously bring about new findings with regard to the time when the respective sections of the <em>Chronicle</em> were written.</p>
+
+<p>Next comes a comparison of the <em>Chronicle</em> against a number of texts that were written roughly at the same time. A sample dendrogram for 100 most frequent words, the Delta distance measure and  Ward’s linkage algorithm is shown in Fig. 2.</p>
 
 <div>
     <img class="col two left" src="/assets/img/gallus_clustering.png" alt="" title="example image" />
@@ -116,6 +130,8 @@
     Fig. 2. Cluster analysis of 9 chronologically close texts; Ward linkage, Classic Delta distance measure, and 100 most frequent words.
 </div>
 
+<p>The above dendrogram shows rather clearly that a discrete branch hosts three treatises by Bernard de Silvestris – properly recognised as written by the same author – whereas on another branch, the <em>Chronicle</em>’s closest neighbor is Monachus’s <em>Translatio</em>. This is a considerable, though not decisive, argument in support of the supposed stylistic uniformity of Gallus and Monachus.</p>
+
 <div>
     <img class="col three left" src="/assets/img/gallus_network.png" alt="" title="example image" />
 </div>
@@ -123,9 +139,26 @@
     Fig. 3: Bootstrap consensus network of 159 Latin texts from various epochs (prose works only). The colour is used to mark the texts showing similarities to Gallus’ <i>Chronicle</i>.
 </div>
 
+<p>Since cluster analysis might be very sensitive to input parameters of the model, it is usually better to use a more sophisticated technique, e.g. <a href="https://computationalstylistics.github.io/projects/04_bootstrap_networks/">Bootstrap Consensus Networks</a>. In Fig. 3, a network of 159 Latin texts, including both Gallus and Monachus, has been shown. The right side of the network exhibits mostly historical – those by Julius Caesar, Tacitus, Sallust, Florus, and others. In terms of the authorship of the <em>Chronicle</em>, fundamental are the works which are directly connected to the Gallus’ work, whether stronger or weaker. All such similarities are marked in colour, the relevant nodes being labelled. These include, starting from the most distant relationships: Sallust’s <em>Caligula</em> and <em>Res Gestae Divi Augusti</em>, Ambrose’s <em>Letters</em> (these being very strongly connected with a number of other nodes), Dante’s <em>Monarchia</em>, St. Bernard of Clairvaux’s <em>Life of St. Malachy of Armagh</em>, Albert of Aachen <em>Historia Ierosolimitana</em>, and Augustin Tünger’s <em>Facetiæ</em>. Gallus’ <em>Chronicle</em> demonstrates some stylometric affinity with these works, yet none of them appears to be its closest neighbor. Such close neighbors include:</p>
+
+<p><em>Chronicon Coenobii Sancti Michaelis de Clusa</em> (11<sup>th</sup> century), <em>The Alexander Romance</em> by Pseudo-Callisthenes, <em>The Ecclesiastical History of the English People</em> by Beda Venerabilis, Alexander of Telese’s <em>The Deeds Done by King Roger of Sicily</em> and, lastly, the <em>Translatio</em> by Monachus Littorensis, which is associated with the Gallus’ work due to an extremely strong stylistic similarity: in the other sections of the plot, similarly strong connections are these between the works written by the same author (e.g. the instances of Cicero, Vitruvius, or Varro).</p>
+
+<p>An obvious conclusion comes to mind: the similarity between Gallus and Monachus is so evident that no accidental concurrence can be the case. As long as no better prospective author is proposed, the Venetian background hypothesis will be difficult to undermine.</p>
+
+<h2 id="references">References</h2>
+
 <p><strong>Eder, M.</strong> (2015). In search of the author of “Chronica Polonorum” ascribed to Gallus Anonymous: A stylometric reconnaissance. <em>Acta Poloniae Historica</em>, <strong>112</strong>: 5-23, [<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Author_of_Chronica_Polonorum.pdf">pre-print</a>].</p>
 
 <p><strong>Eder, M.</strong> (2017). Autorstwo „Kroniki” Anonima zwanego Gallem w świetle badań stylometrycznych: rekonesans. In Dąbrówka, A., Skibiński, E. and Wojtowicz, W. (eds), <em>Nobis Operique Favete. Studia nad Gallem Anonimem</em>. Warszawa: IBL PAN, pp. 59–74.</p>
+
+<p><strong>Jasiński, T.</strong> (2005). Czy Gall Anonim to Monachus Littorensis? <em>Kwartalnik Historyczny</em>, 92(3): 69–89.</p>
+
+<p><strong>Jasiński, T.</strong> (2006). Rozwój średniowiecznej prozy rytmicznej a pochodzenie i wykształcenie Galla Anonima. In Sikorski, D. A. and Wyrwa, A. M. (eds.), Cognitioni gestorum. Studia z dziejów średniowiecza dedykowane Profesorowi Jerzemu Strzelczykowi. Poznan and Warsaw, pp. 185–93</p>
+
+<p><strong>Jasiński, T.</strong> (2008). O pochodzeniu Galla Anonima. Krakow: Avalon.</p>
+
+<p><strong>Jasiński, T.</strong> (2009). Die Poetik in der Chronik des Gallus Anonymus. <em>Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster</em>, 43: 373–91.</p>
+
 
   </article>
 

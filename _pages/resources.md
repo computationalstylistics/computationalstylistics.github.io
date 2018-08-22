@@ -12,7 +12,7 @@ description: Materials prepared by the Group. (More to be added soon...).
 
 ## corpora
 
-The following selection of links is but a tip of an iceberg, when it comes to corpora (text collections) suitable for text analysis. The corpora listed below, however, are compiled by the members of CSG, and checked for compatibility with commonly known stylometric software. 
+The following selection of links is but a tip of an iceberg when it comes to corpora (text collections) suitable for text analysis. The corpora listed below, however, are compiled by the members of CSG, and checked for compatibility with commonly known stylometric software. 
 
 * [A Small Collection of British Fiction](https://github.com/computationalstylistics/A_Small_Collection_of_British_Fiction)  
 * [100 Polish Novels](https://github.com/computationalstylistics/100_polish_novels)  
