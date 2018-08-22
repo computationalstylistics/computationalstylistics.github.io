@@ -109,10 +109,7 @@ stripe bold.
 
 ## Further reading
 
-The above procedure is described in detail in the following paper: Eder,
-M. (2015). Rolling stylometry. _Digital Scholarship in the Humanities_,
-31(3), 457-469. \[pre-print\].
-
+The above procedure is described in detail in the following paper: Eder, M. (2016). [Rolling stylometry](https://academic.oup.com/dsh/article/31/3/457/1745764). _Digital Scholarship in the Humanities_, **31**(3): 457-469, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Rolling_stylometry_draft.pdf)].
 
 
 
@@ -205,7 +202,4 @@ rolling.classify(write.png.file = TRUE, classification.method = "delta", mfw=500
 
 ## References
 
-
-**Eder, M.** (2015). Rolling stylometry. *Digital Scholarship in the
-Humanities*, **31**(3): 457–69.
-
+**Eder, M.** (2016). [Rolling stylometry](https://academic.oup.com/dsh/article/31/3/457/1745764). _Digital Scholarship in the Humanities_, **31**(3): 457-469, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Rolling_stylometry_draft.pdf)].

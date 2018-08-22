@@ -2,7 +2,7 @@
 layout: page
 permalink: /resources/
 title: resources
-description: Materials prepared by the group.
+description: Materials prepared by the Group. (More to be added soon...).
 ---
 
 
@@ -29,17 +29,12 @@ The following selection of links is but a tip of an iceberg, when it comes to co
 * for advanced users: a paper in [R Journal](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
 * full documentation at [CRAN](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
 
+Blog posts on non-obvious functions of `stylo`:
 
-
-
-## non-obvious functions of ‘stylo’
-
-* [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/docs/imposters)
-* [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/docs/cross_validation)
-* [Custom distance measures](https://computationalstylistics.github.io/docs/custom_distances)
-* [Testing rolling stylometry](https://computationalstylistics.github.io/docs/rolling_stylometry)
-
-
+* [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/blog/imposters)
+* [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/blog/cross_validation)
+* [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances)
+* [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry)
 
 
 

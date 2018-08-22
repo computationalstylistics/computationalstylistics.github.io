@@ -71,11 +71,25 @@ Establishing the links between the texts is undoubtedly the most important part 
     Fig. 4. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
 </div>
 
+
+The networks are quite neat as they are, but at the same time they can be enhanced by adding more information. E.g., one can perform Modularity Detection as implemented in Gephi, and color the nodes according to their modularity class. Fig. 4 shows a network of 124 Ancient Greek texts – the identified modularity classes cluster texts written by stylistically similar authors.
+
+Bootstrap consensus networks prove to be very attractive in any “distant reading” approaches to literature, or experiments in which one tries to capture a broader picture of literary periods, genres, and so forth. Below (Fig. 5), a large-ish corpus of 150 Latin texts is shown, where the colors represent three different periods of Latin literature. As one can see, there is some separation between ancient, medieval, and early modern texts, although the separation is not clear-cut. This example comes from a study on distant reading and style variation in Latin (Eder, 2016).
+
+<div>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/latin_network.jpg" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    Fig. 5. Bootstrap consensus network of 150 Latin texts (ancient, medieval, early modern).
+</div>
+
+What about a really large-scale experiment? Here’s a network of 2,000 novels, produced by Jan Rybicki (Fig. 6). It consists of 1,000 novels written originally in Polish, and 1,000 translations into Polish from a few languages, including English, Russian, and French. Refer to this [post](https://sites.google.com/site/computationalstylistics/projects/translationese) for more details!
+
 <div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/network_translationese.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    Fig. 4. Bootstrap consensus network of 124 ancient Greek texts (prose, poetry, drama).
+    Fig. 6. Bootstrap consensus network of 1,000 texts originally written in Polish, and 1,000 translations into Polish from a few languages.
 </div>
 
 
