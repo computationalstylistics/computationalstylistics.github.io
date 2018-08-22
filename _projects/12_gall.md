@@ -29,7 +29,7 @@ A slightly extended version in Polish is also available (Eder, 2017). Below, a f
     <img class="col two left" src="{{ site.baseurl }}/assets/img/gallus_PCA.png" alt="" title="example image"/>
 </div>
 <div class="col two caption">
-    Fig. 2: Gallus’ <i>Chronicle</i> vs. Monachus’s <i>Translatio</i>: Principal Components Analysis based on 100 most frequent words.
+    Fig. 2. Gallus’ <i>Chronicle</i> vs. Monachus’s <i>Translatio</i>: Principal Components Analysis based on 100 most frequent words.
 </div>
 
 Fig. 2 shows a direct comparison of the _Translatio_ and the _Chronica_ against each other, with no reference (yet) to the comparative corpus. Both texts have been divided into sections of 10,000 words each. As a result, _Translatio_ is represented by three samples, the _Chronicle_ by eight samples: the first three almost exactly coinciding with Book I, samples 5, 6 and a part of 7 belong to Book II, whereas a lion’s share of sample 7 and the whole of 8 form Book III. Quite striking is the concentrated distribution of the _Translatio_ samples. Most interestingly, however, one has to do here with an evolution – from the earliest to the latest fragments of the work, and with a fairly clear division into Book I (samples 1–3, drifting in the upper area), Book II (the three samples at the centre) and Book III (the less clearly separated samples 7 and 8). This might obviously bring about new findings with regard to the time when the respective sections of the _Chronicle_ were written.
@@ -50,7 +50,7 @@ The above dendrogram shows rather clearly that a discrete branch hosts three tre
     <img class="col three left" src="{{ site.baseurl }}/assets/img/gallus_network.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-    Fig. 4: Bootstrap consensus network of 159 Latin texts from various epochs (prose works only). The colour is used to mark the texts showing similarities to Gallus’ <i>Chronicle</i>.
+    Fig. 4. Bootstrap consensus network of 159 Latin texts from various epochs (prose works only). The colour is used to mark the texts showing similarities to Gallus’ <i>Chronicle</i>.
 </div>
 
 Since cluster analysis might be very sensitive to input parameters of the model, it is usually better to use a more sophisticated technique, e.g. [Bootstrap Consensus Networks](https://computationalstylistics.github.io/projects/04_bootstrap_networks/). In Fig. 4, a network of 159 Latin texts, including both Gallus and Monachus, has been shown. The right side of the network exhibits mostly historical – those by Julius Caesar, Tacitus, Sallust, Florus, and others. In terms of the authorship of the _Chronicle_, fundamental are the works which are directly connected to the Gallus’ work, whether stronger or weaker. All such similarities are marked in colour, the relevant nodes being labelled. These include, starting from the most distant relationships: Sallust’s _Caligula_ and _Res Gestae Divi Augusti_, Ambrose’s _Letters_ (these being very strongly connected with a number of other nodes), Dante’s _Monarchia_, St. Bernard of Clairvaux's _Life of St. Malachy of Armagh_, Albert of Aachen _Historia Ierosolimitana_, and Augustin Tünger’s _Facetiæ_. 
