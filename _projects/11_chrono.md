@@ -86,9 +86,9 @@ Despite the above general picture, quite interesting are individual trajectories
 
 **Eder, M. and Górski, R. L.** (2016). Historical linguistics’ new toys, or stylometry applied to the study of language change. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 182–84 [http://dh2016.adho.org/abstracts/398](http://dh2016.adho.org/abstracts/398).
 
-**Eder, M.** (2016). Słowa znaczące, słowa kluczowe, słowozbiory – o statystycznych metodach wyszukiwania wyrazów istotnych. _Przegląd Humanistyczny_, 60(3): 31–44.
+**Eder, M.** (2016). Słowa znaczące, słowa kluczowe, słowozbiory – o statystycznych metodach wyszukiwania wyrazów istotnych. _Przegląd Humanistyczny_, **60**(3): 31–44.
 
-**Eder, M., Klapper, M. and Kołodziej, D.** (2015). Dawna polszczyzna i nowe technologie: testowanie metod przetwarzania języka naturalnego na materiale  polskiego piśmiennictwa od średniowiecza po wiek XX. _Biuletyn Polskiego Towarzystwa Językoznawczego_, 71: 189–202.
+**Eder, M., Klapper, M. and Kołodziej, D.** (2015). Dawna polszczyzna i nowe technologie: testowanie metod przetwarzania języka naturalnego na materiale  polskiego piśmiennictwa od średniowiecza po wiek XX. _Biuletyn Polskiego Towarzystwa Językoznawczego_, **71**: 189–202.
 
 
 
