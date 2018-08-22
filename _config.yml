@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Computational Stylistics Group
+title: Computational Stylistics Group
 email: maciej.eder@gmail.com
 description: > # this means to ignore newlines until "url:"
   Website containing materials of the Computational Stylistics Group.
