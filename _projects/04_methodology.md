@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Discours de la méthode
-description: Stylometric methodology
+description: stylometric methodology
 img: /assets/img/English_poetry_trimmed.png
 ---
 
@@ -18,19 +18,19 @@ The Computational Stylistics Group has always had an ambition to understand – 
 
 ## Do we need the most frequent words?
 
-**Rybicki, J. and Eder, M.** (2011). [Deeper Delta across genres and languages: do we really need the most frequent words?](https://academic.oup.com/dsh/article/26/3/315/1149353) _Literary and Linguistic Computing_, **26**(3), 315-21, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf)].
+**Rybicki, J. and Eder, M.** (2011). [Deeper Delta across genres and languages: do we really need the most frequent words?](https://academic.oup.com/dsh/article/26/3/315/1149353) _Literary and Linguistic Computing_, **26**(3): 315-21, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf)].
 
 
 ## Fake authorships
 
-**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_ **50**(5), 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
 
 
 
 
 ## How to choose training samples?
 
-**Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_ **28**(2), 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
+**Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_, **28**(2): 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
 
 
 

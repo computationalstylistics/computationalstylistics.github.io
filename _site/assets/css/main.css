@@ -491,7 +491,7 @@ figcaption { font-size: 0.875rem; }
 
 .three { width: 100%; }
 
-.caption { height: 100%; color: #aaa; text-align: center; vertical-align: middle; font-size: 12px; }
+.caption { height: 100%; color: #aaa; text-align: center; vertical-align: middle; font-size: 12px; margin-bottom: 20px; }
 
 .gist, .gist .highlight .p { font-size: .75rem; }
 

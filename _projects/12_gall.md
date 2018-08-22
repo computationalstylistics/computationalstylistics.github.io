@@ -9,7 +9,7 @@ img: /assets/img/gallus.png
 <div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/gallus_fragm.png" alt="" title="example image"/>
 </div>
-<div class="col three caption" style="margin-bottom: 20px">
+<div class="col three caption">
     Fig. 1. The first folio of <i>The Polish Chronicle</i> by Gallus Anonymous (Codex Zamoyscianus held at the National Library of Poland, Ms. BOZ cim. 28). Photo retrieved from <a href="https://polona.pl/item/chronicae-et-annales-poloniae,ODI3MDgz/8/#item">Polona</a>.
 </div>
 
@@ -67,13 +67,13 @@ An obvious conclusion comes to mind: the similarity between Gallus and Monachus 
 
 **Eder, M.** (2017). Autorstwo „Kroniki” Anonima zwanego Gallem w świetle badań stylometrycznych: rekonesans. In Dąbrówka, A., Skibiński, E. and Wojtowicz, W. (eds), _Nobis Operique Favete. Studia nad Gallem Anonimem_. Warszawa: IBL PAN, pp. 59–74.
 
-**Jasiński, T.** (2005). Czy Gall Anonim to Monachus Littorensis? _Kwartalnik Historyczny_, 92(3): 69–89.
+**Jasiński, T.** (2005). Czy Gall Anonim to Monachus Littorensis? _Kwartalnik Historyczny_, **92**(3): 69–89.
 
-**Jasiński, T.** (2006). Rozwój średniowiecznej prozy rytmicznej a pochodzenie i wykształcenie Galla Anonima. In Sikorski, D. A. and Wyrwa, A. M. (eds.), Cognitioni gestorum. Studia z dziejów średniowiecza dedykowane Profesorowi Jerzemu Strzelczykowi. Poznan and Warsaw, pp. 185–93
+**Jasiński, T.** (2006). Rozwój średniowiecznej prozy rytmicznej a pochodzenie i wykształcenie Galla Anonima. In Sikorski, D. A. and Wyrwa, A. M. (eds.), Cognitioni gestorum. Studia z dziejów średniowiecza dedykowane Profesorowi Jerzemu Strzelczykowi. Poznań and Warszawa, pp. 185–93.
 
-**Jasiński, T.** (2008). O pochodzeniu Galla Anonima. Krakow: Avalon.
+**Jasiński, T.** (2008). O pochodzeniu Galla Anonima. Kraków: Avalon.
 
-**Jasiński, T.** (2009). Die Poetik in der Chronik des Gallus Anonymus. _Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster_, 43: 373–91.
+**Jasiński, T.** (2009). Die Poetik in der Chronik des Gallus Anonymus. _Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster_, **43**: 373–91.
 
 
 

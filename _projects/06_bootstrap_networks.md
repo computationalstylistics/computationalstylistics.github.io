@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bootstrap Consensus Networks
-description: a method of clustering texts
+description: a method of clustering
 img: /assets/img/bootstrap_network.png
 ---
 
@@ -74,6 +74,10 @@ Establishing the links between the texts is undoubtedly the most important part 
 
 The networks are quite neat as they are, but at the same time they can be enhanced by adding more information. E.g., one can perform Modularity Detection as implemented in Gephi, and color the nodes according to their modularity class. Fig. 4 shows a network of 124 Ancient Greek texts – the identified modularity classes cluster texts written by stylistically similar authors.
 
+
+
+## Applications 
+
 Bootstrap consensus networks prove to be very attractive in any “distant reading” approaches to literature, or experiments in which one tries to capture a broader picture of literary periods, genres, and so forth. Below (Fig. 5), a large-ish corpus of 150 Latin texts is shown, where the colors represent three different periods of Latin literature. As one can see, there is some separation between ancient, medieval, and early modern texts, although the separation is not clear-cut. This example comes from a study on distant reading and style variation in Latin (Eder, 2016).
 
 <div>
@@ -92,9 +96,6 @@ What about a really large-scale experiment? Here’s a network of 2,000 novels, 
     Fig. 6. Bootstrap consensus network of 1,000 texts originally written in Polish, and 1,000 translations into Polish from a few languages.
 </div>
 
-
-
-## Applications 
 
 The method has been quite extensively applied by the members of the Computational Stylistics Group. Some of the references can be found at the bottom of this post; vast majority of the applications are listed in the [publications](https://computationalstylistics.github.io/publications/) section of this website.
 

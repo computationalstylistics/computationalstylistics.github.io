@@ -50,7 +50,7 @@ Interesting as it is, such a model cannot overcome the problem of possible co-oc
 
 
 
-## the dynamics of language change
+## The dynamics of language change
 
 This study aims at capturing the dynamics of language changes without manual pre-selection of the features that might be responsible for the changes. Our approach was to analyze a considerably large set of 1,000 most frequent words without any further filters. Arguably, in such a big set one should find a few dozen of function words, and a vast majority of content words.
 
@@ -80,7 +80,7 @@ Despite the above general picture, quite interesting are individual trajectories
 
 
 
-## papers
+## Papers
 
 **Eder, M.** (2018). Words that have made history, or modeling the dynamics of linguistic changes. _Digital Humanities 2018: Book of Abstracts_. Mexico City, pp. 362–65, [https://dh2018.adho.org/en/abstracts/](https://dh2018.adho.org/en/abstracts/).
 
@@ -92,7 +92,7 @@ Despite the above general picture, quite interesting are individual trajectories
 
 
 
-## recent presentations
+## Recent presentations
 
 link to “Qualico 2018” [presentation](https://computationalstylistics.github.io/history_of_words/)
 

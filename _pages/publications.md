@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications by the Group members. Sometimes not as up-to-date as we would like, but we're getting there.
 ---
 
@@ -29,7 +29,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2017c). Short samples in authorship attribution: A new approach. _Digital Humanities 2017: Conference Abstracts_. Montreal: McGill University, pp. 221–24, [https://dh2017.adho.org/abstracts/341/341.pdf](https://dh2017.adho.org/abstracts/341/341.pdf).
 
-**Eder, M.** (2017b). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, **32**(1), 50-64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
+**Eder, M.** (2017b). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, **32**(1): 50-64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
 
 **Eder, M.** (2017a). Autorstwo „Kroniki” Anonima zwanego Gallem w świetle badań stylometrycznych: rekonesans. In Dąbrówka, A., Skibiński, E. and Wojtowicz, W. (eds), _Nobis Operique Favete. Studia nad Gallem Anonimem_. Warszawa: IBL PAN, pp. 59–74.
 
@@ -37,7 +37,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Maryl, M. and Eder, M.** (2017). Topic patterns in an academic literary journal: the case of ‘Teksty Drugie’. _Digital Humanities 2017: Conference Abstracts_. Montreal, pp. 515–18, [https://dh2017.adho.org/abstracts/390/390.pdf](https://dh2017.adho.org/abstracts/390/390.pdf).
 
-**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_ **50**(5), 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
 
 **Rybicki, J., Eder, M. and Hoover, D.** (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), _Doing Digital Humanities_, London and New York: Routledge, pp. 123-144.
 
@@ -79,7 +79,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2013a). [Computational stylistics and Biblical translation: how reliable can a dendrogram be?](http://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf) In: T. Piotrowski and Ł. Grabowski (eds.) _The translator and the computer_. Wrocław: WSF Press, pp. 155–170, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Reliability_issues_11122012.pdf)].
 
-**Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_ **28**(2), 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
+**Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_, **28**(2): 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
 
 **Rybicki, J. and Heydel, M.** (2013). [The stylistics and stylometry of collaborative translation: Woolf's 'Night and Day' in Polish](http://llc.oxfordjournals.org/content/28/4/708). _Literary and Linguistic Computing_, **28**(4): 708-17, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Heydel%20Rybicki%20Collaborative%20Translation.pdf)].
 
@@ -99,7 +99,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Rybicki, J.** (2011). [Alma Cardell Curtin and Jeremiah Curtin: the translator's wife's stylistic fingerprint](http://dh2011abstracts.stanford.edu/xtf/view?docId=tei/ab-195.xml). _Digital Humanities 2011: Conference Abstracts_. Stanford University, Stanford, pp. 308-11.
 
-**Rybicki, J. and Eder, M.** (2011). [Deeper Delta across genres and languages: do we really need the most frequent words?](https://academic.oup.com/dsh/article/26/3/315/1149353) _Literary and Linguistic Computing_, **26**(3), 315-21, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf)].
+**Rybicki, J. and Eder, M.** (2011). [Deeper Delta across genres and languages: do we really need the most frequent words?](https://academic.oup.com/dsh/article/26/3/315/1149353) _Literary and Linguistic Computing_, **26**(3): 315-21, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf)].
 
 **Eder, M.** (2010). Does size matter? Authorship attribution, short samples, big problem. _Digital Humanities 2010: Conference Abstracts_. King's College London, pp. 132-35, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Does_Size_Matter_DigHum2010.pdf)].
 
@@ -117,7 +117,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Rybicki, J.** (2007). [Twelve Hamlets: a stylometric analysis of major character's idiolects in three English versions and nine translations](http://www.digitalhumanities.org/dh2007/dh2007.abstracts.pdf). _Digital Humanities 2007: Conference Abstracts_. University of Illinois, Urbana-Champaign, pp. 191-92.
 
-**Rybicki, J.** (2006). Burrowing into translation: character idiolects in Henryk Sienkiewicz's Trilogy and its two English translations. _Literary and Linguistic Computing_, **21**(1), 91-103, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Burrowing.pdf)].
+**Rybicki, J.** (2006). Burrowing into translation: character idiolects in Henryk Sienkiewicz's Trilogy and its two English translations. _Literary and Linguistic Computing_, **21**(1): 91-103, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Burrowing.pdf)].
 
 **Rybicki, J. and Stokłosa, P.** (2006). [Can I write like John Le Carre?](http://www.allc-ach2006.colloques.paris-sorbonne.fr/DHs.pdf) _Digital Humanities 2006: Conference Abstracts_. Universite Paris-Sorbonne, Paris, pp. 187-88.
 

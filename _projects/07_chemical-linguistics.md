@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chemical Linguistics
-description: between organic chemistry and linguistics
+description: between linguistics and organic chemistry
 img: /assets/img/topic-54.png
 ---
 
@@ -33,14 +33,14 @@ unites the efforts of Poland’s best chemists, computer scientists and linguist
 
 
 
-## chemical “keywords”? 
+## Chemical “keywords”? 
 
 Interested in identifying molecule fragments that are “meaningful”? Want to see how keyword extraction works outside the text analysis world? This paper describes how such corpus-linguistic concepts can be extended to chemistry based on characteristic “chemical words” that span more than traditional functional groups and, instead, look at common structural fragments molecules share. Using these words, it is possible to quantify the diversity of chemical collections/databases in new ways and to define molecular “keywords” by which such collections are best characterized and annotated:
 
 **Woźniak, M., Wołos, A., Modrzyk, U., Górski, R. L., Winkowski, J., Bajczyk, M., Szymkuć, S., Grzybowski, B. and Eder, M.** (2018). [Linguistic measures of chemical diversity and the ‘keywords’ of molecular collections](http://www.nature.com/articles/s41598-018-25440-6). _Scientific Reports_, **8**(1), 7598.
 
 
-## “words” in chemical molecules
+## “Words” in chemical molecules
 
 If we name the “meaningful” groups of atoms as “words”, we need a device
 for finding them in our corpus since there are no explicit word boundaries. In the approach presented in this study, we adopt a method for establishing word boundaries in Chinese. The method uses the concept of sliding window, which divides a string of
@@ -53,7 +53,7 @@ indexes: Mutual Information and t-tests. Here’s the paper:
 
 
 
-## topic modeling applied to chemistry
+## Topic modeling applied to chemistry
 
 In this paper, we analyzed a corpus of chemical molecules using topic modeling, a technique that attracted a good share of attention in Digital Humanities, but has never been popular beyond text-centric applications. The aim was to identify any relations between chemical “words”. Topic modeling belongs to a group of distributional semantics methods, which are based on a general assumption that the meaning of a word is defined by its lexical context. Topic modeling, usually computed via the LDA algorithm, assumes the “bag-of-words” type of context, which means that the sequence of words in a sentence is irrelevant. This feature allows for computing chemical “words”, which, essentially, do not follow any linear sequence. Here’s the poster we presented at the Digital Humanities 2018 conference; a link to the paper goes below:
 

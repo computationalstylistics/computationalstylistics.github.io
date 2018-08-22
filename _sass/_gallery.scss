@@ -16,6 +16,7 @@ figcaption {
     overflow: hidden;
     box-sizing:border-box;
 }
+// this section added, in order to style the People subpage
 .img_row_people {
     width: 100%;
     overflow: hidden;
@@ -43,4 +44,5 @@ figcaption {
     text-align: center;
     vertical-align: middle;
     font-size: $caption-font-size;
+    margin-bottom: 20px;            // originally no margin
 }
