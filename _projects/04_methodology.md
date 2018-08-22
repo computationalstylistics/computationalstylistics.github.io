@@ -23,7 +23,7 @@ The Computational Stylistics Group has always had an ambition to understand – 
 
 ## Fake authorships
 
-**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_ **50**(5), 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279)
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_ **50**(5), 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
 
 
 

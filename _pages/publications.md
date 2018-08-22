@@ -31,11 +31,13 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2017b). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, **32**(1), 50-64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
 
-**Eder, M.** (2017a). Autorstwo „Kroniki” Anonima zwanego Gallem w świetle badań stylometrycznych: rekonesans. In Dąbrówka, A., Skibiński, E. and Wojtowicz, W. (eds), _Nobis Operique Favete. Studia Nad Gallem Anonimem_. Warszawa: IBL PAN, pp. 59–74.
+**Eder, M.** (2017a). Autorstwo „Kroniki” Anonima zwanego Gallem w świetle badań stylometrycznych: rekonesans. In Dąbrówka, A., Skibiński, E. and Wojtowicz, W. (eds), _Nobis Operique Favete. Studia nad Gallem Anonimem_. Warszawa: IBL PAN, pp. 59–74.
 
 **Eder, M., Piasecki, M. and Walkowiak, T.** (2017). An open stylometric system based on multilevel text analysis. _Cognitive Studies / Études Cognitives_, **17**, [doi:10.11649/cs.1430](http://doi.org/10.11649/cs.143).
 
 **Maryl, M. and Eder, M.** (2017). Topic patterns in an academic literary journal: the case of ‘Teksty Drugie’. _Digital Humanities 2017: Conference Abstracts_. Montreal, pp. 515–18, [https://dh2017.adho.org/abstracts/390/390.pdf](https://dh2017.adho.org/abstracts/390/390.pdf).
+
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_ **50**(5), 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
 
 **Rybicki, J., Eder, M. and Hoover, D.** (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), _Doing Digital Humanities_, London and New York: Routledge, pp. 123-144.
 
