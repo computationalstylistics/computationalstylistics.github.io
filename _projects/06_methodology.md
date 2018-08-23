@@ -90,7 +90,7 @@ As expected, the density of the 500 iterations for the corpus of 63 English nove
 
 ## Bootstrapped Delta
 
-The following study (Eder, 2013; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)) investigates the so-called “open-set” attribution problem: when an investigated anonymous text might have been written by any contemporary writer, and the attributor has no prior knowledge whether a sample written by a possible candidate is included in the reference corpus. A vast majority of methods used in stylometry establish a classification of samples and strive to find the _nearest neighbors_ among them. Unfortunately, these techniques of classification are not resistant to a common mis-classification error: any two nearest samples are claimed to be similar, no matter how distant they are.
+The following study (Eder, 2013b; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)) investigates the so-called “open-set” attribution problem: when an investigated anonymous text might have been written by any contemporary writer, and the attributor has no prior knowledge whether a sample written by a possible candidate is included in the reference corpus. A vast majority of methods used in stylometry establish a classification of samples and strive to find the _nearest neighbors_ among them. Unfortunately, these techniques of classification are not resistant to a common mis-classification error: any two nearest samples are claimed to be similar, no matter how distant they are.
 
 The method presented here relies on the author’s empirical observation that the distance between samples similar to each other is quite stable despite different vectors of most frequent words tested, while the distance between heterogeneous samples often displays some unsteadiness depending on the number of MFWs analyzed. The core of the procedure is to perform a series of attribution tests in, say, 1,000 iterations, where the number of MFWs to be analyzed is chosen randomly (e.g., 334, 638, 72, 201, 904, 145, 134, 762, …); in each iteration, the nearest neighbor classification is performed. Next, the tables are arranged in a large three-dimensional table-of-tables. 
 
@@ -120,26 +120,41 @@ An exemplary ranking of candidates is shown in Fig. 6. The most likely author of
 
 ## Systematic errors in stylometry
 
+This study (Eder, 2013a; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_systematic_errors.pdf)) attempts to verify the impact of unwanted noise – e.g. caused by an untidily-prepared corpus – in a series of experiments conducted on several corpora of English, German, Polish, Ancient Greek and Latin prose texts. Since it is rather naive to believe that noise can be entirely neutralized, the actual question at stake is: what degree of nonchalance is acceptable to obtain sufficiently reliable results?
+
+The nature of noise affecting stylometric results is quite complex. On the one hand, a machine-readable text might be contaminated by poor OCR, mismatched codepages, improperly removed XML tags; by including non-authorial textual additions, such as prefaces, footnotes, commentaries, disclaimers, etc. On the other hand, there are some types of unwanted noise that can by no means be referred to as systematic errors; they include scribal textual variants (_variae lectiones_), omissions (_lacunae_), interpolations, hidden plagiarism, editorial decisions for uniform spelling, modernizing the punctuation, and so on. Both types of noise, however, share a very characteristic feature. Namely, the longer the distance between the time when a given text was written and the moment of its digitization, the more opportunities of potential error to occur, for different reasons.
+
+The first experiment was designed to simulate the impact of poor OCR. In 100 iterations, a given corpus was gradually damaged, and controlled tests for authorship were applied. In each of the 100 iterations, an increasing percentage of randomly chosen letters (excluding spaces) were replaced with other randomly chosen letters. E.g. in the 20<sup>th</sup> iteration, every letter of the input text was intended to be damaged with a probability of 20%; consequently, the corpus contained roughly 20% of independently damaged letters: “Mrs Lon**r** sa**a**s **k**h**a**t **t**etherfi**i**ld is tak**s**n by a y**s**ung man of l**s**r**c**e fo**o**tune” etc.
 
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_english.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_german.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_polish.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_english.png" alt="" title="Simulation of poor OCR quality in the corpus of English novels"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_german.png" alt="" title="Simulation of poor OCR quality in the corpus of German novels"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_polish.png" alt="" title="Simulation of poor OCR quality in the corpus of Polish novels"/>
 </div>
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_latin.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_greek.png" alt="" title="example image"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_english_4-grams.png" alt="" title="example image"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_latin.png" alt="" title="Simulation of poor OCR quality in the corpus of Latin texts"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_greek.png" alt="" title="Simulation of poor OCR quality in the corpus of Ancient Greek texts"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_english_4-grams.png" alt="" title="Simulation of poor OCR quality in the corpus of English novels (character 4-grams)"/>
 </div>
 <div class="col three caption">
-    Fig. 7. ........................... 
+    Fig. 7. Simulation of poor OCR quality in a few corpora: in 100 iterations, increasing percentage of intentionally misspelled characters has been tested for 30 different MFW vectors. Color coding is indicated by the legend. In the upper row: English novels (left), German novels (center), Polish novels (right); in the bottom row: Latin prose (left), Ancient Greek prose (center), English novels but this time character 4-grams were used instead of words (right). 
 </div>
+
+The results were quite similar for most of the corpora tested. As shown in Fig. 7, short vectors of MFWs (up to 500 words) usually provide no significant decrease of performance despite a considerably large amount of noise added (the corpus of Polish novels being an exception). Even 20% of damaged letters would not affect the results in some cases! However, longer MFW vectors are _very sensitive_ to misspelled characters: any additional noise means a steep decrease of performance. This means that the “garbage in, gospel out” optimism is in fact illusory.
+
+Character-based markers, however, revealed an impressive increase of performance, regardless of the classification method used. As evidenced in Fig. 7 (bottom-right, for character 4-grams), the threshold where the noise finally starts to overwhelm the attributive scores is settled somewhere around the point of 40% distorted characters. It is hard to believe how robust this type of style-marker is when confronted with a dirty corpus – to kill the authorial signal efficiently, one needs to distort more than 60% of original characters (!).
+
+A detailed comparison of different corpora, classifiers and feature types, as well as an alternative experiment aimed at measuring the impact of intertextuality, is provided by the above-mentioned full-length paper. 
+
+
 
 
 ## References
 
 
-**Eder, M.** (2013). Bootstrapping Delta: a safety-net in open-set authorship attribution. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 169-72, [http://dh2013.unl.edu/abstracts/index.html](http://dh2013.unl.edu/abstracts/index.html), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)].
+**Eder, M.** (2013a). [Mind your corpus: systematic errors in authorship attribution](http://llc.oxfordjournals.org/content/28/4/603). _Literary and Linguistic Computing_, **28**(4): 603-14, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_systematic_errors.pdf)].
+
+**Eder, M.** (2013b). Bootstrapping Delta: a safety-net in open-set authorship attribution. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 169-72, [http://dh2013.unl.edu/abstracts/index.html](http://dh2013.unl.edu/abstracts/index.html), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)].
 
 **Eder, M.** (2015). [Does size matter? Authorship attribution, small samples, big problem](https://academic.oup.com/dsh/article/30/2/167/390738). _Digital Scholarship in the Humanities_, **30**(2): 167-182, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Does_size_matter.pdf)].
 
