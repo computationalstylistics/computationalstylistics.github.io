@@ -75,7 +75,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M.** (2013c). [Mind your corpus: systematic errors in authorship attribution](http://llc.oxfordjournals.org/content/28/4/603). _Literary and Linguistic Computing_, **28**(4): 603-14, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_systematic_errors.pdf)].
 
-**Eder, M.** (2013b). Bootstrapping Delta: a safety-net in open-set authorship attribution. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 169-72, [http://dh2013.unl.edu/abstracts](http://dh2013.unl.edu/abstracts), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)].
+**Eder, M.** (2013b). Bootstrapping Delta: a safety-net in open-set authorship attribution. _Digital Humanities 2013: Conference Abstracts_. Lincoln: University of Nebraska-Lincoln, pp. 169-72, [http://dh2013.unl.edu/abstracts/index.html](http://dh2013.unl.edu/abstracts/index.html), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_bootstrapping_delta.pdf)].
 
 **Eder, M.** (2013a). [Computational stylistics and Biblical translation: how reliable can a dendrogram be?](http://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf) In: T. Piotrowski and Ł. Grabowski (eds.) _The translator and the computer_. Wrocław: WSF Press, pp. 155–170, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Reliability_issues_11122012.pdf)].
 
