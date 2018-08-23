@@ -70,9 +70,9 @@ An obvious conclusion comes to mind: the similarity between Gallus and Monachus 
 
 **Jasiński, T.** (2005). Czy Gall Anonim to Monachus Littorensis? _Kwartalnik Historyczny_, **92**(3): 69–89.
 
-**Jasiński, T.** (2006). Rozwój średniowiecznej prozy rytmicznej a pochodzenie i wykształcenie Galla Anonima. In Sikorski, D. A. and Wyrwa, A. M. (eds.), Cognitioni gestorum. Studia z dziejów średniowiecza dedykowane Profesorowi Jerzemu Strzelczykowi. Poznań and Warszawa, pp. 185–93.
+**Jasiński, T.** (2006). Rozwój średniowiecznej prozy rytmicznej a pochodzenie i wykształcenie Galla Anonima. In Sikorski, D. A. and Wyrwa, A. M. (eds.), _Cognitioni gestorum. Studia z dziejów średniowiecza dedykowane Profesorowi Jerzemu Strzelczykowi_. Poznań and Warszawa, pp. 185–93.
 
-**Jasiński, T.** (2008). O pochodzeniu Galla Anonima. Kraków: Avalon.
+**Jasiński, T.** (2008). _O pochodzeniu Galla Anonima_. Kraków: Avalon.
 
 **Jasiński, T.** (2009). Die Poetik in der Chronik des Gallus Anonymus. _Frühmittelalterliche Studien. Jahrbuch des Instituts für Frühmittelalterforschung der Universität Münster_, **43**: 373–91.
 
