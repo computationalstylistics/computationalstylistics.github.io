@@ -31,7 +31,7 @@ description: Computational Stylistic Group somewhat unofficial, and so is its me
 
 <div class="img_row_people">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/magda_krol.jpg" alt="" title="Magdalena Król"/>
-    <p class="col two left"><strong>Magdalena Król</strong>: a PhD candidate and a full-time researcher at the Institute of Polish Language (Polish Academy of Sciences). Her interests include formal semantics, logic and the philosophy of language. Her research concerns language change over time, especially grammar. A person behind the <a href="http://scriptores.pl/dhlunch/en/">Digital Humanities Lunch</a> series.</p>
+    <p class="col two left"><strong>Magdalena Król</strong>: a PhD candidate and a full-time researcher at the Institute of Polish Language (Polish Academy of Sciences). Her interests include formal semantics, logic and the philosophy of language. Her research concerns language change over time, especially grammar. The person behind the <a href="http://scriptores.pl/dhlunch/en/">Digital Humanities Lunch</a> series.</p>
 </div>
 
 <div class="img_row_people">
