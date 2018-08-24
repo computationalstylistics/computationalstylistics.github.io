@@ -13,6 +13,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
 
+**Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
+
 **Franzini, G., Kestemont, M., Rotari, G., Jander, M., Ochab, J. K., Franzini, E., Byszuk, J. and Rybicki, J.** (2018). Attributing authorship in the noisy digitized correspondence of Jacob and Wilhelm Grimm. _Frontiers in Digital Humanities_, **5**(4), [doi:10.3389/fdigh.2018.00004](http://doi.org/10.3389/fdigh.2018.00004).
 
 **Eder, M.** (2018b). Elena Ferrante: a virtual author. In Tuzzi, A. and Cortelazzo, M. A. (eds), _Drawing Elena Ferrante’s Profile_. Padova: Padova University Press, pp. 31–45, [http://www.padovauniversitypress.it/publications/9788869381300](http://www.padovauniversitypress.it/publications/9788869381300).
@@ -26,6 +28,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 **O’Sullivan, J., Bazarnik, K., Eder, M. and Rybicki, J.** (2018). Measuring Joycean Influences on Flann O’Brien. _Digital Studies / Le champ numérique_, **8**(1): 1–25, [doi.org/10.16995/dscn.288](http://doi.org/10.16995/dscn.288).
 
 **Piasecki, M., Walkowiak, T. and Eder, M.** (2018). Open stylometric system WebSty: Integrated language processing, analysis and visualisation. _Computational Methods in Science and Technology_, **24**(1): 43–58, [doi:10.12921/cmst.2018.0000007](http://doi.org/10.12921/cmst.2018.0000007).
+
+**Choiński, M. and Rybicki, J.** (2017). Is God really angry at sinners? A stylometric study of Jonahan Edwards’s representations of God. In Bezzant, R. (ed.) _The Global Edwards_. Eugene, OR: Wipf & Stock, pp. 349–59.
 
 **Eder, M.** (2017c). Short samples in authorship attribution: A new approach. _Digital Humanities 2017: Conference Abstracts_. Montreal: McGill University, pp. 221–24, [https://dh2017.adho.org/abstracts/341/341.pdf](https://dh2017.adho.org/abstracts/341/341.pdf).
 
