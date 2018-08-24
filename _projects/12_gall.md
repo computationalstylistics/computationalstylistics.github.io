@@ -15,7 +15,7 @@ img: /assets/img/gallus.png
 
 
 
-The 13<sup>th</sup>-century work entitled _Gesta principium Polonorum_ (_The Deeds of the Princes of the Poles_), also known as _Chronica Polonorum_ (_The Polish Chronicle_), is one of the earliest written documents on the history of Poland. It is also regarded to commence the Polish literary tradition, even if the text itself is in Latin. However, despite the importance of the chronicle, very little is known about its author. Traditionally called “Gallus” (a person from Gaul, which might have meant either France, or Ireland) and probably a non-Pole, he seems to have been a benedictine monk. A few hypotheses about the author’s origin have been formulated, with the claim about him being a “Gallus” surfaced as early as in the 16<sup>th</sup> century. Then came the Hungarian hypothesis in the 19<sup>th</sup> century, followed by the Venetian hypothesis as formulated in the 1960s by Danuta Borawska, and recently extended by Tomasz Jasiński. The Venetian theory is based on some textual similarities observed between _Translatio Sancti Nicolai_ by an author referred to as the “Monk of Lido” (Monachus Littorensis) and the _Chronicle_. 
+The 13<sup>th</sup>-century work entitled _Gesta principium Polonorum_ (_The Deeds of the Princes of the Poles_), also known as _Chronica Polonorum_ (_The Polish Chronicle_), is one of the earliest written documents on the history of Poland. It is also regarded to commence the Polish literary tradition, even if the text itself is in Latin. However, despite the importance of the chronicle, very little is known about its author. Traditionally called “Gallus” (a person from Gaul, or France) and probably a non-Pole, he seems to have been a benedictine monk. A few hypotheses about the author’s origin have been formulated, with the claim about him being a “Gallus” surfaced as early as in the 16<sup>th</sup> century. Then came the Hungarian hypothesis in the 19<sup>th</sup> century, followed by the Venetian hypothesis as formulated in the 1960s by Danuta Borawska (Borawska, 1965), and recently extended by Tomasz Jasiński. The Venetian theory is based on some textual similarities observed between _Translatio Sancti Nicolai_ by an author referred to as the “Monk of Lido” (Monachus Littorensis) and the _Chronicle_. 
 
 In his original study, Jasiński tested rhythmical patterns of Gallus’ sentence endings and found striking similarities with those of Monk of Lido (Jasiński, 2005). The findings were then extended by some extra-textual evindence, in later studies (Jasiński, 2006; 2008; 2009). A motivation to undertake the present study, was the fact that the simple stylometric method proposed by Jasiński was carried out in isolation from the existing state-of-the-art attribution methodology. 
 
@@ -63,6 +63,8 @@ An obvious conclusion comes to mind: the similarity between Gallus and Monachus 
 
 
 ## References
+
+**Borawska, D.** (1965). Gallus Anonim czy Italus Anonim. _Przegląd Historyczny_, **61**: 111–20.
 
 **Eder, M.** (2015). In search of the author of “Chronica Polonorum” ascribed to Gallus Anonymous: A stylometric reconnaissance. _Acta Poloniae Historica_, **112**: 5-23, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Author_of_Chronica_Polonorum.pdf)].
 
