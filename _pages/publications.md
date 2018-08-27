@@ -41,7 +41,11 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Maryl, M. and Eder, M.** (2017). Topic patterns in an academic literary journal: the case of ‘Teksty Drugie’. _Digital Humanities 2017: Conference Abstracts_. Montreal, pp. 515–18, [https://dh2017.adho.org/abstracts/390/390.pdf](https://dh2017.adho.org/abstracts/390/390.pdf).
 
-**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/015-LEON_a_01279-Ochab-web.pdf)].
+
+**Ochab, J. K.** (2017). [Tłumacz rzeczy Randalla Munroe: zadania tłumacza książki objaśniającej świat obrazami](http://www.ejournals.eu/Przekladaniec/2017/Numer-34/art/11118/). _Przekładaniec_, **34**(2017).
+
+**Ochab, J. K.** (2016). Time series analysis enhances Authorship attribution. In: _Digital Humanities 2016: Conference Abstracts_. Jagiellonian University & Pedagogical University, Kraków, pp. 852-854, [http://dh2016.adho.org/abstracts/106](http://dh2016.adho.org/abstracts/106).
 
 **Rybicki, J., Eder, M. and Hoover, D.** (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), _Doing Digital Humanities_, London and New York: Routledge, pp. 123-144.
 
