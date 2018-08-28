@@ -2,7 +2,7 @@
 layout: page
 title: Gallus Anonymous
 description: Who wrote ‘The Polish Chronicle’?
-permalink: /projects/gallus-anonymous
+permalink: /projects/gallus-anonymous/
 img: /assets/img/gallus.png
 ---
 

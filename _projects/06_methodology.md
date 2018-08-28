@@ -2,7 +2,7 @@
 layout: page
 title: Discours de la méthode
 description: stylometric methodology
-permalink: /projects/methodology
+permalink: /projects/methodology/
 img: /assets/img/heatmap_LL_trimmed.png
 ---
 

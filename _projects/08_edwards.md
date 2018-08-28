@@ -2,7 +2,7 @@
 layout: page
 title: American Colonial Sermons
 description: stylometric analyses
-permalink: /projects/edwards
+permalink: /projects/edwards/
 img: /assets/img/jonathan_edwards.jpg
 youtubeId: u-yIsCj5KVg
 ---

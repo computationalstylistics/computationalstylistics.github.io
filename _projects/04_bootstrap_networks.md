@@ -2,7 +2,7 @@
 layout: page
 title: Bootstrap Consensus Networks
 description: a method of clustering
-permalink: /projects/bootstrap-networks
+permalink: /projects/bootstrap-networks/
 img: /assets/img/bootstrap_network.png
 ---
 

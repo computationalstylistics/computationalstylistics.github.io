@@ -2,7 +2,7 @@
 layout: page
 title: FoCS
 description: Foundations of Computational Stylistics
-permalink: /projects/focs
+permalink: /projects/focs/
 img: /assets/img/fox.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Harper Lee
 description: ... and other people
-permalink: /projects/harper-lee
+permalink: /projects/harper-lee/
 img: /assets/img/harper_lee.jpg
 ---
 

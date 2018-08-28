@@ -2,7 +2,7 @@
 layout: page
 title: Chemical Linguistics
 description: between linguistics and organic chemistry
-permalink: /projects/chemical-linguistics
+permalink: /projects/chemical-linguistics/
 img: /assets/img/topic-54.png
 ---
 
