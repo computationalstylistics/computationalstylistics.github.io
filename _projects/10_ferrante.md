@@ -2,6 +2,7 @@
 layout: page
 title: Elena Ferrante
 description: Who’s behind that pseudonym?
+permalink: /projects/elena-ferrante
 img: /assets/img/domenico_starnone.jpg
 ---
 

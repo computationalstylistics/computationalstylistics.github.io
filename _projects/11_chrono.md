@@ -2,6 +2,7 @@
 layout: page
 title: Language Change
 description: ... assessed quantitatively
+permalink: /projects/chronology
 img: /assets/img/coha_features_trimmed.png
 ---
 

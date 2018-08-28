@@ -2,6 +2,7 @@
 layout: page
 title: American Colonial Sermons
 description: stylometric analyses
+permalink: /projects/edwards
 img: /assets/img/jonathan_edwards.jpg
 youtubeId: u-yIsCj5KVg
 ---
@@ -42,7 +43,7 @@ The three-dimensional network diagram below shows the scale of similarities and 
 
 ## Jonathan Edwards and Thomas Foxcroft
 
-Another element of the project consisted in the study of the relationship between Jonathan Edwards and Thomas Foxcroft, Edwards’s editor and literary agent. For the purpose of this study, Choiński and Rybicki used two quantitative methods: word frequencies were compared between various texts using the Delta procedure; then, the [Rolling Classify](https://computationalstylistics.github.io/projects/05_rolling_stylometry/) method was employed to look for particular traces of the editor’s signal in consecutive segments of several Edwards’s treatises. Choiński and Rybicki explain that “During his service in Northampton and Stockbridge, Edwards relied on Foxcroft’s expertise as an editor and literary agent for many of his best-known publications, including _The Life of Brainerd_ (1749), _An Humble Inquiry_ (1749), _Freedom of Will_ (1754), and _Original Sin_ (1758). Edwards placed great trust in Foxcroft’s erudition and skill to carry out corrections as he intended them. 
+Another element of the project consisted in the study of the relationship between Jonathan Edwards and Thomas Foxcroft, Edwards’s editor and literary agent. For the purpose of this study, Choiński and Rybicki used two quantitative methods: word frequencies were compared between various texts using the Delta procedure; then, the [Rolling Classify]({{ site.baseurl }}/projects/rolling-stylometry/) method was employed to look for particular traces of the editor’s signal in consecutive segments of several Edwards’s treatises. Choiński and Rybicki explain that “During his service in Northampton and Stockbridge, Edwards relied on Foxcroft’s expertise as an editor and literary agent for many of his best-known publications, including _The Life of Brainerd_ (1749), _An Humble Inquiry_ (1749), _Freedom of Will_ (1754), and _Original Sin_ (1758). Edwards placed great trust in Foxcroft’s erudition and skill to carry out corrections as he intended them. 
 
 Foxcroft’s editorial trace is particularly visible in _An Humble Inquiry and Original Sin_, irrespective of the selected word list length. This suggests significant editing by Foxcroft of these two texts, both at the lexical level (for such is the significance of the graphs made for 100 most frequent words) and at a level that includes a higher number of content words (as visible in the graphs made for 1,000 most frequent words). His hand is much less visible in _The Freedom of the Will_. Foxcroft’s editorial impact is only visible in a single fragment for the 1,000 most frequent words; any traces of Foxcroft disappear in the same text for 100 most frequent words. One could speculate that Foxcroft’s editing of this particular text focused on correcting this single fragment rather than the content of the entire text.” (From: Choiński and Rybicki, forthcoming).
 

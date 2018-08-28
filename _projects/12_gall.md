@@ -2,6 +2,7 @@
 layout: page
 title: Gallus Anonymous
 description: Who wrote ‘The Polish Chronicle’?
+permalink: /projects/gallus-anonymous
 img: /assets/img/gallus.png
 ---
 
@@ -45,7 +46,7 @@ Next comes a comparison of the _Chronicle_ against a number of texts that were w
 
 The above dendrogram shows rather clearly that a discrete branch hosts three treatises by Bernard de Silvestris – properly recognised as written by the same author – whereas on another branch, the _Chronicle_’s closest neighbor is Monachus’s _Translatio_. This is a considerable, though not decisive, argument in support of the supposed stylistic uniformity of Gallus and Monachus.
 
-Since cluster analysis might be very sensitive to input parameters of the model, it is usually better to use a more sophisticated technique, e.g. [Bootstrap Consensus Networks]({{ site.baseurl }}/projects/04_bootstrap_networks/). In Fig. 4, a network of 159 Latin texts, including both Gallus and Monachus, has been shown. The right side of the network exhibits mostly historical works – those by Julius Caesar, Tacitus, Sallust, Florus, and others. In terms of the authorship of the _Chronicle_, fundamental are the works which are directly connected to the Gallus’ work, be it a stronger or weaker link. All such similarities are marked in colour, and the relevant nodes labelled. These include, starting from the most distant relationships: Sallust’s _Caligula_ and _Res Gestae Divi Augusti_, Ambrose’s _Letters_ (these being very strongly connected with a number of other nodes), Dante’s _Monarchia_, St. Bernard of Clairvaux's _Life of St. Malachy of Armagh_, Albert of Aachen _Historia Ierosolimitana_, and Augustin Tünger’s _Facetiæ_. 
+Since cluster analysis might be very sensitive to input parameters of the model, it is usually better to use a more sophisticated technique, e.g. [Bootstrap Consensus Networks]({{ site.baseurl }}/projects/bootstrap-networks/). In Fig. 4, a network of 159 Latin texts, including both Gallus and Monachus, has been shown. The right side of the network exhibits mostly historical works – those by Julius Caesar, Tacitus, Sallust, Florus, and others. In terms of the authorship of the _Chronicle_, fundamental are the works which are directly connected to the Gallus’ work, be it a stronger or weaker link. All such similarities are marked in colour, and the relevant nodes labelled. These include, starting from the most distant relationships: Sallust’s _Caligula_ and _Res Gestae Divi Augusti_, Ambrose’s _Letters_ (these being very strongly connected with a number of other nodes), Dante’s _Monarchia_, St. Bernard of Clairvaux's _Life of St. Malachy of Armagh_, Albert of Aachen _Historia Ierosolimitana_, and Augustin Tünger’s _Facetiæ_. 
 
 
 <div>

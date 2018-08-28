@@ -2,6 +2,7 @@
 layout: page
 title: Rolling Stylometry
 description: a method of inspecting text fragments
+permalink: /projects/rolling-stylometry
 img: /assets/img/rolling-svm_100-features_5000-per-slice.png
 ---
 
@@ -55,7 +56,7 @@ For 500 MFWs, Haggard’s signal shows up for a short moment in the first chapte
 
 ## Appications
 
-The method has been successfully applied in a number of studies by the members of the Group. Probably the most spectacular is [a short study on Harper Lee]({{ site.baseurl }}/blog/harper-lee/) that has been featured in the [Wall Street Journal](https://www.wsj.com/articles/data-miners-dig-into-go-set-a-watchman-1437096631), and then evolved into a regular [research project]({{ site.baseurl }}/projects/09_harper-lee/). Another example is a study on Elena Ferrante as a “virtual author”, having a different voice from the actual person behind the pseudonym (Eder, 2018).
+The method has been successfully applied in a number of studies by the members of the Group. Probably the most spectacular is [a short study on Harper Lee]({{ site.baseurl }}/blog/harper-lee/) that has been featured in the [Wall Street Journal](https://www.wsj.com/articles/data-miners-dig-into-go-set-a-watchman-1437096631), and then evolved into a regular [research project]({{ site.baseurl }}/projects/harper-lee/). Another example is a study on Elena Ferrante as a “virtual author”, having a different voice from the actual person behind the pseudonym (Eder, 2018).
 
 
 

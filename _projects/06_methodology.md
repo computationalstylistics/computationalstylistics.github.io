@@ -2,10 +2,11 @@
 layout: page
 title: Discours de la méthode
 description: stylometric methodology
+permalink: /projects/methodology
 img: /assets/img/heatmap_LL_trimmed.png
 ---
 
-The Computational Stylistics Group has always had an ambition to understand – on a deeper level – the methodological assumptions behind text-analysis techniques. Consequently, most of the studies conducted by the members of the Group are somewhat methodology-centric. Below we present a selection of the studies that, as we believe, contribute to the state-of-the-art stylometric methodology. Two of these contributions, namely [Bootstrap Consensus Networks]({{ site.baseurl }}/projects/04_bootstrap_networks/) and [Rolling Stylometry]({{ site.baseurl }}/projects/05_rolling_stylometry/), are featured in separate posts.
+The Computational Stylistics Group has always had an ambition to understand – on a deeper level – the methodological assumptions behind text-analysis techniques. Consequently, most of the studies conducted by the members of the Group are somewhat methodology-centric. Below we present a selection of the studies that, as we believe, contribute to the state-of-the-art stylometric methodology. Two of these contributions, namely [Bootstrap Consensus Networks]({{ site.baseurl }}/projects/bootstrap-networks/) and [Rolling Stylometry]({{ site.baseurl }}/projects/rolling-stylometry/), are featured in separate posts.
 
 
 ## Sample size in stylometry
