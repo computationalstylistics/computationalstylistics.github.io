@@ -55,11 +55,40 @@ For instance, the corpus of Latin prose texts (Fig. 2, right) could serve as exc
 
 ## Fake authorships
 
-This study (Ochab, 2017) was conducted to test to which extent the authorial signal is hidden in the lexical layer (i.e. the choice of words), and to which extent it is determined by grammatical structures.
+This study (Ochab, 2017; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/015-LEON_a_01279-Ochab-web.pdf)) was conducted to test to which extent the authorial signal is hidden in the lexical layer (i.e. the choice of words), and to which extent it is determined by grammatical structures. It is a part of the general effort to disentangle the influence of various text characteristics (e.g. style, genre, age, topic) on the results of authorship attribution algorithms (AAA).
 
-<div class="col three caption">
-    Fig. 3. ............................ 
+The classic algorithms rely on measuring pairwise similarities between texts in the corpus and these similarities, in turn, are often computed based on word occurrence frequencies.
+The word frequencies do not only reflect direct lexical selection (be it conscious or unconscious) by an author, but are also indirectly governed or affected by his or her grammar choices, including some simple quantifiable characteristics such as: clause types, clause lengths, distribution of parts of speech (POS) and groups thereof.
+
+Here, the grammar choices were quantified in a simplified manner as frequencies of POS tags, whereas the lexical choices were quantified as frequencies of words within each POS category. Consequently, two differing word frequency distributions – as a proxy of two authorial styles – arise from differing distributions of POS-tags AND distributions of words labelled with a given POS tag. However, an AAA measuring text similarity, e.g., by means of Burrows's delta distance does not differentiate between these two and provides a joint score.
+
+Does that mean we can change a classification result of such an algorithm modifying grammar only? Phrased differently: can we imitate the style of an author while still using our own words?
+
+<div class="img_row_people">
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/3a_schemat_v3.png" alt="" title="A lexical-grammatical hybrid from texts of two different authors"/>
 </div>
+<div class="col three caption">
+    Fig. 3: A diagram for generating a lexical-grammatical hybrid from texts of two different authors.
+</div>
+
+
+
+To answer that question we generated a hybrid text with vocabulary of one author and grammar of another, as shown in Fig. 3. In this case, we took POS-tags from A. Brontë's _Agnes Grey_ and the words from three works by W. M. Thackeray. Then we replaced each POS-tag with a random word belonging to that POS category, obtaining a hybrid book of the same length and POS structure as _Agnes Grey_. Thus, even though the words of the book are Thackeray’s, their frequencies are constrained by the grammatical structures provided by Brontë.
+
+<div class="img_row_people">
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/4_wynik.jpg" alt="" title="A lexical-grammatical hybrid from texts of two different authors"/>
+</div>
+<div class="col three caption">
+    Fig. 4: Burrows’s delta distance between real, resampled and hybrid texts (left); results of clustering a Thackeray-Brontë hybrid text in a corpus of classic English novels (right).
+</div>
+
+
+
+Fig. 4 illustrates the delta distance (as a function of the number of most frequent words) between the original _Agnes Grey_ and from bottom up: (i) a generated text of the same length and the words sampled from the book, (ii) a generated text of the same length and the words sampled from two books by A. Brontë, (iii) _The Tenant of Wildfell Hall_, (iv) the hybrid text generated as described above, (v) _Vanity Fair_. The graph shows that especially for a low number of MFW the hybrid is significantly closer to the original book by Brontë than a novel by Thackeray. The grammar wins and the hybrid joins A. Brontë's cluster. For a large number of MFW, the vocabulary wins and the hybrid joins Thackeray's cluster.
+
+In this study, the corpus comprised 27 classic English novels published between 1740-1876 by 11 authors, one to three books each. We used Stanford POS tagger.
+
+
 
 
 
@@ -68,7 +97,7 @@ This study (Ochab, 2017) was conducted to test to which extent the authorial sig
 
 ## How to choose training samples?
 
-This study (Eder and Rybicki, 2013; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)) investigates the problem of appropriate choice of texts for the training set in machine-learning classification techniques. Intuition suggests composing a training set from the most typical texts (whatever “typical” means) by the authors studied (thus, for Goethe, _Werther_ rather than _Farbenlehre_; for Dickens, _Great Expectations_ rather than _A Tale of Two Cities_; for Sienkiewicz, his historical romances rather than his _Letters from America_). Certainly, the world of machine-learning knows the idea of _k_-fold cross-validation, or composing the training test iteratively (and randomly) in _k_ turns. However, no matter how useful this technique is, the question remains: to what extent non-typical works might bias the results of an authorship attribution experiment?
+The next study (Eder and Rybicki, 2013; cf. [pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)) investigates the problem of appropriate choice of texts for the training set in machine-learning classification techniques. Intuition suggests composing a training set from the most typical texts (whatever “typical” means) by the authors studied (thus, for Goethe, _Werther_ rather than _Farbenlehre_; for Dickens, _Great Expectations_ rather than _A Tale of Two Cities_; for Sienkiewicz, his historical romances rather than his _Letters from America_). Certainly, the world of machine-learning knows the idea of _k_-fold cross-validation, or composing the training test iteratively (and randomly) in _k_ turns. However, no matter how useful this technique is, the question remains: to what extent non-typical works might bias the results of an authorship attribution experiment?
 
 The idea applied in this study was quite simple: a controlled experiment of 500 iterations of attributive tests was performed, each with random selection of the training and test sets. The selections were made so that each author was always represented in the training set by a single (randomly-chosen) text, and that the test set always contained the same number of texts by each author. This was done to prevent a situation in which no works at all by one or more of the test authors would be found in the training set. Then the number of correct author guesses were compared, in the context of the hypothesis that the more resistant a corpus is to changes in the choice of the two sets, the more stable the results. The peak of the distribution curve would indicate the real effectiveness of the method, while its tails – the impact of random factors. A thin and tall peak would thus imply stable results resistant to changes in the training set.
 
@@ -78,10 +107,10 @@ The idea applied in this study was quite simple: a controlled experiment of 500 
     <img class="col one left" src="{{ site.baseurl }}/assets/img/cv_PL.png" alt="" title="Density (vertical axis) of attributive success percentage rates (horizontal axis) in the corpus of Polish novels"/>
 </div>
 <div class="col three caption">
-    Fig. 4. Density (vertical axis) of attributive success percentage rates (horizontal axis) in three corpora: English novels (left), Italian novels (center), Polish novels (right). 
+    Fig. 5. Density (vertical axis) of attributive success percentage rates (horizontal axis) in three corpora: English novels (left), Italian novels (center), Polish novels (right). 
 </div>
 
-As expected, the density of the 500 iterations for the corpus of 63 English novels follows a (skewed) bell curve (Fig. 4, left). At the same time, its gentler left slope suggests that, depending on the choice of the training set, the percentage of correct attributions can vary, and, with bad luck, go below 90%. The Italian corpus is a _quintessenza_ of consistency but, at this time, the most frequent accuracy rate has receded to below 85%, i.e. into regions rarely visited even by the worst combinations of training- and test-set texts in the English or even the French corpus. By contrast, the results for the Polish corpus are a true _katastrofa_: any attempt at broadening the corpus brings both accuracy and consistency below any standards acceptable. Other corpora tested in this study are discussed in detail in the above-mentioned paper.
+As expected, the density of the 500 iterations for the corpus of 63 English novels follows a (skewed) bell curve (Fig. 5, left). At the same time, its gentler left slope suggests that, depending on the choice of the training set, the percentage of correct attributions can vary, and, with bad luck, go below 90%. The Italian corpus is a _quintessenza_ of consistency but, at this time, the most frequent accuracy rate has receded to below 85%, i.e. into regions rarely visited even by the worst combinations of training- and test-set texts in the English or even the French corpus. By contrast, the results for the Polish corpus are a true _katastrofa_: any attempt at broadening the corpus brings both accuracy and consistency below any standards acceptable. Other corpora tested in this study are discussed in detail in the above-mentioned paper.
 
 
 
@@ -99,10 +128,10 @@ The method presented here relies on the author’s empirical observation that th
     <img class="col two left" src="{{ site.baseurl }}/assets/img/bootstrapped_delta_table.png" alt="" title="Distance distributions between texts, across 1,000 bootstrap iterations"/>
 </div>
 <div class="col two caption">
-    Fig. 5. Distance distributions between texts, across 1,000 iterations with randomly chosen selections of frequent words.
+    Fig. 6. Distance distributions between texts, across 1,000 iterations with randomly chosen selections of frequent words.
 </div>
 
-The next stage is to estimate the distribution for each cell across 1,000 layers of the composite table. This is a crucial point of the whole procedure. While classical nearest neighbor classifications rely on _point estimation_ (i.e. the distance between two samples is always represented by a single numeric value), the new technique introduces the concept of _distribution estimation_, as shown in Fig. 5. Using some properties of these distributions, one can establish confidence intervals. Namely, the distance between two samples is a range of values represented by the mean of 1,000 bootstrap trials plus 1.64σ<sub>ij</sub> below and 1.64σ<sub>ij</sub> above the arithmetic mean of the distribution.
+The next stage is to estimate the distribution for each cell across 1,000 layers of the composite table. This is a crucial point of the whole procedure. While classical nearest neighbor classifications rely on _point estimation_ (i.e. the distance between two samples is always represented by a single numeric value), the new technique introduces the concept of _distribution estimation_, as shown in Fig. 6. Using some properties of these distributions, one can establish confidence intervals. Namely, the distance between two samples is a range of values represented by the mean of 1,000 bootstrap trials plus 1.64σ<sub>ij</sub> below and 1.64σ<sub>ij</sub> above the arithmetic mean of the distribution.
 
 <div class="img_row">
     <img class="col one left" src="{{ site.baseurl }}/assets/img/bootstrapped_delta_1.png" alt="" title="Classic Delta procedure (500 MFWs tested) applied to assess the authorship of Phineas Finn"/>
@@ -110,10 +139,10 @@ The next stage is to estimate the distribution for each cell across 1,000 layers
     <img class="col one left" src="{{ site.baseurl }}/assets/img/bootstrapped_delta_3.png" alt="" title="Ranking of candidates for The Portrait of Dorian Gray using confidence intervals"/>
 </div>
 <div class="col three caption">
-    Fig. 6. Comparison of Delta distances with and without confidence intervals: classic Delta procedure (500 MFWs tested) applied to assess the authorship of <i>Phineas Finn</i> (left); the same novel assessed using confidence intervals (center); ranking of candidates for <i>The Portrait of Dorian Gray</i> using confidence intervals.
+    Fig. 7. Comparison of Delta distances with and without confidence intervals: classic Delta procedure (500 MFWs tested) applied to assess the authorship of <i>Phineas Finn</i> (left); the same novel assessed using confidence intervals (center); ranking of candidates for <i>The Portrait of Dorian Gray</i> using confidence intervals.
 </div>
 
-An exemplary ranking of candidates is shown in Fig. 6. The most likely author of _Phineas Finn_ is Trollope (as expected), and the calculated confidence interval does not overlap with any other range of uncertainty. The real strength of the method, however, is evidenced in the case of _The Portrait of Dorian Gray_, where the training set does not contain (intentionally) samples of Wilde. Classic Delta simply ranks the candidates, Hardy being the first, while in the new technique, confidence intervals of the first three candidates partially overlap with one another. Consequently, the assumed probability of authorship of _Dorian Gray_ is shared between Galsworthy (54.2%), Hardy (34.8%) and Charlotte Brontë (11%). The ambiguous probabilities strongly indicate fake candidates in an open-set attribution case.
+An exemplary ranking of candidates is shown in Fig. 7. The most likely author of _Phineas Finn_ is Trollope (as expected), and the calculated confidence interval does not overlap with any other range of uncertainty. The real strength of the method, however, is evidenced in the case of _The Portrait of Dorian Gray_, where the training set does not contain (intentionally) samples of Wilde. Classic Delta simply ranks the candidates, Hardy being the first, while in the new technique, confidence intervals of the first three candidates partially overlap with one another. Consequently, the assumed probability of authorship of _Dorian Gray_ is shared between Galsworthy (54.2%), Hardy (34.8%) and Charlotte Brontë (11%). The ambiguous probabilities strongly indicate fake candidates in an open-set attribution case.
 
 
 
@@ -138,12 +167,12 @@ The first experiment was designed to simulate the impact of poor OCR. In 100 ite
     <img class="col one left" src="{{ site.baseurl }}/assets/img/damaged_english_4-grams.png" alt="" title="Simulation of poor OCR quality in the corpus of English novels (character 4-grams)"/>
 </div>
 <div class="col three caption">
-    Fig. 7. Simulation of poor OCR quality in a few corpora: in 100 iterations, increasing percentage of intentionally misspelled characters has been tested for 30 different MFW vectors. Color coding is indicated by the legend. In the upper row: English novels (left), German novels (center), and Polish novels (right); in the bottom row: Latin prose (left), Ancient Greek prose (center), and English novels but this time using character 4-grams instead of words (right). 
+    Fig. 8. Simulation of poor OCR quality in a few corpora: in 100 iterations, increasing percentage of intentionally misspelled characters has been tested for 30 different MFW vectors. Color coding is indicated by the legend. In the upper row: English novels (left), German novels (center), and Polish novels (right); in the bottom row: Latin prose (left), Ancient Greek prose (center), and English novels but this time using character 4-grams instead of words (right). 
 </div>
 
-The results were quite similar for most of the corpora tested. As shown in Fig. 7, short vectors of MFWs (up to 500 words) usually provide no significant decrease of performance despite a considerably large amount of noise added (the corpus of Polish novels being an exception). Even 20% of damaged letters would not affect the results in some cases! However, longer MFW vectors are _very sensitive_ to misspelled characters: any additional noise means a steep decrease of performance. This means that the “garbage in, gospel out” optimism is in fact illusory.
+The results were quite similar for most of the corpora tested. As shown in Fig. 8, short vectors of MFWs (up to 500 words) usually provide no significant decrease of performance despite a considerably large amount of noise added (the corpus of Polish novels being an exception). Even 20% of damaged letters would not affect the results in some cases! However, longer MFW vectors are _very sensitive_ to misspelled characters: any additional noise means a steep decrease of performance. This means that the “garbage in, gospel out” optimism is in fact illusory.
 
-Character-based markers, however, revealed an impressive increase of performance, regardless of the classification method used. As evidenced in Fig. 7 (bottom-right, for character 4-grams), the threshold where the noise finally starts to overwhelm the attributive scores is settled somewhere around the point of 40% distorted characters. It is hard to believe how robust this type of style-marker is when confronted with a dirty corpus – to kill the authorial signal efficiently, one needs to distort more than 60% of original characters (!).
+Character-based markers, however, revealed an impressive increase of performance, regardless of the classification method used. As evidenced in Fig. 8 (bottom-right, for character 4-grams), the threshold where the noise finally starts to overwhelm the attributive scores is settled somewhere around the point of 40% distorted characters. It is hard to believe how robust this type of style-marker is when confronted with a dirty corpus – to kill the authorial signal efficiently, one needs to distort more than 60% of original characters (!).
 
 A detailed comparison of different corpora, classifiers and feature types, as well as an alternative experiment aimed at measuring the impact of intertextuality, is provided by the above-mentioned full-length paper. 
 
@@ -163,7 +192,7 @@ A detailed comparison of different corpora, classifiers and feature types, as we
 
 **Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_, **28**(2): 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
 
-**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279).
+**Ochab, J. K.** (2017). Stylometric networks and fake authorships. _Leonardo_, **50**(5): 502, [doi:10.1162/LEON_a_01279](http://dx.doi.org/10.1162/LEON_a_01279), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/015-LEON_a_01279-Ochab-web.pdf)].
 
 **Rybicki, J. and Eder, M.** (2011). [Deeper Delta across genres and languages: do we really need the most frequent words?](https://academic.oup.com/dsh/article/26/3/315/1149353) _Literary and Linguistic Computing_, **26**(3): 315-21, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf)].
 
