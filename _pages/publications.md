@@ -9,9 +9,10 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 
 
-**Choiński, M., Eder, M. and Rybicki, J.** (forthcoming). Harper Lee and other people: a stylometric diagnosis. _Mississippi Quarterly_, forthcoming.
 
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
+
+**Choiński, M., Eder, M. and Rybicki, J.** (2019). Harper Lee and other people: a stylometric diagnosis. _Mississippi Quarterly_, **70**(3), forthcoming.
 
 **Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
 

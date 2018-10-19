@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Computational Stylistics Group | Using ‘Stylo’ with languages other than English</title>
+  <meta name="description" content="Website containing materials of the Computational Stylistics Group.
+">
+
+  <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/blog/stylo_and_languages/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+<!--        
+        <strong>Computational</strong> Group
+-->
+        <img src=http://localhost:4000/assets/img/csg_mini.png height="45" align="middle"></img>
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="http://localhost:4000/">About</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="http://localhost:4000/blog/">Blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/people/">People</a>
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/projects/">Projects</a>
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/publications/">Publications</a>
+          
+        
+          
+            <a class="page-link" href="http://localhost:4000/resources/">Resources</a>
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="http://localhost:4000/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Using ‘Stylo’ with languages other than English</h1>
+    <p class="post-meta">September 19, 2018 • Joanna Byszuk</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="can-i-conduct-a-stylometric-analysis-with-any-language-in-the-world">Can I conduct a ‘Stylo’metric analysis with any language in the world?</h2>
+
+<p>In theory – yes. In practice, there are a few things you should consider
+first, from examining problems specific to the language (e.g. some
+languages, like Japanese, work better with character ngrams rather then
+words) to building a big enough, well-balanced and formatted corpus.</p>
+
+<h2 id="corpus">Corpus</h2>
+
+<p>While it is a general good practice to use UTF-8 encoding, this is
+especially important if the language of your corpus uses Latin
+characters with diacritics, e.g. “ó”, “ö”, “ñ”, “ň”, or characters of
+entirely different systems, e.g. Chinese or Japanese. If you’re getting
+errors despite setting UTF-8 parameter in the GUI, check if all the
+files in your corpus are encoded as UTF-8. Various text editors offer
+various options, but you can usually check this while saving the file or
+in its format settings.</p>
+
+<h2 id="languages-in-stylo-gui">Languages in ‘Stylo’ gui:</h2>
+
+<p>As of 0.6.8 ‘Stylo’ gui allows selection between following languages:<br />
+English, Latin (also a variant treating u/v as u), Polish, Hungarian,
+French, Italian, Spanish, Dutch, German, CJK (Chinese, Japanese, Korean)
+and Other.</p>
+
+<p>The Other option should work for all languages supported by ‘Stylo’, and
+usually there is no need to narrow it down to a specific language group.
+Various languages offered in the gui allow for the use of extra features
+such as pronoun deletion (feature available in the Features section, not
+recommended for most experiments).</p>
+
+<p>If you want to conduct a stylometric analysis on the texts in a language
+we haven’t included so far you can add proper codepoints in the
+<code class="highlighter-rouge">txt.to.words()</code>
+function:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">txt.to.words</span><span class="p">(</span><span class="n">input.text</span><span class="p">,</span><span class="w"> </span><span class="n">splitting.rule</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"[^PLACE_YOUR_CODEPOINTS_HERE]+"</span><span class="p">,</span><span class="w"> 
+             </span><span class="n">preserve.case</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">   
+</span></code></pre></div></div>
+
+<p>The <code class="highlighter-rouge">^</code> character in the class defined by the <code class="highlighter-rouge">[ ]</code> brackets means that
+you indicate the characters that you <em>don’t</em> want to delete. In other
+words, all characters that were not explicitly listed in the brackets
+will be used as word delimiters. You can also use <code class="highlighter-rouge">splitting.rule</code>
+parameter for other purposes, e.g. when you want to use other separator
+than space (‘Stylo’ default).</p>
+
+<p>Frankly, in a vast majority of applications you don’t even have to know
+about the existence of the above <code class="highlighter-rouge">txt.to.words()</code> function. You simply
+pass your codepoints directly to the function <code class="highlighter-rouge">stylo()</code>:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">stylo</span><span class="p">(</span><span class="n">splitting.rule</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"[^PLACE_YOUR_CODEPOINTS_HERE]+"</span><span class="p">)</span><span class="w">   
+</span></code></pre></div></div>
+
+<h2 id="language-codepoints-implemented-in-stylo-ver-068">Language codepoints implemented in ‘Stylo’ ver. 0.6.8</h2>
+
+<ul>
+  <li>Latin supplement (Western): <code class="highlighter-rouge">\U00C0-\U00FF</code></li>
+  <li>Latin supplement (Eastern): <code class="highlighter-rouge">\U0100-\U01BF</code></li>
+  <li>Latin extended (phonetic): <code class="highlighter-rouge">\U01C4-\U02AF</code></li>
+  <li>modern Greek: <code class="highlighter-rouge">\U0386\U0388-\U03FF</code></li>
+  <li>Cyrillic: <code class="highlighter-rouge">\U0400-\U0481\U048A-\U0527</code></li>
+  <li>Hebrew: <code class="highlighter-rouge">\U05D0-\U05EA\U05F0-\U05F4</code></li>
+  <li>Arabic/Farsi: <code class="highlighter-rouge">\U0620-\U065F\U066E-\U06D3\U06D5\U06DC</code></li>
+  <li>extended Latin: <code class="highlighter-rouge">\U1E00-\U1EFF</code></li>
+  <li>ancient Greek:
+<code class="highlighter-rouge">\U1F00-\U1FBC\U1FC2-\U1FCC\U1FD0-\U1FDB\U1FE0-\U1FEC\U1FF2-\U1FFC</code></li>
+  <li>Coptic: <code class="highlighter-rouge">\U03E2-\U03EF\U2C80-\U2CF3</code></li>
+  <li>Georgian: <code class="highlighter-rouge">\U10A0-\U10FF</code></li>
+  <li>Japanese (Hiragana): <code class="highlighter-rouge">\U3040-\U309F</code></li>
+  <li>Japanese (Katagana): <code class="highlighter-rouge">\U30A0-\U30FF</code></li>
+  <li>Japanese repetition symbols: <code class="highlighter-rouge">\U3005\U3031-\U3035</code></li>
+  <li>CJK Unified Ideographs: <code class="highlighter-rouge">\U4E00-\U9FFF</code></li>
+  <li>CJK Unified Ideographs Extension A: <code class="highlighter-rouge">\U3400-\U4DBF</code></li>
+  <li>Hangul (Korean script): <code class="highlighter-rouge">\UAC00-\UD7AF</code></li>
+</ul>
+
+<h2 id="what-are-the-best-settings-for-my-language">What are the best settings for my language?</h2>
+
+<p>Frequent questions include:</p>
+
+<ul>
+  <li>are words or characters better features for language X?</li>
+  <li>how many most frequent words are good for tests in language X?</li>
+  <li>how big should the character <em>n</em>-grams be?</li>
+</ul>
+
+<p>Feature selection is a complicated problem on its own, and so far few
+studies compared the settings in a cross-lingual perspective. If
+possible, a) try to look into literature dealing with your language of
+choice, b) start with testing the settings that are considered general
+gold standards. You will find some publications on the matter below.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<h3 id="cross-lingual-comparisons">Cross-lingual comparisons</h3>
+
+<p><strong>Eder, M.</strong> (2011). <a href="http://www.ejournals.eu/SPL/2011/SPL-vol-6-2011/art/1171/">Style-markers in authorship attribution: a
+cross-language study of authorial
+fingerprint</a>.
+<em>Studies in Polish Linguistics</em>, <strong>6</strong>, 99-114,
+<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Style-markers_SLP.pdf">pre-print</a>.</p>
+
+<p><strong>Rybicki, J. and Eder, M.</strong> (2011). <a href="https://academic.oup.com/dsh/article/26/3/315/1149353">Deeper Delta across genres and
+languages: do we really need the most frequent
+words?</a> <em>Literary
+and Linguistic Computing</em>, 26(3): 315-21,
+<a href="https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Eder%20Deeper%20Delta%20LLC%20corrected%20and%20submitted.pdf">pre-print</a>.</p>
+
+<h3 id="non-latin-scripts">Non-Latin scripts</h3>
+
+<p><strong>Du, K.</strong> (2016). <a href="http://dh2016.adho.org/abstracts/15">Testing delta on Chinese
+texts</a>. In <em>Digital Humanities
+2016: Conference Abstracts</em>. Jagiellonian University &amp; Pedagogical
+University, Kraków, pp. 781-783.</p>
+
+<h3 id="sample-size-standards">Sample size standards</h3>
+
+<p><strong>Eder, M.</strong>(2017c). <a href="https://dh2017.adho.org/abstracts/341/341.pdf">Short samples in authorship attribution: A new
+approach</a>. <em>Digital
+Humanities 2017: Conference Abstracts</em>. Montreal: McGill University,
+pp. 221–24.</p>
+
+<p><strong>Eder, M.</strong> (2010). Does size matter? Authorship attribution, short
+samples, big problem. <em>Digital Humanities 2010: Conference Abstracts</em>.
+King’s College London, pp. 132-35,
+<a href="https://github.com/computationalstylistics/preprints/blob/master/Eder_Does_Size_Matter_DigHum2010.pdf">pre-print</a>.</p>
+
+<h3 id="feature-selection">Feature selection</h3>
+
+<p><strong>Kestemont, M.</strong> (2014). Function words in authorship attribution. From
+black magic to theory? In <em>Third Computational Linguistics for
+Literature Workshop</em>, 59–66. Gothenburg, Sweden: European Chapter of the
+Association for Computational Linguistics.</p>
+
+<p><strong>Sapkota, U., Bethard, S., Montes, M., and Solorio, T.</strong> (2015). Not
+all character n-grams are created equal: a study in authorship
+attribution. In <em>Proceedings of the 2015 Conference of the North
+American Chapter of the Association for Computational Linguistics: Human
+Language Technologies</em>, 93–102. Denver, Colorado: Association for
+Computational Linguistics.</p>
+
+<p><strong>Stamatatos, E.</strong> (2013). On the robustness of authorship attribution
+based on character n-gram features. <em>Journal of Law and Policy</em>, 21:
+421–39.</p>
+
+<p>You can find studies including many other languages that we’ve conducted
+in the <a href="https://www.zotero.org/groups/643516/Stylometry_bibliography">Stylometry
+Bibliography</a>.</p>
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2018 Computational Stylistics Group.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="http://localhost:4000/assets/js/common.js"></script>
+
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>

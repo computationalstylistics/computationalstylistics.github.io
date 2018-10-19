@@ -97,11 +97,9 @@ scenarios.
 
 ## References
 
-**Eder, M. and Rybicki, J.** (2013). Do birds of a feather really flock
-together, or how to choose training samples for authorship attribution.
-*Literary and Linguistic Computing*, **28**(2): 229–36.
+**Eder, M. and Rybicki, J.** (2013). [Do birds of a feather really flock together, or how to choose training samples for authorship attribution](http://llc.oxfordjournals.org/content/28/2/229). _Literary and Linguistic Computing_, **28**(2): 229-36, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder-Rybicki_How_to_choose.pdf)].
 
-**James, G., Witten, D., Hastie, T. and Tibshirani, R.** (2013). *An
-Introduction to Statistical Learning with Applications in R*. New York:
+**James, G., Witten, D., Hastie, T. and Tibshirani, R.** (2013). [_An
+Introduction to Statistical Learning with Applications in R_](https://www-bcf.usc.edu/~gareth/ISL/). New York:
 Springer.
 
