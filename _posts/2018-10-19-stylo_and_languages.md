@@ -9,11 +9,11 @@ date: 2018-09-19 12:47:00
 
 
 
-## Can I conduct a ‘Stylo’metric analysis with any language in the world?
+## Can I conduct a stylometric analysis with any language in the world?
 
 In theory – yes. In practice, there are a few things you should consider
 first, from examining problems specific to the language (e.g. some
-languages, like Japanese, work better with character ngrams rather then
+languages, like Chinese, work better with character ngrams rather then
 words) to building a big enough, well-balanced and formatted corpus.
 
 ## Corpus
@@ -153,6 +153,7 @@ Computational Linguistics.
 based on character n-gram features. *Journal of Law and Policy*, 21:
 421–39.
 
-You can find studies including many other languages that we’ve conducted
-in the [Stylometry
-Bibliography](https://www.zotero.org/groups/643516/Stylometry_bibliography).
+You can find studies concerning many other languages in the [Stylometry
+Bibliography](https://www.zotero.org/groups/643516/Stylometry_bibliography),
+do contribute to it by sharing information about ones that were not yet
+included.
