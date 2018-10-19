@@ -13,7 +13,7 @@ date: 2018-09-19 12:47:00
 
 In theory – yes. In practice, there are a few things you should consider
 first, from examining problems specific to the language (e.g. some
-languages, like Chinese, work better with character ngrams rather then
+languages, like Chinese, work better with character n-grams rather than
 words) to building a big enough, well-balanced and formatted corpus.
 
 ## Corpus
