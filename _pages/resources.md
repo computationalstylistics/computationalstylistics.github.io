@@ -18,7 +18,7 @@ The following selection of links is but a tip of an iceberg when it comes to the
 * [100 Polish Novels](https://github.com/computationalstylistics/100_polish_novels)  
 * [100 English Novels](https://github.com/computationalstylistics/100_english_novels)  
 * [68 German Novels](https://github.com/computationalstylistics/68_german_novels)  
-
+* [_Roman de la Rose_](https://github.com/computationalstylistics/RdlR_for_rolling_classify), to play with the [Rolling Classify](https://computationalstylistics.github.io/projects/rolling-stylometry/) method
 
 
 
