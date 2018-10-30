@@ -31,10 +31,10 @@ The following selection of links is but a tip of an iceberg when it comes to the
 
 Blog posts on non-obvious functions of `stylo`:
 
-* [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/blog/imposters)
-* [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/blog/cross_validation)
-* [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances)
-* [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry)
+* [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/blog/imposters/)
+* [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/blog/cross-validation/)
+* [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances/)
+* [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry/)
 
 
 
