@@ -37,6 +37,20 @@ The Padova workshop and its findings made quite a stir in Italy and abroad. [_La
 
 ---
 
+Now, what if we assume that Starnone is right, and HE. IS. NOT. FERRANTE? What if we assume that whenever Starnone writes under the pseudonym, he is not himself anymore, in the sense that he is able to mimic a distinct authorial signal? What if there are indeed two different personae, the actual Starnone and a virtual “Ferrante”? To further explore the above issue, an additional series of tests have been performed. Again, the Rolling Stylometry technique has been used; this time, however, the training set contained the works a few actual authors, and the works by Ferrante. Needless to say, the novels by Starnone and Ferrane were marked as two distinct classes. 
+
+<div>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/virtual_Ferrante.png" alt="" title=" Novels by Domenico Starnone assessed sequentially via the Rolling Classify technique"/>
+</div>
+<div class="col three caption">
+    Fig. 3. Novels by Domenico Starnone assessed sequentially via the Rolling Classify technique: (a) <i>Il salto con le aste</i> (1989), (b) <i>Via Gemito</i> (2001), (c) <i>Prima esecuzione</i> (2007), <i>Autobiografia erotica di Aristide Gambìa</i> (2011).
+</div>
+
+The results are shown in Fig. 3a–d (four novels out of seven); the analyzed novels by Ferrante are ordered chronologically. Arguably, a clear pattern appears: while the early novels show little similarity with the assumed virtual “Ferrante”, the late works are assigned to this class with more and more confidence of the classifier. Almost all of the segments of _L’amore molesto_ (1992) are classified as “Starnone”. The voice of the virtual “Ferrante” is more noticeable in _I Giorni dell’abbandono_ (2002). In _La figlia oscura_ (2006) the share of segments by “Ferrante” is roughly equal to those of “Starnone”. In the novel _L’amica geniale. Infanzia, adolescenza_ (2011) the style of “Ferrante” becomes predominant, which is even more visible in _Storia del nuovo cognome_ (2012). This novel is a triumph of the virtual author: all of the segments have been attributed to the class “Ferrante”. Apparently, Domenico Starnone demonstrates, particularly in his late works, the ability to differentiate his own stylistic profile and the voice of his _alter ego_.
+
+
+---
+
 Check also this [blog post](https://dls.hypotheses.org/73) by Jan Rybicki, featuring the workshop “Drawing Elena Ferrante’s Profile”, organized by Arjuna Tuzzi at the University of Padua, Italy, in September 2018.
 
 The outcomes of the workshop were gathered in [a book published by Padova University Press](http://www.padovauniversitypress.it/publications/9788869381300).
