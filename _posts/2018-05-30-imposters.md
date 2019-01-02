@@ -59,7 +59,7 @@ available on CRAN a few days after such a new version is released. In
 this case, the installation is trivial:
 
 ``` r
-install.pacgages("stylo")
+install.packages("stylo")
 ```
 
 Maybe a better way to install brand-new and/or experimental versions of

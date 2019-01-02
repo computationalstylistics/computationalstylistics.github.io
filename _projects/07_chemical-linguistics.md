@@ -16,6 +16,7 @@ The project’s PI is prof. Bartosz Grzybowski from the Institute of Organic Che
 * Jan Winkowski
 * Michał Woźniak
 * Urszula Modrzyk
+* Wojciech Łukasik
 
 The project addresses one of the greatest and outstanding challenges of modern chemistry – namely, the use of computers to design optimal, multistep chemical pathways leading to lifesaving drugs, pigments or dyes, complex natural products, and many more. Our proposal unites the efforts of Poland’s best chemists, computer scientists and linguists to challenge this prevailing view of chemistry and demonstrate – both in silico and through experimental validation – that by uniting the tools of computational linguistics (or corpus linguistics), data mining, machine learning, and algorithm theory, it is possible to teach computers chemistry to the level of top-notch organic chemists and then use these computers to plan complex synthetic transformations.
 

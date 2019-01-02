@@ -392,6 +392,15 @@ footer a:hover { color: #ff8800; }
 .project .thumbnail a span p { color: #e8e8e8; }
 .project .thumbnail a:hover span { display: block; }
 
+.person { box-sizing: border-box; float: left; height: 250px; padding: 10px; vertical-align: middle; width: 33.33%; }
+.person .thumbnail { overflow: hidden; height: 200px; width: 100%; }
+.person .thumbnail img { height: auto; }
+.person .thumbnail a { float: left; height: 230px; position: relative; width: 100%; }
+.person .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #e8e8e8; padding: 40px; text-align: center; }
+.person .thumbnail a span h1 { font-size: 1.5rem; margin: 0; }
+.person .thumbnail a span p { color: #e8e8e8; }
+.person .thumbnail a:hover span { display: block; }
+
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
 
 .address { font-family: monospace; }
