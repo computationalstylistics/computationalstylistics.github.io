@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 name: Computational Stylistics Group
 title: Computational Stylistics Group
-email: maciejeder@gmail.com
+email: csg@stylometry.org
 description: > # this means to ignore newlines until "url:"
   Website containing materials of the Computational Stylistics Group.
 footer_text: >
@@ -18,12 +18,12 @@ last_updated: # leave blank if you don't want to display last updated
 # Social integration
 # -----------------------------------------------------------------------------
 github_username: computationalstylistics
-twitter_username: MaciejEder
+twitter_username: dhkrakow
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-contact_note: >
-  All of the above contact links should work fine, but please avoid using email if possible.
+#contact_note: >
+#  All of the above contact links should work fine, but please avoid using email if possible.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
