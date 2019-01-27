@@ -49,6 +49,11 @@ Now, what if we assume that Starnone is right, and HE. IS. NOT. FERRANTE? What i
 The results are shown in Fig. 3a–d (four novels out of seven); the analyzed novels by Ferrante are ordered chronologically. Arguably, a clear pattern appears: while the early novels show little similarity with the assumed virtual “Ferrante”, the late works are assigned to this class with more and more confidence of the classifier. Almost all of the segments of _L’amore molesto_ (1992) are classified as “Starnone”. The voice of the virtual “Ferrante” is more noticeable in _I Giorni dell’abbandono_ (2002). In _La figlia oscura_ (2006) the share of segments by “Ferrante” is roughly equal to those of “Starnone”. In the novel _L’amica geniale. Infanzia, adolescenza_ (2011) the style of “Ferrante” becomes predominant, which is even more visible in _Storia del nuovo cognome_ (2012). This novel is a triumph of the virtual author: all of the segments have been attributed to the class “Ferrante”. Apparently, Domenico Starnone demonstrates, particularly in his late works, the ability to differentiate his own stylistic profile and the voice of his _alter ego_.
 
 
+> **Rybicki, M.** (2018). Partners in life, partners in crime? In Tuzzi, A. and Cortelazzo, M. A. (eds), _Drawing Elena Ferrante’s Profile_. Padova: Padova University Press, pp. 111–122, [http://www.padovauniversitypress.it/publications/9788869381300](http://www.padovauniversitypress.it/publications/9788869381300).
+
+
+> **Eder, M.** (2018). Elena Ferrante: a virtual author. In Tuzzi, A. and Cortelazzo, M. A. (eds), _Drawing Elena Ferrante’s Profile_. Padova: Padova University Press, pp. 31–45, [http://www.padovauniversitypress.it/publications/9788869381300](http://www.padovauniversitypress.it/publications/9788869381300).
+
 ---
 
 Check also this [blog post](https://dls.hypotheses.org/73) by Jan Rybicki, featuring the workshop “Drawing Elena Ferrante’s Profile”, organized by Arjuna Tuzzi at the University of Padua, Italy, in September 2018.
