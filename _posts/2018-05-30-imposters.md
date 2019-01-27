@@ -322,7 +322,7 @@ answers of “no” and “yes”, respectively.
 And what about the aforementioned Coben, with the value 0.34? Is it high
 enough to claim that he penned “The Cuckoo’s Calling”? To answer this
 question, you have to compute the *p1* and *p2* values for the dataset
-`galbraith`\!
+`galbraith` yourself\!
 
 ## Parameters
 
@@ -413,7 +413,7 @@ Other parameters of the function `imposters()` include:
 Some other, more techical, parameters can be found in the manual page of
 the function. Type `help(imposters)` for the details.
 
-Certainly, the same applied to the `imposters.optimize()` function. The
+Certainly, the same applies to the `imposters.optimize()` function. The
 same parameters that were introduced immediately above, can be passed to
 the fine-tuning function, e.g.:
 
