@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-description: Computational Stylistic Group somewhat unofficial, and so is its membership. Nevertheless at least a few people have been associated with the Group for a while.
+description: Computational Stylistic Group is somewhat unofficial, and so is its membership. Nevertheless at least a few people have been associated with the Group for a while.
 ---
 
 {% for person in site.people %}
