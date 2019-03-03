@@ -99,6 +99,7 @@ link to “Qualico 2018” [presentation](https://computationalstylistics.github
 
 link to “Digital Humanities 2018” [presentation](https://computationalstylistics.github.io/history_of_words/dh2018_presentation.html) (a short version of the above one)
 
+link to a [presentation](https://computationalstylistics.github.io/presentations/diachronia_piotrowski_sredniopolski/prezentacja_diachronia.html) on the Piotrowski’s law (in Polish).
 
 
 
