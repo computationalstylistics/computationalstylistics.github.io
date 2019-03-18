@@ -34,7 +34,7 @@ blog_name: CSG posts
 blog_description: Blog of the Computational Stylistics Group
 
 # Pagination
-paginate: 8
+paginate: 12
 permalink: /blog/:title/
 paginate_path: /blog/page:num/
 
@@ -67,7 +67,7 @@ collections:
     output: true
     permalink: /people/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

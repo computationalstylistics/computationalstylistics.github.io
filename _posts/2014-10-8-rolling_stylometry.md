@@ -3,7 +3,7 @@ layout: post
 title:  Testing rolling stylometry
 author: Maciej Eder
 date:   2014-10-8 16:40:16
-description: Testing rolling stylometry
+#description: Testing rolling stylometry
 ---
 
 

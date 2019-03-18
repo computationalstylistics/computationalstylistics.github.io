@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /publications/
 title: Publications
+permalink: /publications/
 description: Publications by the Group members. Sometimes not as up-to-date as we would like, but we’re getting there.
 ---
 

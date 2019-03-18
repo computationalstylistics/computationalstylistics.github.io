@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /resources/
 title: Resources
+permalink: /resources/
 description: Materials prepared by the Group. (More to be added soon...).
 ---
 
@@ -11,10 +11,12 @@ description: Materials prepared by the Group. (More to be added soon...).
 
 The following selection of links is but a tip of an iceberg when it comes to the corpora (text collections) suitable for text analysis. The corpora listed below, however, are compiled by the members of CSG, and checked for compatibility with commonly known stylometric software. 
 
-* [A Small Collection of British Fiction](https://github.com/computationalstylistics/A_Small_Collection_of_British_Fiction)  
-* [100 Polish Novels](https://github.com/computationalstylistics/100_polish_novels)  
-* [100 English Novels](https://github.com/computationalstylistics/100_english_novels)  
-* [68 German Novels](https://github.com/computationalstylistics/68_german_novels)  
+* [A Small Collection of British Fiction](https://github.com/computationalstylistics/A_Small_Collection_of_British_Fiction)
+* [100 Polish Novels](https://github.com/computationalstylistics/100_polish_novels)
+* [100 English Novels](https://github.com/computationalstylistics/100_english_novels)
+* [68 German Novels](https://github.com/computationalstylistics/68_german_novels)
+* [100 Russian Novels](https://github.com/JoannaBy/RussianNovels)
+* [Latin New Testament](https://github.com/computationalstylistics/NT_Vulgate)
 * [_Roman de la Rose_](https://github.com/computationalstylistics/RdlR_for_rolling_classify), to play with the [Rolling Classify](https://computationalstylistics.github.io/projects/rolling-stylometry/) method
 
 
@@ -43,9 +45,11 @@ A list of relevant publications by the CSG members can be found on this website,
 
 ## Learn with us
 
-The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig.  
+The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig.
 Below we will aim to regularly add updates on upcoming events.
+
 ### 2019 major workshops 
+
 28 Feb - 1 Mar *Style / Content – Literary Modeling* in Stockholm, Sweden. Taught by Jan Rybicki.  
 3-5 May [Stylometry at DHI Beirut](https://dhibeirut.wordpress.com/) in Beirut, Lebanon. Taught by Jan Rybicki.  
 10-14 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.  

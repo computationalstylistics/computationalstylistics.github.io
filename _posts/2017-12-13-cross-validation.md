@@ -3,7 +3,7 @@ layout: post
 title: Cross-validation using the function classify()
 author: Maciej Eder
 date:   2017-12-13
-description: Cross-validation using the function `classify()`
+#description: Cross-validation using the function `classify()`
 ---
 
 

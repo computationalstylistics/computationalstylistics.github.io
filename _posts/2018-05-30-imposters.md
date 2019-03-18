@@ -3,7 +3,7 @@ layout: post
 title:  Authorship verification with the package ‘stylo’
 author: Maciej Eder
 date:   2018-05-30 16:40:16
-description: Authorship verification with the package ‘stylo’
+#description: Authorship verification with the package ‘stylo’
 ---
 
 

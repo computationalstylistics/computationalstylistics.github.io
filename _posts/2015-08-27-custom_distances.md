@@ -3,7 +3,7 @@ layout: post
 title: Custom distance measures
 author: Maciej Eder
 date:   2015-08-27 16:40:16
-description: Custom distance measures
+#description: Custom distance measures
 ---
 
 
