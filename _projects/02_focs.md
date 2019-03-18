@@ -15,7 +15,7 @@ The project will involve a team of 5-6 people, but right now there’s only two 
 * Maciej Eder (PI)
 * Joanna Byszuk (PhD candidate)
 
-
+However, [we’re hiring](https://computationalstylistics.github.io/blog/focs_postdoc1/)!
 
 The assumed impact of the project is:
 
