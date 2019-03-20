@@ -54,7 +54,7 @@ Candidates are encouraged to contact prof. Maciej Eder via personal or CSG email
 * a CV (including publication list), 
 * a short description of your past research and your interest in the project,
 * contact details of two referees (e-mail address and phone numbers, please don’t send recommendation letters at this point),
-* scan of a signed copy of [the information on the processing of personal data in the recruitment process]().
+* scan of a signed copy of [the information on the processing of personal data in the recruitment process](https://ijp.pan.pl/wp-content/uploads/2019/03/IJPPAN_Recruitment_RODO_EN.pdf).
   
 In case of any questions please contact us via CSG email (csg@stylometry.org).
 
