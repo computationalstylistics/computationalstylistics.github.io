@@ -38,3 +38,13 @@ In the second task we cooperated with two great colleagues, Jeremi K. Ochab from
 We are very happy to share that papers covering results of these studies were accepted as long paper presentations for the [DH2019 conference](https://dh2019.adho.org/)! Look for our talks:  
 * "Feature Selection in Authorship Attribution: Ordering the Wordlist" by Maciej Eder and Joanna Byszuk.
 * "Identifying Similarities in Text Analysis: Hierarchical Clustering (Linkage) versus Network Clustering (Community Detection)" by Jeremi K. Ochab, Joanna Byszuk, Steffen Pielström and Maciej Eder.
+  
+Our other contributions to DH 2019 are:
+* "Challenging Stylometry: The Authorship of the Baroque Play La Segunda Celestina" by Laura Hernandez Lorenzo and Joanna Byszuk.
+* "How To Detect Coup d’État 800 Years Later" by Jan Škvrňák, Michael Škvrňák, and Jeremi K. Ochab.
+* "The European Literary Text Collection (ELTeC)" by Caroline Odebrecht, Lou Burnard, Borja Navarro Colorado, Maciej Eder and Christof Schöch.
+  
+And to other upcoming conferences:  
+* "Attribution of Authorship for Medieval Persian Quasidas with Stylometry" by Joanna Byszuk and Alexey Khismatulin (Institute of Oriental Manuscripts, Russian Academy of Sciences), #Right2Left Workshop, 8 VI 2019, Victoria BC.
+* "Stylometry of literary papyri" Jeremi K. Ochab, Holger Essler, talk at [DATeCH](http://datech.digitisation.eu/)
+* "Stylometry of literary and documentary papyri" Jeremi K. Ochab, Holger Essler, poster at [International Congress on Papyrology](http://www.papycongress2019.org)
