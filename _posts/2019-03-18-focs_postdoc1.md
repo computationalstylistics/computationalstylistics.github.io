@@ -50,11 +50,13 @@ The exact tasks will be determined upon considering interest of the successful c
 
 ## How to apply
 
-Candidates are encouraged to contact prof. Maciej Eder via personal or CSG email (csg@stylometry.org) with:
+Candidates are encouraged to contact prof. Maciej Eder via personal (maciej.eder@ijp.pan.pl) and institution email (ijp@ijp.pan.pl) with:
 * a CV (including publication list), 
 * a short description of your past research and your interest in the project,
 * contact details of two referees (e-mail address and phone numbers, please don’t send recommendation letters at this point),
-* scan of a signed copy of [the information on the processing of personal data in the recruitment process]().
+* scan of a signed copy of [the information on the processing of personal data in the recruitment process](https://ijp.pan.pl/wp-content/uploads/2019/03/IJPPAN_Recruitment_RODO_EN.pdf).
+
+The deadline for applications is 30th April 2019, selected candidates will then be contacted for a Skype interview in May. We expect to close recruitation process by the end of May.
   
 In case of any questions please contact us via CSG email (csg@stylometry.org).
 
