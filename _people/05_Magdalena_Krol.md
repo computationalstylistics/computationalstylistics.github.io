@@ -11,4 +11,4 @@ social: false
 
 
 
-A PhD candidate and a full-time researcher at the Institute of Polish Language (Polish Academy of Sciences). Her interests include formal semantics, logic and the philosophy of language. Her research concerns language change over time, especially grammar. The person behind the <a href="http://scriptores.pl/dhlunch/en/">Digital Humanities Lunch</a> series.
+A PhD candidate and a full-time researcher at the Institute of Polish Language (Polish Academy of Sciences). Her interests include formal semantics, logic and the philosophy of language. Her research concerns language change over time, especially grammar. The person behind the <a href="http://scriptores.pl/dhlunch/en/" target="_blank">Digital Humanities Lunch</a> series.
