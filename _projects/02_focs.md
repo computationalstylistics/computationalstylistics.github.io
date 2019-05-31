@@ -1,9 +1,9 @@
 ﻿---
 layout: page
 title: FoCS
+img: /assets/img/fox.jpg
 description: Foundations of Computational Stylistics
 permalink: /projects/focs/
-img: /assets/img/fox.jpg
 ---
 
 
@@ -15,7 +15,7 @@ The project will involve a team of 5-6 people, but right now there’s only two 
 * Maciej Eder (PI)
 * Joanna Byszuk (PhD candidate)
 
-However, [we’re hiring](https://computationalstylistics.github.io/blog/focs_postdoc1/)!
+However, [we’re hiring a post-doc](https://computationalstylistics.github.io/blog/focs_postdoc1/) and a [PhD student](https://ijp.pan.pl/konkurs-dok-metod/)!
 
 The assumed impact of the project is:
 
