@@ -1,4 +1,4 @@
-﻿---
+---
 layout: page
 title: FoCS
 img: /assets/img/fox.jpg
