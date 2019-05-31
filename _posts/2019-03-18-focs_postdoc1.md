@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Postdoc Position"
 date: 2019-03-18 11:54:00
@@ -11,7 +11,7 @@ description: "Postdoc Position: Large-Scale Text Analysis and Methodological Fou
 
 We offer a 4-year research position (including a 1-year probation period) for a post-doctoral researcher in the project aimed at developing, evaluating and applying innovative methodology of comparing large texts collections. The project is located in one of the world's most prolific stylometry centers, Kraków, led by professor Maciej Eder. 
 
-Our lab, [Computational Stylistics Group](https://computationalstylistics.github.io/) at the Institute of Polish Language of Polish Academy of Sciences is based in Kraków, Poland, and gathers researchers from various disciplines, from literary studies to linguistics, to computer science and physics. Our lab is a member of the Federation of Stylometry Labs (FoSL), and closely collaborates with the COST Action “Distant Reading”, as well as the Digital Literary Stylistics Special Interest Group (SIG) affiliated with the Alliance of Digital Humanities Organizations. Located in the heart of Europe, we benefit from fast and cheap connections to most of its cities while enjoying peaceful and inspiring atmosphere of a historical center.
+Our lab, [Computational Stylistics Group](https://computationalstylistics.github.io/) at the Institute of Polish Language of Polish Academy of Sciences is based in Kraków, Poland, and gathers researchers from various disciplines, from literary studies to linguistics, to computer science and physics. Our lab is a member of the Federation of Stylometry Labs (FoSL), and closely collaborates with the COST Action "Distant Reading", as well as the Digital Literary Stylistics Special Interest Group (SIG) affiliated with the Alliance of Digital Humanities Organizations. Located in the heart of Europe, we benefit from fast and cheap connections to most of its cities while enjoying peaceful and inspiring atmosphere of a historical center.
 
 Project website: [https://computationalstylistics.github.io/projects/focs/](https://computationalstylistics.github.io/projects/focs/)
 
@@ -57,6 +57,7 @@ Candidates are encouraged to contact prof. Maciej Eder via personal (maciej.eder
 * scan of a signed copy of [the information on the processing of personal data in the recruitment process](https://ijp.pan.pl/wp-content/uploads/2019/03/IJPPAN_Recruitment_RODO_EN.pdf).
 
 The deadline for applications is 30th April 2019, selected candidates will then be contacted for a Skype interview in May. We expect to close recruitation process by the end of May.
-  
+ 
 In case of any questions please contact us via CSG email (csg@stylometry.org).
 
+The results are available at the website of our Institute, [here](https://ijp.pan.pl/konkurs-na-stanowisko-post-doc-w-pracowni-metodologicznej/).
