@@ -30,6 +30,12 @@ Flemish side:
 Polish side:  
 * Rafał L. Górski - associate professor in linguistics, Head of Methodology Department, Institute of Polish Language PAS
 * Michał Woźniak - postdoctoral researcher in linguistics, Institute of Polish Language PAS
-* Magdalena Król - research associate, Institute of Polish Language PAS
 * Joanna Byszuk - PhD candidate, Institute of Polish Language PAS
- 
+* Albert Leśniak - PhD candidate, Institute of Polish Language PAS
+* Wojciech Łukasik - PhD candidate, Institute of Polish Language PAS
+
+## Project development 
+This section will offer updates on activities within the project.
+
+### August 2019 - Wouter Haverals visits Institute of Polish Language PAS.
+Early August, 5-16th, saw the first study visit of our project - Wouter Haverals from University of Antwerp spent two weeks with Kraków team, working on his project examining possibilities of using a text's rhythmical pattern as a feature for author attribution. Specific case in interest were works assumed to be authored by Henry of Brussels, and more details of the project can be found in [Wouter's repository](https://github.com/WHaverals/stylorhythm). The visit was inspiring and productive to all involved, and crucial to tightening relationships between both project teams.
