@@ -10,12 +10,13 @@ permalink: /projects/focs/
 
 This is a 5-year research project founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (SONATA-BIS 2017/26/E/HS2/01019), carried out at the Institute of Polish Language (Polish Academy of Sciences). It is aimed to develop, evaluate and apply an innovative methodology of comparing large texts collections, in order to identify hidden patterns and similarities invisible to the naked eye. The official title of the project reads: "Wielkoskalowa analiza tekstu i metodologiczne podstawy stylistyki komputerowej", which can be translated into English as: "Large-Scale Text Analysis and Methodological Foundations of Computational Stylistics". Since the title is somewhat long, we dropped its first part; hence the handy version "Foundations of Computational Stylistics" (FoCS).
 
-The project will involve a team of 5-6 people, but right now there’s only two of us:
+The project will involve a team of 5-6 people, but we are not there yet. This is us:
 
 * Maciej Eder (PI)
 * Joanna Byszuk (PhD candidate)
+* Artjoms Šela (post-doc)
+* Albert Leśniak (PhD candidate)
 
-However, [we’re hiring a post-doc](https://computationalstylistics.github.io/blog/focs_postdoc1/) and a [PhD student](https://ijp.pan.pl/konkurs-dok-metod/)!
 
 The assumed impact of the project is:
 
@@ -48,3 +49,4 @@ And to other upcoming conferences:
 * "Attribution of Authorship for Medieval Persian Quasidas with Stylometry" by Joanna Byszuk and Alexey Khismatulin (Institute of Oriental Manuscripts, Russian Academy of Sciences), #Right2Left Workshop, 8 VI 2019, Victoria BC.
 * "Stylometry of literary papyri" Jeremi K. Ochab, Holger Essler (Institut für Klassische Philologie, Universität Würzburg), talk at [DATeCH](http://datech.digitisation.eu/)
 * "Stylometry of literary and documentary papyri" Jeremi K. Ochab, Holger Essler (Institut für Klassische Philologie, Universität Würzburg), poster at [International Congress on Papyrology](http://www.papycongress2019.org)
+

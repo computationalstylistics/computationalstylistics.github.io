@@ -81,9 +81,17 @@ Despite the general above picture, it is individual trajectories of the high-imp
 
 
 
-## Papers
+## Publications
+
+**Górski R. L., Król, M. and Eder, M.** (2019). _Zmiana w języku. Studia kwantytatywno-korpusowe_. Kraków: IJP PAN.
+
+**Król, M., Derwojedowa, M., Górski, R. L., Gruszczyński, W., Opaliński, K., Potoniec, P., Woliński, M. Kieraś, W. and Eder, M.** (2019). Narodowy Korpus Diachroniczny Polszczyzny. Projekt. *Język Polski*, **99**: 92–101.
+
+**Górski, R. L.** (2018). Metody korpusowe i kwantytatywne w językoznawstwie historycznym. In Stalmaszczyk, P. (ed.) _Metodologie językoznawstwa. Od diachronii do panchronii_. Łódź: Wydawnictwo UŁ, pp. 65–81.
 
 **Eder, M.** (2018). Words that have made history, or modeling the dynamics of linguistic changes. _Digital Humanities 2018: Book of Abstracts_. Mexico City, pp. 362–65, [https://dh2018.adho.org/en/abstracts/](https://dh2018.adho.org/en/abstracts/).
+
+**Górski, R. L.** (2017). Prepositions, frequency and the periodization of Polish. In Stluka, M. and Škrabal, M. (eds.) _Liſka a czban : sborník příspěvků k 70. narozeninám prof. Karla Kučery_. Praha: Nakladatelství Lidové, pp. 82–89.
 
 **Eder, M. and Górski, R. L.** (2016). Historical linguistics’ new toys, or stylometry applied to the study of language change. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 182–84 [http://dh2016.adho.org/abstracts/398](http://dh2016.adho.org/abstracts/398).
 
