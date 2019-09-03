@@ -10,7 +10,7 @@ img: /assets/img/coha_features_trimmed.png
 
 
 
-This is 3-year project, founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (OPUS 2013/11/B/HS2/02795), entitled “Przebiegi zmian gramatycznych i leksykalnych w historii języka polskiego – metody korpusowe i kwantytatywne w językoznawstwie diachronicznym” (“Course of grammatical and lexical changes in the history of the Polish language – corpus-driven quantitative methods in diachronic linguistics”), aimed at an investigation of grammatical and lexical changes, focusing on trends and dynamics of changes in the middle and modern Polish period. What makes this approach innovative is an extensive use of methods developed within the fields of quantitative and corpus linguistics. A purpose-built diachronic corpus of Polish (ca. 25 mln word tokens) has been analysed in a statistical manner in order to observe various changes in the course of development of the Polish language.
+This is 3-year project, founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (OPUS 2013/11/B/HS2/02795), entitled “Przebiegi zmian gramatycznych i leksykalnych w historii języka polskiego – metody korpusowe i kwantytatywne w językoznawstwie diachronicznym” (“Course of grammatical and lexical changes in the history of the Polish language – corpus-driven quantitative methods in diachronic linguistics”), aimed at an investigation of grammatical and lexical changes, focusing on trends and dynamics of changes in the middle and modern Polish period. What makes this approach innovative is an extensive use of methods developed within the fields of quantitative and corpus linguistics. A purpose-built diachronic corpus of Polish (ca. 12 mln word tokens covering the years 1380–1850) has been analysed in a statistical manner in order to observe various changes in the course of development of the Polish language.
 
 The second objective (considered even more important by the authors) is to create statistical tools which will facilitate description of the course of linguistic changes, their dynamics, and particularly their parallel coocurrences. We aim at developing a methodology which will combine a diachronic large-scale analysis with an automatic identification of the specific grammatical and lexical features responsible for a language change.
 
@@ -83,7 +83,7 @@ Despite the general above picture, it is individual trajectories of the high-imp
 
 ## Publications
 
-**Górski R. L., Król, M. and Eder, M.** (2019). _Zmiana w języku. Studia kwantytatywno-korpusowe_. Kraków: IJP PAN.
+**Górski R. L., Król, M. and Eder, M.** (2019). _Zmiana w języku. Studia kwantytatywno-korpusowe_. Kraków: IJP PAN. (Cf. the book’s [repository](https://github.com/computationalstylistics/diachronia)).
 
 **Król, M., Derwojedowa, M., Górski, R. L., Gruszczyński, W., Opaliński, K., Potoniec, P., Woliński, M. Kieraś, W. and Eder, M.** (2019). Narodowy Korpus Diachroniczny Polszczyzny. Projekt. *Język Polski*, **99**: 92–101.
 
