@@ -10,7 +10,7 @@ If you have detailed questions, do contact us at [csg email](csg@stylometry.org)
 * December - Deep Learning for Linguistic Analysis - 3rd, 17th
 
 ### 14th October - Introduction to Topic Modeling
-The seminar created and conducted by Maciej Eder.
-[Lecture slides] (https://computationalstylistics.github.io/presentations/topic_modeling_intro/intro_to_topic_models.html)  
+The seminar created and conducted by Maciej Eder.  
+[Lecture slides](https://computationalstylistics.github.io/presentations/topic_modeling_intro/intro_to_topic_models.html)  
 And [practical introduction with Dariah Topics Explorer](https://dariah-de.github.io/TopicsExplorer/)  
 [More materials](https://github.com/computationalstylistics/topic-modeling-workshop#introduction)  
