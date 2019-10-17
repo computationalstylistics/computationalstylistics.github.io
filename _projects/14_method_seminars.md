@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Method seminars
-description: in computational stylistics
+description: also beyond computational stylistics
 permalink: /projects/method_seminars/
 img: /assets/img/method1.png
 ---
