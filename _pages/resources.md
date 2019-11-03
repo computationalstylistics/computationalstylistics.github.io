@@ -48,6 +48,10 @@ A list of relevant publications by the CSG members can be found on this website,
 The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig.
 Below we will aim to regularly add updates on upcoming events.
 
+### 2020 major workshops
+8-12 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.  
+15-19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.  
+
 ### 2019 major workshops 
 
 28 Feb - 1 Mar *Style / Content – Literary Modeling* in Stockholm, Sweden. Taught by Jan Rybicki.  
