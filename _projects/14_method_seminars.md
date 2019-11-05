@@ -27,10 +27,17 @@ And [practical introduction with Dariah Topics Explorer](https://dariah-de.githu
 ### 22nd October - Introduction to Topic Modeling
 The seminar created and conducted by Albert Leśniak and Wojciech Łukasik.  
 [Tutorial on topic modeling for Polish using Spacy PL model](https://github.com/alblesniak/topic_modeling)  
-  
+ 
 #### Necessary installations:
 * [Anaconda](https://docs.anaconda.com/anaconda/install/) (or simply Python + Jupyter Notebooks)
 * [Spacy](https://spacy.io/usage)
 * [Gensim](https://pypi.org/project/gensim/)
 * [pyLDAvis for visualisation](https://pypi.org/project/pyLDAvis/)
 * [Spacy models for Polish](http://spacypl.sigmoidal.io/#components)
+
+### 5th November - Continuation of Topic Modeling
+#### Necessary installations
+1. BeautifulSoup (`pip install bs4`)
+2. lxml (`pip install lxml`)
+3. tqdm (`pip install tqdm`)
+4. corpus (`git clone https://github.com/computationalstylistics/100_polish_novels_POS.git`)
