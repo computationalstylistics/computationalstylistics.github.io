@@ -39,3 +39,8 @@ This section will offer updates on activities within the project.
 
 ### August 2019 - Wouter Haverals visits Institute of Polish Language PAS.
 Early August, 5-16th, saw the first study visit of our project - Wouter Haverals from University of Antwerp spent two weeks with Kraków team, working on his project examining possibilities of using a text's rhythmical pattern as a feature for author attribution. Specific case in interest were works assumed to be authored by Henry of Brussels, and more details of the project can be found in [Wouter's repository](https://github.com/WHaverals/stylorhythm). The visit was inspiring and productive to all involved, and crucial to tightening relationships between both project teams.
+
+### November 2019 - Joanna Byszuk visits University of Antwerp, first project workshop.
+In the beginning of November, 4-15th, Joanna Byszuk from Institute of Polish Language PAS spent two weeks with Antwerp team, working on her project concerning multimodal-audiovisual stylometry, and engaging with the project on audio classification solutions developed in CLiPS.  
+Joanna's visit was followed by a workshop involving both teams, also held in Antwerp, between 25th and 28th of November. Its goals were to build teams dedicated to specific subtasks of the project and launching them. We have divided into two (overlapping) groups working on solutions related to multilingual direct speech recognition (as part of our support to the COST Action [Distant Reading](https://www.distant-reading.net/) in which some of us participate) and cross-domain authorship attribution.  
+As work continues, we hope to present results of all these efforts to the world fairly soon.
