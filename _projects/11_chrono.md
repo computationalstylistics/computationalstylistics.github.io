@@ -83,7 +83,7 @@ Despite the general above picture, it is individual trajectories of the high-imp
 
 ## Publications
 
-**Górski R. L., Król, M. and Eder, M.** (2019). _Zmiana w języku. Studia kwantytatywno-korpusowe_. Kraków: IJP PAN. (Cf. the book’s [repository](https://github.com/computationalstylistics/diachronia)).
+**Górski R. L., Król, M. and Eder, M.** (2019). [_Zmiana w języku. Studia kwantytatywno-korpusowe_](https://github.com/computationalstylistics/diachronia/raw/master/Zmiana_w_jezyku_2019-10-15.pdf). Kraków: IJP PAN. (Cf. the book’s [repository](https://github.com/computationalstylistics/diachronia)).
 
 **Król, M., Derwojedowa, M., Górski, R. L., Gruszczyński, W., Opaliński, K., Potoniec, P., Woliński, M. Kieraś, W. and Eder, M.** (2019). Narodowy Korpus Diachroniczny Polszczyzny. Projekt. *Język Polski*, **99**: 92–101.
 
