@@ -10,4 +10,5 @@ social: false
 ---
 
 
-Assistant Professor at the Institute of Physics, Jagiellonian University, Kraków, Poland. He graduated in theoretical physics and in English studies (specialised in translation) and is a novice translator. He conducts research on methods of data analysis, neuroscience, as well as stylometry and quantitative linguistics. Currently, his main interests are interdisciplinary applications of mathematical tools (analysis of complex networks, analysis of time series, random matrix theory) and machine learning.
+Assistant Professor at the Institute of Physics, Jagiellonian University, Kraków, Poland. He graduated in theoretical physics and in English studies (specialised in translation) and is a novice translator. He conducts research on methods of data analysis, neuroscience, as well as stylometry and quantitative linguistics. Currently, his main interests are interdisciplinary applications of mathematical tools (analysis of complex networks, analysis of time series, random matrix theory) and machine learning.  
+[Personal website](http://cs.if.uj.edu.pl/jeremi/)
