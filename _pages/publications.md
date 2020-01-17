@@ -13,6 +13,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
 
 **Choiński, M., Eder, M. and Rybicki, J.** (2019). Harper Lee and other people: a stylometric diagnosis. _Mississippi Quarterly_, **70**(3), forthcoming.
+  
+**Ochab, J.K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930).  
 
 **Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
 
