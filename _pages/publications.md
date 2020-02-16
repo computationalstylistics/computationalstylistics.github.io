@@ -23,7 +23,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Ochab, J. K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930).  
 
-**Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
+**Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_, **63**(2): 141–158.
 
 **Franzini, G., Kestemont, M., Rotari, G., Jander, M., Ochab, J. K., Franzini, E., Byszuk, J. and Rybicki, J.** (2018). Attributing authorship in the noisy digitized correspondence of Jacob and Wilhelm Grimm. _Frontiers in Digital Humanities_, **5**(4), [doi:10.3389/fdigh.2018.00004](http://doi.org/10.3389/fdigh.2018.00004).
 
@@ -67,6 +67,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Waldenfels, R. von, and Eder, M.** (2016). A stylometric approach to the study of differences between Croatian and Serbian, or: is the Hobbit in Serbian more Hobbit or more Serbian? _Russian Linguistics_, **40**(1): 11-31, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/waldenfels-eder_croatian_vs_serbian.pdf), and [full version (open-access)](http://rdcu.be/oebb)].
 
+**Rybicki, J.** (2016). Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies. _Digital Scholarship in the Humanities_, **31**(4): 746–61 [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Difference%20preprint.pdf)].
+
 **Eder, M.** (2015d). In search of the author of “Chronica Polonorum” ascribed to Gallus Anonymous: A stylometric reconnaissance. _Acta Poloniae Historica_, **112**: 5-23, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Author_of_Chronica_Polonorum.pdf)].
 
 **Eder, M.** (2015c). Taking stylometry to the limits: benchmark study on 5,281 texts from “Patrologia Latina”. In: _Digital Humanities 2015: Book of Abstracts_, University of Western Sydney, [http://dh2015.org/abstracts](http://dh2015.org/abstracts).
@@ -74,8 +76,6 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 **Eder, M.** (2015b). Through the magnifying glass: rolling stylometry for collaborative authorship. In: _Digital Humanities 2015: Book of Abstracts_, University of Western Sydney, [http://dh2015.org/abstracts](http://dh2015.org/abstracts), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/poster_DH2015.pdf)].
 
 **Eder, M.** (2015a). [Does size matter? Authorship attribution, small samples, big problem](https://academic.oup.com/dsh/article/30/2/167/390738). _Digital Scholarship in the Humanities_, **30**(2): 167-182, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Does_size_matter.pdf)].
-
-**Rybicki, J.** (2015). Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies. _Digital Scholarship in the Humanities_, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Difference%20preprint.pdf)].
 
 **Pawłowski, A. and Eder, M.** (2015). Sequential structures in Dalimil's Chronicle: quantitative analysis of style variation. In: J. Mačutek and G. Mikros (eds.), _Sequences in Language and Text_. Walter de Gruyter, pp. 147-70.
 

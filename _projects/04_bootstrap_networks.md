@@ -111,11 +111,11 @@ The method has been quite extensively applied by the members of the Computationa
 
 **Eder, M.** (2013). [Computational stylistics and Biblical translation: how reliable can a dendrogram be?](http://www.wsf.edu.pl/upload_module/wysiwyg/Wydawnictwo%20WSF/The%20Translator%20and%20the%20Computer_Piotrowski_Grabowski.pdf) In: T. Piotrowski and Ł. Grabowski (eds.) _The translator and the computer_. Wrocław: WSF Press, pp. 155–170, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Eder_Reliability_issues_11122012.pdf)].
 
-**Eder, M.** (2014a). Stylometry, network analysis and Latin literature. In: _Digital Humanities 2014: Book of Abstracts_, EPFL-UNIL, Lausanne, pp. 457-58, [http://dharchive.org/paper/DH2014/Poster-324.xml](http://dharchive.org/paper/DH2014/Poster-324.xml), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/m-eder_poster_DH2014.pdf)].
+**Eder, M.** (2014a). Stylometry, network analysis and Latin literature. In: _Digital Humanities 2014: Book of Abstracts_, EPFL-UNIL, Lausanne, pp. 457–58, [http://dharchive.org/paper/DH2014/Poster-324.xml](http://dharchive.org/paper/DH2014/Poster-324.xml), [[the poster itself](https://github.com/computationalstylistics/preprints/blob/master/m-eder_poster_DH2014.pdf)].
 
-**Eder, M.** (2014b). Metody ścisłe w literaturoznawstwie i pułapki pozornego obiektywizmu - przykład stylometrii. _Teksty Drugie_, **2**: 90-105.
+**Eder, M.** (2014b). Metody ścisłe w literaturoznawstwie i pułapki pozornego obiektywizmu - przykład stylometrii. _Teksty Drugie_, **2**: 90–105.
 
-**Eder, M.** (2017). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, **32**(1): 50-64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
+**Eder, M.** (2017). [Visualization in stylometry: cluster analysis using networks](http://dsh.oxfordjournals.org/content/early/2015/12/02/llc.fqv061). _Digital Scholarship in the Humanities_, **32**(1): 50–64, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/m-eder_visualization_in_stylometry.pdf)].
 
 **Eder, M.** (2016). A bird’s eye view of early modern Latin: distant reading, network analysis and style variation. In: M. Ullyot, D. Jakacki, and L. Estill (eds.), _Early Modern Studies and the Digital Turn_. Toronto and Tempe: Iter and ACMRS, pp. 63-89 (New Technologies in Medieval and Renaissance Studies, vol. 6), [http://ems.itercommunity.org](http://ems.itercommunity.org), [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Early_modern_latin_PRE-PRINT.pdf)].
 
@@ -123,8 +123,8 @@ The method has been quite extensively applied by the members of the Computationa
 
 **Rudman, J.** (2003). Cherry picking in nontraditional authorship attribution studies. _Chance_, **16**: 26–32.
 
-**Rybicki, J.** (2015). Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies. _Digital Scholarship in the Humanities_, [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Difference%20preprint.pdf)].
+**Rybicki, J.** (2016). Vive la différence: Tracing the (authorial) gender signal by multivariate analysis of word frequencies. _Digital Scholarship in the Humanities_, **31**(4): 746–61 [[pre-print](https://github.com/computationalstylistics/preprints/blob/master/Rybicki%20Difference%20preprint.pdf)].
 
-**Rybicki, J., Eder, M. and Hoover, D.** (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), _Doing Digital Humanities_, London and New York: Routledge, pp. 123-144.
+**Rybicki, J., Eder, M. and Hoover, D.** (2016). Computational stylistics and text analysis. In: C. Crompton, R. L. Lane and R. Siemens (eds.), _Doing Digital Humanities_, London and New York: Routledge, pp. 123–144.
 
 

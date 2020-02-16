@@ -82,7 +82,7 @@ The project was featured in [an article](http://scienceinpoland.pap.pl/en/news/n
 
 **Choiński M. and Rybicki J.** (2017). Is God really angry at sinners? A stylometric study of Jonahan Edwards’s representations of God. In Bezzant, R. (ed.) _The Global Edwards_. Eugene, OR: Wipf & Stock, pp. 349–59.
 
-**Choiński M. and Rybicki J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
+**Choiński M. and Rybicki J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_, **63**(2): 141–158.
 
 
 
