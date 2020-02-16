@@ -9,12 +9,19 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 
 
+**Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, forthcoming.
 
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
 
-**Choiński, M., Eder, M. and Rybicki, J.** (2019). Harper Lee and other people: a stylometric diagnosis. _Mississippi Quarterly_, **70**(3), forthcoming.
-  
-**Ochab, J.K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930).  
+**Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
+
+**Górski, R. L., Król, M. and Eder, M.** (2019). [_Zmiana w języku. Studia kwantytatywno-korpusowe_](http://maciejeder.org/projects/language-change/). Kraków: IJP PAN.
+
+**Eder, M. and Byszuk, J.** (2019). Feature selection in authorship attribution: ordering the wordlist. _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0930.html](https://dev.clariah.nl/files/dh2019/boa/0930.html).
+
+**Ochab, J. K., Byszuk, J., Pielström, S. and Eder, M.** (2019). Identifying similarities in text analysis: hierarchical clustering (linkage) versus network clustering (community detection). _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0981.html](https://dev.clariah.nl/files/dh2019/boa/0981.html).
+
+**Ochab, J. K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930).  
 
 **Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_ (forthcoming).
 
