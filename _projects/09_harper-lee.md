@@ -30,7 +30,7 @@ A post by Ellen Gamerman published in _The Wall Street Journal_ on July 16, 2015
 
 ## References
 
-**Choiński, M., Eder, M. and Rybicki, J.** (2018). Harper Lee and other people: a stylometric diagnosis. _Mississippi Quarterly_, forthcoming.
+**Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
 
 **Eder, M. and Rybicki, J.** (2016). Go set a watchman while we kill the mockingbird in cold blood, with cats and other people. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 184–86, [http://dh2016.adho.org/abstracts/70]([http://dh2016.adho.org/abstracts/70]).
 
