@@ -44,3 +44,8 @@ Early August, 5-16th, saw the first study visit of our project - Wouter Haverals
 In the beginning of November, 4-15th, Joanna Byszuk from Institute of Polish Language PAS spent two weeks with Antwerp team, working on her project concerning multimodal-audiovisual stylometry, and engaging with the project on audio classification solutions developed in CLiPS.  
 Joanna's visit was followed by a workshop involving both teams, also held in Antwerp, between 25th and 28th of November. Its goals were to build teams dedicated to specific subtasks of the project and launching them. We have divided into two (overlapping) groups working on solutions related to multilingual direct speech recognition (as part of our support to the COST Action [Distant Reading](https://www.distant-reading.net/) in which some of us participate) and cross-domain authorship attribution.  
 As work continues, we hope to present results of all these efforts to the world fairly soon.
+
+### March 2020 - Direct Speech project update
+While Coronavirus outbreak delayed our next meeting, we have successfully continued developing our Direct Speech project on the distance. In February, during annual Cost Action meeting we held a workshop detailing early progress. We also got accepted for [LT4HALA workshop at LREC conference](https://circse.github.io/LT4HALA/Program). While the conference will not take place, its proceedings will be published. You can read the paper preprint [here](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf). 
+
+The project is now described in detail on a separate [page](https://computationalstylistics.github.io/projects/direct_speech/).
