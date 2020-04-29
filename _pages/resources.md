@@ -52,8 +52,8 @@ Below we will aim to regularly add updates on upcoming events.
 
 ### 2020 major workshops
 
-~~* 8–12 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.~~ Postponed to 2021.
-~~* 15–19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.~~ Cancelled.
+* ~~8–12 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.~~ Postponed to 2021.
+* ~~15–19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.~~ Cancelled.
 * 28 Jul – 7 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.
 
 ### 2019 major workshops 
