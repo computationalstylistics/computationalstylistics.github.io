@@ -13,6 +13,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
 
+**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). Detecting direct speech in multilingual collection of 19th century novels. In _LREC 2020_. [read here pp. 100-104](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf)
+
 **Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
 
 **Górski, R. L., Król, M. and Eder, M.** (2019). [_Zmiana w języku. Studia kwantytatywno-korpusowe_](http://maciejeder.org/projects/language-change/). Kraków: IJP PAN.

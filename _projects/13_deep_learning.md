@@ -46,6 +46,6 @@ Joanna's visit was followed by a workshop involving both teams, also held in Ant
 As work continues, we hope to present results of all these efforts to the world fairly soon.
 
 ### March 2020 - Direct Speech project update
-While Coronavirus outbreak delayed our next meeting, we have successfully continued developing our Direct Speech project on the distance. In February, during annual Cost Action meeting we held a workshop detailing early progress. We also got accepted for [LT4HALA workshop at LREC conference](https://circse.github.io/LT4HALA/Program). While the conference will not take place, its proceedings will be published. You can read the paper preprint [here](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf). 
+While Coronavirus outbreak delayed our next meeting, we have successfully continued developing our Direct Speech project on the distance. In February, during annual Cost Action meeting we held a workshop detailing early progress. We also got accepted for [LT4HALA workshop at LREC conference](https://circse.github.io/LT4HALA/Program). While the conference will not take place, its proceedings will be published. You can read the paper preprint [here](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf) or final version [pp. 100-104 here](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). 
 
 The project is now described in detail on a separate [page](https://computationalstylistics.github.io/projects/direct_speech/).
