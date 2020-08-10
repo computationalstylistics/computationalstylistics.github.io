@@ -9,7 +9,8 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 
 
-**Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, forthcoming.
+
+**Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, **54**(4): 1095–1108, [doi:10.1007/s11135-020-00976-w](https://doi.org/10.1007/s11135-020-00976-w).
 
 **Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
 
