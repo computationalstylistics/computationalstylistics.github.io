@@ -9,13 +9,6 @@ img: /assets/img/harper_lee.jpg
 
 
 
-<div class="img_row">
-    <img class="col one left" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/HarperLee_2007Nov05.jpg" alt="" title="Harper Lee at the Presidential Medal of Freedom ceremony on November 5, 2007. Photo by Eric Draper, retrieved from Wikimedia Commons"/>
-</div>
-<div class="col one caption">
-    Harper Lee at the Presidential Medal of Freedom ceremony on November 5, 2007. Photo by Eric Draper, retrieved from Wikimedia Commons.
-</div>
-
 
 In July 2015, the publication of _Go Set a Watchman_ rekindled global interest in Harper Lee. As her only longer publication apart from _To Kill a Mockingbird_, the novel made headlines all over the world and sparked controversy as Alabama police investigated charges of elder abuse toward Lee (eighty-eight years old at the time of publication). Leaving aside the artistic merits of the book, which have been questioned by many, it is fascinating to see how the story surrounding Lee’s writing of the novels and the validation of their authorship received a life of its own. Two years ago, I was given the opportunity to be part of a research team conducting a literary investigation of the authorship of the two books. 
 
@@ -56,7 +49,7 @@ More about the stylometric study of Harper Lee:
 
 **Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
 
-**Eder, M. and Rybicki, J.** (2016). Go set a watchman while we kill the mockingbird in cold blood, with cats and other people. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 184–86, [http://dh2016.adho.org/abstracts/70]([http://dh2016.adho.org/abstracts/70]).
+**Eder, M. and Rybicki, J.** (2016). Go set a watchman while we kill the mockingbird in cold blood, with cats and other people. _Digital Humanities 2016: Conference Abstracts_. Kraków: Jagiellonian University & Pedagogical University, pp. 184–186, [http://dh2016.adho.org/abstracts/70]([http://dh2016.adho.org/abstracts/70]).
 
 
 
