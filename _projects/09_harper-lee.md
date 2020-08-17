@@ -43,7 +43,7 @@ Did Capote indeed help his younger colleague a bit with the very opening section
 
 ---
 
-This text has been adopted from <a href="https://blog.lsupress.org/michal-choinski-talks-about-stylometry/">a blog entry<a> by Michał Choiński written for Louisiana State University Press.
+This text has been adopted from <a href="https://blog.lsupress.org/michal-choinski-talks-about-stylometry/">a blog entry</a> by Michał Choiński written for Louisiana State University Press.
 
 More about the stylometric study of Harper Lee:
 
