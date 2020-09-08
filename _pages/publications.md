@@ -26,7 +26,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Ochab, J. K., Byszuk, J., Pielström, S. and Eder, M.** (2019). Identifying similarities in text analysis: hierarchical clustering (linkage) versus network clustering (community detection). _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0981.html](https://dev.clariah.nl/files/dh2019/boa/0981.html).
 
-**Ochab, J. K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930).  
+**Ochab, J. K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930), [link to the recording](https://youtu.be/B1ZrisxCN1w).  
 
 **Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_, **63**(2): 141–158.
 
