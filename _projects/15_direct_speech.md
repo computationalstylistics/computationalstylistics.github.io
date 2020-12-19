@@ -3,7 +3,7 @@ layout: page
 title: Direct Speech
 description: direct speech detection
 permalink: /projects/direct_speech/
-#img: /assets/img/method1.png
+img: /assets/img/direct_speech.png
 ---
 
 # Direct speech detection using deep learning
