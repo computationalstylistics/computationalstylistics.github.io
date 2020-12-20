@@ -28,15 +28,24 @@ The following selection of links is but a tip of an iceberg when it comes to the
 * for advanced users: a paper in [R Journal](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
 * full documentation at [CRAN](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
 
+
+
 Blog posts on non-obvious functions of `stylo`:
 
 * [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/blog/imposters/)
 * [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/blog/cross-validation/)
 * [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances/)
 * [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry/)
+* [Using ‘Stylo’ with languages other than English](https://computationalstylistics.github.io/blog/stylo_and_languages/)
+
+
 
 ## Video introductions
-* [Intro to package 'stylo'](https://www.youtube.com/watch?v=pWOCfZnitdc)
+
+* [Introduction to the package ‘stylo’: first steps](https://www.youtube.com/watch?v=pWOCfZnitdc&t=6s)
+* [Introduction to the package ‘stylo’: installation](https://www.youtube.com/watch?v=Rv7u4UNZJrA&t=86s)
+* [Introduction to the package ‘stylo’: basic parameters](https://www.youtube.com/watch?v=uPHPhIo2Drc)
+
 
 
 ## Publications

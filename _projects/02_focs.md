@@ -10,12 +10,14 @@ permalink: /projects/focs/
 
 This is a 5-year research project founded by the [National Science Centre](https://ncn.gov.pl/?language=en) (SONATA-BIS 2017/26/E/HS2/01019), carried out at the Institute of Polish Language (Polish Academy of Sciences). It is aimed to develop, evaluate and apply an innovative methodology of comparing large texts collections, in order to identify hidden patterns and similarities invisible to the naked eye. The official title of the project reads: “Wielkoskalowa analiza tekstu i metodologiczne podstawy stylistyki komputerowej”, which can be translated into English as: “Large-Scale Text Analysis and Methodological Foundations of Computational Stylistics”. Since the title is somewhat long, we dropped its first part; hence the handy version “Foundations of Computational Stylistics” (FoCS).
 
-The project will involve a team of 5-6 people, and we are getting there quickly. This is us so far:
+This is the people involved in the project:
 
 * Maciej Eder (PI)
 * Joanna Byszuk (PhD candidate)
-* Artjoms Šela (post-doc)
+* Artjoms Šeļa (post-doc)
+* Michał Woźniak (post-doc)
 * Albert Leśniak (PhD candidate)
+* Jeremi Ochab (a collaborator)
 
 
 The assumed impact of the project is:
@@ -26,6 +28,9 @@ The assumed impact of the project is:
 * potential contribution to any task related to text analysis: spam filtering, sentiment analysis, plagiarism detection, authorship profiling, and information retrieval.
 
 The project is divided into five related subprojects. Subproject A is planned to explore theoretical problems of stylometric tests, including reliability issues and visualization techniques; subproject B is aimed at testing the established methodology on large corpora of literary texts in different languages, genres, themes and authorial genders in the original and in translation; subproject C will examine grammatical features as indicators of stylistic variation; subproject D will discuss style differentiation across different modes, genres, and themes in the field of one particular literary tradition – namely Latin; and, finally, subproject E will explore usefulness of sequential analysis methods to examining local stylistic changes in texts.
+
+
+
 
 ## First stages - 2019 update
 
@@ -55,6 +60,8 @@ And to other conferences we presented at:
 * “Stylometry of literary and documentary papyri” Jeremi K. Ochab, Holger Essler (Institut für Klassische Philologie, Universität Würzburg), poster at [International Congress on Papyrology](http://www.papycongress2019.org).
 
 
+
+
 ## Next stages - 2020 update
 
 In late 2019 our team happily grew thanks to Artjoms and Albert joining in positions of post-doc and PhD candidate researchers. Welcome on board!
@@ -65,3 +72,4 @@ Over the last months we also started a sub-project on [direct speech detection](
 in computational stylistics](https://computationalstylistics.github.io/projects/deep_learning/) collaboration with University of Antwerp. We also got accepted for [LT4HALA workshop at LREC conference](https://circse.github.io/LT4HALA/Program). While the conference will not take place, its proceedings will be published. You can read the paper preprint [here](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf).
 
 Topics undergoing our research at the moment include also new methods of keyword analysis, multimodal stylometry, stylometry in poetry and in Right-to-left scripts, and we are looking forward to presenting some results soon. Last but not least, we are also preparing some resources for long demanded distanced learning of stylometry. A teaser video is already available on our Institute's YouTube channel [here](https://www.youtube.com/watch?v=pWOCfZnitdc). Stay tuned for more!  
+
