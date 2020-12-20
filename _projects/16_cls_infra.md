@@ -3,7 +3,7 @@ layout: page
 title: CLS INFRA
 description: Horizon 2020 infrastructural project
 permalink: /projects/cls_infra/
-img: /assets/img/image4.jpg
+img: /assets/img/image5.jpg
 ---
 
 
