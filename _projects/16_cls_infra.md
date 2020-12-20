@@ -1,16 +1,31 @@
 ---
 layout: page
 title: CLS INFRA
-description: a Horizon 2020 projecxt
+description: Horizon 2020 infrastructural project
 permalink: /projects/cls_infra/
-#img: /assets/img/method1.png
+img: /assets/img/image4.jpg
 ---
+
+
+
+
+## Basic info
+
+* Title: Computational Literary Studies Infrastructure
+* Acronym: CLS INFRA
+* Number: 101004984
+* Call: H2020-INFRAIA-2020-1
+* Estimated Project Cost: €4,999,942.50
+* Start Date: Feb. 1, 2021
+* Duration: 48 months
+
+
 
 
 
 ## Project summary
 
-The Computational Literary Studies Infrastructure (CLS INFRA) project brings together and further develops institutional, national and regional efforts to build shared and sustainable infrastructure – high-quality data, tools and knowledge needed to undertake literary studies in the digital age. The resulting improvement in provision will benefit researchers by bridging gaps between greater and lesser-resourced communities in computational literary studies and beyond. It is a particularly opportune moment for this activity, as projects across the literary genres have defined the requirements for such and infrastructure and organised the user community to be ready to use it.
+The CLS INFRA project brings together and further develops institutional, national and regional efforts to build shared and sustainable infrastructure – high-quality data, tools and knowledge needed to undertake literary studies in the digital age. The resulting improvement in provision will benefit researchers by bridging gaps between greater and lesser-resourced communities in computational literary studies and beyond. It is a particularly opportune moment for this activity, as projects across the literary genres have defined the requirements for such and infrastructure and organised the user community to be ready to use it.
 
 The landscape of literary data is currently very heterogenous, with the long and varied tradition of digital libraries meaning that while many resources are available, they are far from standardised in terms of how they are constructed, accessed and the extent to which they are reusable. CLS INFRA deploys strategies to align these diverse resources with each other, with the tools needed to interrogate them, and with a widened base of users able to create knowledge with and from them. It builds interoperability that integrates common and less common standardisation approaches, workflows to help researchers create, access, share, link, analyse, and interpret heterogenous data across languages and sources; and tools for accessing, harmonising and analysing data, all within a robust suite of stable technical approaches and standards.
 
