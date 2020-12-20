@@ -21,6 +21,5 @@ In our project, we develop a multilingual approach to direct speech detection in
 
 ## Resources
 
-**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). Detecting direct speech in multilingual collection of 19th century novels. In _LREC 2020_. [preprint](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf) [final version pp. 100-104](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf)
-
+**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). [Detecting direct speech in multilingual collection of 19th century novels](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). _Proceedings of the LREC 2020. Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2020)_. Marseille, pp. 100–04.
 

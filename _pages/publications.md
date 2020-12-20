@@ -8,7 +8,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 
 
-
+**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). [Detecting direct speech in multilingual collection of 19th century novels](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). _Proceedings of the LREC 2020. Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2020)_. Marseille, pp. 100–04.
 
 **Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, **54**(4): 1095–1108, [doi:10.1007/s11135-020-00976-w](https://doi.org/10.1007/s11135-020-00976-w).
 
