@@ -24,7 +24,7 @@ The following selection of links is but a tip of an iceberg when it comes to the
 ## Documentation of the package ‘stylo’
 
 * for (real) beginners: a crush introduction in the form of a [slideshow](https://computationalstylistics.github.io/stylo_nutshell/)
-* for (sort of) beginners: a concise [HOWTO](https://sites.google.com/site/computationalstylistics/stylo/stylo_howto.pdf)
+* for (sort of) beginners: a concise [HOWTO](https://github.com/computationalstylistics/stylo_howto/blob/master/stylo_howto.pdf)
 * for advanced users: a paper in [R Journal](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
 * full documentation at [CRAN](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
 
