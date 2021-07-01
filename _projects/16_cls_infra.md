@@ -8,6 +8,12 @@ img: /assets/img/image5.jpg
 
 
 
+<div>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/CLS INFRA_logo.png" alt="" title="Computational Literary Studies Infrastructure"/>
+</div>
+
+
+
 
 ## Basic info
 
