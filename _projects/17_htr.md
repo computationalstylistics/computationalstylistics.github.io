@@ -3,12 +3,12 @@ layout: page
 title: HTR
 description: and lexicographic sources
 permalink: /projects/htr/
-img: /assets/img/antepaenultimus.jpeg
+img: /assets/img/slowniki_karoteka.jpg
 ---
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/atrybut_head.jpeg" alt="" title="A sample index card with its header detected"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/apelowac_head.jpg" alt="" title="A sample index card with its header detected"/>
 </div>
 <div class="col three caption">
     Fig. 1. A sample index card with its header detected: the outlined words will next be subject to recognition in next steps of the procedure. The card comes from the <i>Dictionary of the 17th- and 18th-century Polish</i>.

@@ -3,13 +3,13 @@ layout: page
 title: CLS INFRA
 description: Horizon 2020 infrastructural project
 permalink: /projects/cls_infra/
-img: /assets/img/image5.jpg
+img: /assets/img/CLS_INFRA_Logo_2.png
 ---
 
 
 
 <div>
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/CLS INFRA_logo.png" alt="" title="Computational Literary Studies Infrastructure"/>
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/CLS_INFRA_logo.png" alt="" title="Computational Literary Studies Infrastructure"/>
 </div>
 
 
