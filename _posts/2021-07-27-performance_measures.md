@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Performance measures in supervised classification"
-date: 2021-07-27
+date: 2021-07-27 21:50:56
 author: Maciej Eder
 description: "How to get accuracy, recall, precision and F1 scores using the package `stylo`"
 ---
@@ -595,7 +595,7 @@ legend("bottomright",
 ```
 
 
-<div class="img_row">
+<div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/perrormance_comparison.png" alt="" title="Performance expressed as both the accuracy scores and the F1 scores."/>
 </div>
 <div class="col three caption">
@@ -634,7 +634,7 @@ methods. Each time, we produce a plot. The results are shown in the
 subsequent figures:
 
 
-<div class="img_row">
+<div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/performance_SVM.png" alt="" title="Accuracy and F1 as a function of MFWs tested: SVM used as the classifier."/>
 </div>
 <div class="col three caption">
@@ -642,14 +642,14 @@ subsequent figures:
 </div>
 
 
-<div class="img_row">
+<div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/performance_Delta.png" alt="" title="Accuracy and F1 as a function of MFWs tested: Delta used as the classifier."/>
 </div>
 <div class="col three caption">
     Fig. 3: Accuracy and F1 as a function of MFWs tested: Delta used as the classifier.
 </div>
 
-<div class="img_row">
+<div>
     <img class="col three left" src="{{ site.baseurl }}/assets/img/performance_NSC.png" alt="" title="Accuracy and F1 as a function of MFWs tested: NSC used as the classifier."/>
 </div>
 <div class="col three caption">
