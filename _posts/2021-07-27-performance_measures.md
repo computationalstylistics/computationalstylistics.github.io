@@ -675,4 +675,4 @@ scenario in which the final results are reported in the form of accuracy
 scores and their derivatives, such as recall, precision and the F1
 score. Feel encouraged to re-use the concepts discussed in this post,
 together with the code snippets, in your future experiments. There’s still
-quite a number on uncharted areas in the field of text analysis!
+quite a number of uncharted areas in the field of text analysis!
