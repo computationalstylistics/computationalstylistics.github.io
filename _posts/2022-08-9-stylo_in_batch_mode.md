@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using the function `stylo()` in batch mode"
+title: "Using the function stylo() in batch mode"
 date: 2022-08-9
 author: Maciej Eder
 description: "How to run a (substantial) stylometric experiment while doing something else, say enjoying a coffee"
