@@ -7,6 +7,24 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 
 
+**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B., and Eder, M.** (forthcoming) From stage to page: language independent bootstrap measures of distinctiveness in fictional speech, _Proceedings of the Workshop on Computational Drama Analysis: Achievements and Opportunities
+
+**Hernández-Lorenzo, L., Byszuk J.** (forthcoming) Challenging Stylometry: the authorship of the baroque play La Segunda Celestina, Digital Scholarship in the Humanities, [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
+
+**Byszuk, J.** (2023). On Computers in Text Analysis. In: J. O'Sullivan (ed.), _The Bloomsbury Handbook to the Digital Humanities, 159–68. London: Bloomsbury.
+
+**Eder, M., and Górski R.L.** (2022) Stylistic Fingerprints, POS Tags and Inflected Languages: A Case Study in Polish. _Journal of Quantitative Linguistics. [https://doi.org/10.1080/09296174.2022.2122751](https://doi.org/10.1080/09296174.2022.2122751).
+
+**Hernández-Lorenzo, L.** (2022). Stylistic Change in Early Modern Spanish Poetry through Network Analysis (with an Especial Focus on Fernando de Herrera’s Role). _Neophilologus 106: 397–417. [https://doi.org/10.1007/s11061-021-09717-2](https://doi.org/10.1007/s11061-021-09717-2).
+
+**Ochab, J. K., Škvrňák, J. and Škvrňák, M.** (2022) Detecting Ottokar II’s 1248–1249 Uprising and Its Instigators in Co-Witnessing Networks. _Historical Methods: A Journal of Quantitative and Interdisciplinary History, 1–20. [https://doi.org/10.1080/01615440.2022.2065397](https://doi.org/10.1080/01615440.2022.2065397).
+
+**Škorić, Mihailo, Ranka Stanković, Milica Ikonić Nešić, Joanna Byszuk, and Maciej Eder** (2022) ‘Parallel Stylometric Document Embeddings with Deep Learning Based Language Models in Literary Authorship Attribution’, Mathematics, 10.5, 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838)
+
+**Idziak, I., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk J. and Eder M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. In Computational Science – ICCS 2021, edited by Maciej Paszynski, Dieter Kranzlmüller, Valeria V. Krzhizhanovskaya, Jack J. Dongarra, and Peter M. A. Sloot, 137–50. Lecture Notes in Computer Science. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-77961-0_13](https://doi.org/10.1007/978-3-030-77961-0_13).
+
+**Šeļa, A.** (2021) Differences, Distances and Fingerprints: The Fundamentals of Stylometry and Multivariate Text Analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused]. _Keel Ja Kirjandus, no. 8–9: 696–718. [https://doi.org/10.54013/kk764a3](https://doi.org/10.54013/kk764a3).
+
 **Byszuk, J.** (2020) [The Voices of Doctor Who – how stylometry can be useful in revealing new information about TV series](http://www.digitalhumanities.org/dhq/vol/14/4/000499/000499.html). Digital Humanities Quarterly, 14(4).
 
 **Šeļa, A., Orekhov B. and Leibov, R.** (2020). Weak genres: Modeling association between poetic meter and meaning in Russian poetry. _Proceedings of the Workshop on Computational Humanities Research (CHR 2020)_: Amsterdam, the Netherlands, November 18-20, 2020. [CEUR-WS.org/Vol-2723/long35.pdf](CEUR-WS.org/Vol-2723/long35.pdf)
