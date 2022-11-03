@@ -19,7 +19,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Ochab, J. K., Škvrňák, J. and Škvrňák, M.** (2022) Detecting Ottokar II’s 1248–1249 Uprising and Its Instigators in Co-Witnessing Networks. _Historical Methods: A Journal of Quantitative and Interdisciplinary History_, 1–20. [https://doi.org/10.1080/01615440.2022.2065397](https://doi.org/10.1080/01615440.2022.2065397).
 
-**Škorić, Mihailo, Ranka Stanković, Milica Ikonić Nešić, Joanna Byszuk, and Maciej Eder** (2022) ‘Parallel Stylometric Document Embeddings with Deep Learning Based Language Models in Literary Authorship Attribution’, _Mathematics_, 10.5, 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838)
+**Škorić, M., Stanković, R., Ikonić Nešić, M., Byszuk, J. and Eder, M.** (2022) ‘Parallel Stylometric Document Embeddings with Deep Learning Based Language Models in Literary Authorship Attribution’, _Mathematics_, 10.5, 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838)
 
 **Idziak, I., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk J. and Eder M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. In _Computational Science – ICCS 2021_, ed. M. Paszynski, D. Kranzlmüller, V. V. Krzhizhanovskaya, J. J. Dongarra, and P. M. A. Sloot, 137–50. _Lecture Notes in Computer Science_. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-77961-0_13](https://doi.org/10.1007/978-3-030-77961-0_13).
 
