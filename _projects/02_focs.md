@@ -16,6 +16,9 @@ This is the people involved in the project:
 * Joanna Byszuk (PhD candidate)
 * Artjoms Šeļa (post-doc)
 * Michał Woźniak (post-doc)
+* Laura Hernández-Lorenzo (post-doc)
+* Rozalia Słodczyk (post-doc)
+* Paweł Swoboda (post-doc)
 * Albert Leśniak (PhD candidate)
 * Jeremi Ochab (a collaborator)
 
@@ -32,7 +35,7 @@ The project is divided into five related subprojects. Subproject A is planned to
 
 
 
-## First stages - 2019 update
+## 2019 update
 
 Since the project launch in October 2018, we have investigated two methodological issues: 
 
@@ -62,7 +65,7 @@ And to other conferences we presented at:
 
 
 
-## Next stages - 2020 update
+## 2020 update
 
 In late 2019 our team happily grew thanks to Artjoms and Albert joining in positions of post-doc and PhD candidate researchers. Welcome on board!
 
@@ -72,4 +75,14 @@ Over the last months we also started a sub-project on [direct speech detection](
 in computational stylistics](https://computationalstylistics.github.io/projects/deep_learning/) collaboration with University of Antwerp. We also got accepted for [LT4HALA workshop at LREC conference](https://circse.github.io/LT4HALA/Program). While the conference will not take place, its proceedings will be published. You can read the paper preprint [here](https://github.com/computationalstylistics/preprints/blob/master/byszuk-et-al_LT4HALA_final.pdf).
 
 Topics undergoing our research at the moment include also new methods of keyword analysis, multimodal stylometry, stylometry in poetry and in Right-to-left scripts, and we are looking forward to presenting some results soon. Last but not least, we are also preparing some resources for long demanded distanced learning of stylometry. A teaser video is already available on our Institute's YouTube channel [here](https://www.youtube.com/watch?v=pWOCfZnitdc). Stay tuned for more!  
+
+## 2021 update
+
+[pending: we did work hard, maybe a bit too hard to remember about the www updates!]
+
+## 2022 update
+
+[pending!]
+
+
 
