@@ -24,9 +24,10 @@ img: /assets/img/CLS_INFRA_Logo_2.png
 * Estimated Project Cost: €5,000,000
 * Start Date: March 1, 2021
 * Duration: 48 months
-* Website: https://clsinfra.io/
+* Website: [https://clsinfra.io/](https://clsinfra.io/)
 
 
+This page contains but very basic information about the project, which is much bigger than it looks at a glance. For more information about the training events, scholarships, and other opportunities to get involved, please refer to the above-mentioned project's webpage.
 
 
 
