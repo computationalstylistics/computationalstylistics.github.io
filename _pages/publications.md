@@ -6,34 +6,43 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 ---
 
 
+**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B. and Eder, M.** (forthcoming). From stage to page: language independent bootstrap measures of distinctiveness in fictional speech, [[pre-print](https://arxiv.org/abs/2301.05659)].
 
-**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B., and Eder, M.** (forthcoming) From stage to page: language independent bootstrap measures of distinctiveness in fictional speech, _Proceedings of the Workshop on Computational Drama Analysis: Achievements and Opportunities
+**Hernández-Lorenzo, L., Byszuk J.** (forthcoming). Challenging stylometry: the authorship of the baroque play La Segunda Celestina, _Digital Scholarship in the Humanities_, [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
 
-**Hernández-Lorenzo, L., Byszuk J.** (forthcoming) Challenging Stylometry: the authorship of the baroque play La Segunda Celestina, Digital Scholarship in the Humanities, [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
+**Byszuk, J.** (2023). On Computers in text analysis. In: J. O'Sullivan (ed.), _The Bloomsbury Handbook to the Digital Humanities_, 159–68. London: Bloomsbury.
 
-**Byszuk, J.** (2023). On Computers in Text Analysis. In: J. O'Sullivan (ed.), _The Bloomsbury Handbook to the Digital Humanities_, 159–68. London: Bloomsbury.
+**Eder, M. and Górski, R. L.** (2023). Stylistic fingerprints, POS-tags, and inflected languages: A case study in Polish. _Journal of Quantitative Linguistics_, **30**(1): 86–103, doi:10.1080/09296174.2022.2122751, [[pre-print](https://arxiv.org/abs/2206.02208)].
 
-**Eder, M., and Górski R.L.** (2022) Stylistic Fingerprints, POS Tags and Inflected Languages: A Case Study in Polish. _Journal of Quantitative Linguistics_. [https://doi.org/10.1080/09296174.2022.2122751](https://doi.org/10.1080/09296174.2022.2122751).
+**Šeļa, A. and Gronas, M.** (2022). Measuring rhythm regularity in verse: Entropy of inter-stress intervals. _CHR 2022: Computational Humanities Research Conference_. Antwerp: CEUR-WS, pp. 231–42.
 
-**Hernández-Lorenzo, L.** (2022). Stylistic Change in Early Modern Spanish Poetry through Network Analysis (with an Especial Focus on Fernando de Herrera’s Role). _Neophilologus_ 106: 397–417. [https://doi.org/10.1007/s11061-021-09717-2](https://doi.org/10.1007/s11061-021-09717-2).
+**Eder, M.** (2022). [Boosting word frequencies in authorship attribution](https://ceur-ws.org/Vol-3290/long_paper5362.pdf). _CHR 2022: Computational Humanities Research_. Antwerp, pp. 387–97, [[pre-print](http://arxiv.org/abs/2211.01289)].
 
-**Ochab, J. K., Škvrňák, J. and Škvrňák, M.** (2022) Detecting Ottokar II’s 1248–1249 Uprising and Its Instigators in Co-Witnessing Networks. _Historical Methods: A Journal of Quantitative and Interdisciplinary History_, 1–20. [https://doi.org/10.1080/01615440.2022.2065397](https://doi.org/10.1080/01615440.2022.2065397).
+**Górski, R. L. and Eder, M.** (2022). Modeling the dynamics of language change: logistic regression, Piotrowski’s law, and a handful of examples in Polish. _Journal of Quantitative Linguistics_, doi:10.1080/09296174.2022.2151208, [[pre-print](https://arxiv.org/abs/2104.06324)].
 
-**Škorić, M., Stanković, R., Ikonić Nešić, M., Byszuk, J. and Eder, M.** (2022) ‘Parallel Stylometric Document Embeddings with Deep Learning Based Language Models in Literary Authorship Attribution’, _Mathematics_, 10.5, 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838)
+**Hernández-Lorenzo, L.** (2022). Stylistic change in early modern Spanish poetry through network analysis (with an especial focus on Fernando de Herrera’s role). _Neophilologus_ 106: 397–417. [https://doi.org/10.1007/s11061-021-09717-2](https://doi.org/10.1007/s11061-021-09717-2).
 
-**Idziak, I., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk J. and Eder M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. In _Computational Science – ICCS 2021_, ed. M. Paszynski, D. Kranzlmüller, V. V. Krzhizhanovskaya, J. J. Dongarra, and P. M. A. Sloot, 137–50. _Lecture Notes in Computer Science_. Cham: Springer International Publishing. [https://doi.org/10.1007/978-3-030-77961-0_13](https://doi.org/10.1007/978-3-030-77961-0_13).
+**Herrmann, J. B., Byszuk, J. and Grisot, G.** (2022). Using word embeddings for validation and enhancement of spatial entity lists. _Digital Humanities 2022: Conference Abstracts_. Tokyo: University of Tokyo, pp. 239–41, [https://dh2022.dhii.asia/dh2022bookofabsts.pdf](https://dh2022.dhii.asia/dh2022bookofabsts.pdf).
 
-**Šeļa, A.** (2021) Differences, Distances and Fingerprints: The Fundamentals of Stylometry and Multivariate Text Analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused]. _Keel Ja Kirjandus_, no. 8–9: 696–718. [https://doi.org/10.54013/kk764a3](https://doi.org/10.54013/kk764a3).
+**Byszuk, J. and Dombrowski, Q.** (2022). Stylometric investigations into translationese: The Baby-Sitters Club across languages. In Misuraca, M., Scepi, G. and Spano, M. (eds), _Proceedings of the 16th International Conference on Statistical Analysis of Textual Data_, vol. 1. Naples, pp. 188–96, [http://lexicometrica.univ-paris3.fr/jadt/JADT2022/VOL1.pdf](http://lexicometrica.univ-paris3.fr/jadt/JADT2022/VOL1.pdf).
 
-**Byszuk, J.** (2020) [The Voices of Doctor Who – how stylometry can be useful in revealing new information about TV series](http://www.digitalhumanities.org/dhq/vol/14/4/000499/000499.html). Digital Humanities Quarterly, 14(4).
+**Ochab, J. K., Škvrňák, J. and Škvrňák, M.** (2022). Detecting Ottokar II’s 1248–1249 uprising and its instigators in co-witnessing networks. _Historical Methods: A Journal of Quantitative and Interdisciplinary History_, **55**: 189-208. [https://doi.org/10.1080/01615440.2022.2065397](https://doi.org/10.1080/01615440.2022.2065397).
 
-**Šeļa, A., Orekhov B. and Leibov, R.** (2020). Weak genres: Modeling association between poetic meter and meaning in Russian poetry. _Proceedings of the Workshop on Computational Humanities Research (CHR 2020)_: Amsterdam, the Netherlands, November 18-20, 2020. [CEUR-WS.org/Vol-2723/long35.pdf](CEUR-WS.org/Vol-2723/long35.pdf)
+**Škorić, M., Stanković, R., Ikonić Nešić, M., Byszuk, J. and Eder, M.** (2022). Parallel stylometric document embeddings with deep learning based language models in literary authorship attribution, _Mathematics_, **10**(5), 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838).
+
+**Idziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J. and Eder, M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. _Computational Science – ICCS 2021_, vol. 1. (LNCS 12742). Springer, pp. 137–50, doi:10.1007/978-3-030-77961-0_13, [[pre-print](https://arxiv.org/)].
+
+**Šeļa, A.** (2021). Differences, distances and fingerprints: The fundamentals of stylometry and multivariate text analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused]. _Keel Ja Kirjandus_, **8–9**: 696–718. [https://doi.org/10.54013/kk764a3](https://doi.org/10.54013/kk764a3).
+
+**Byszuk, J.** (2020). [The Voices of Doctor Who – how stylometry can be useful in revealing new information about TV series](http://www.digitalhumanities.org/dhq/vol/14/4/000499/000499.html). Digital Humanities Quarterly, **14**(4).
+
+**Šeļa, A., Orekhov B. and Leibov, R.** (2020). Weak genres: Modeling association between poetic meter and meaning in Russian poetry. _Proceedings of the Workshop on Computational Humanities Research (CHR 2020)_: Amsterdam, the Netherlands, November 18-20, 2020, [CEUR-WS.org/Vol-2723/long35.pdf](CEUR-WS.org/Vol-2723/long35.pdf)
 
 **Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). [Detecting direct speech in multilingual collection of 19th century novels](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). _Proceedings of the LREC 2020. Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2020)_. Marseille, pp. 100–04.
 
-**Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, **54**(4): 1095–1108, [doi:10.1007/s11135-020-00976-w](https://doi.org/10.1007/s11135-020-00976-w).
+**Schöch, C., Eder, M., Arias, R., Francois, P. and Primorac, A.** (2020). [Foundations of Distant Reading. Historical Roots, Conceptual Development and Theoretical Assumptions around Computational Approaches to Literary Texts](https://dh2020.adho.org/wp-content/uploads/2020/07/521_FoundationsofDistantReadingHistoricalRootsConceptualDevelopmentandTheoreticalAssumptionsaroundComputationalApproachestoLiteraryTexts.html). _Digital Humanities 2020: Book of Abstracts_. Ottawa.
 
-**Eder, M., Rybicki, J. and Kestemont, M.** (forthcoming). Measuring style. In: J. O'Sullivan (ed.), _Text Technologies: Computation for Literary Analysis_. Pennsylvania State University Press, forthcoming.
+**Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, **54**(4): 1095–1108, [doi:10.1007/s11135-020-00976-w](https://doi.org/10.1007/s11135-020-00976-w).
 
 **Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
 
@@ -41,11 +50,11 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Eder, M. and Byszuk, J.** (2019). Feature selection in authorship attribution: ordering the wordlist. _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0930.html](https://dev.clariah.nl/files/dh2019/boa/0930.html).
 
-**Hernandez Lorenzo, L., Byszuk, J.** Challenging Stylometry: The Authorship of the Baroque Play La Segunda Celestina. _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0576.html](https://dev.clariah.nl/files/dh2019/boa/0576.html)
+**Hernandez Lorenzo, L., Byszuk, J.** (2019). Challenging stylometry: The authorship of the Baroque play La Segunda Celestina. _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0576.html](https://dev.clariah.nl/files/dh2019/boa/0576.html)
 
 **Ochab, J. K., Byszuk, J., Pielström, S. and Eder, M.** (2019). Identifying similarities in text analysis: hierarchical clustering (linkage) versus network clustering (community detection). _Digital Humanities 2019: Book of Abstracts_. Utrecht [https://dev.clariah.nl/files/dh2019/boa/0981.html](https://dev.clariah.nl/files/dh2019/boa/0981.html).
 
-**Ochab, J. K., Essler H.** (2019) Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930), [link to the recording](https://youtu.be/B1ZrisxCN1w).  
+**Ochab, J. K., Essler H.** (2019). Stylometry of literary papyri. _Proceedings of the 3rd International Conference on Digital Access to Textual Cultural Heritage. Association for Computing Machinery_. [https://doi.org/10.1145/3322905.3322930](https://doi.org/10.1145/3322905.3322930), [link to the recording](https://youtu.be/B1ZrisxCN1w).  
 
 **Choiński, M. and Rybicki, J.** (2018). Jonathan Edwards and Thomas Foxcroft: Pursuing Stylometric Traces of the Editor. _Amerikastudien_, **63**(2): 141–158.
 
