@@ -21,6 +21,7 @@ img: /assets/img/CLS_INFRA_Logo_2.png
 * Acronym: CLS INFRA
 * Number: 101004984
 * Call: H2020-INFRAIA-2020-1
+* Principal Investigator: Maciej Eder
 * Estimated Project Cost: €5,000,000
 * Start Date: March 1, 2021
 * Duration: 48 months
