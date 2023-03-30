@@ -30,7 +30,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Škorić, M., Stanković, R., Ikonić Nešić, M., Byszuk, J. and Eder, M.** (2022). Parallel stylometric document embeddings with deep learning based language models in literary authorship attribution, _Mathematics_, **10**(5), 838 [https://doi.org/10.3390/math10050838](https://doi.org/10.3390/math10050838).
 
-**Idziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J. and Eder, M.** (2021). [Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets](https://www.springerprofessional.de/scalable-handwritten-text-recognition-system-for-lexicographic-s/19248500). _Computational Science – ICCS 2021_, vol. 1. (LNCS 12742). Springer, pp. 137–50, [[pre-print](https://arxiv.org/)].
+**Idziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J. and Eder, M.** (2021). [Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets](https://www.springerprofessional.de/scalable-handwritten-text-recognition-system-for-lexicographic-s/19248500). _Computational Science – ICCS 2021_, vol. 1. (LNCS 12742). Springer, pp. 137–50, [[pre-print](https://arxiv.org/abs/2303.16256)].
 
 **Šeļa, A.** (2021). Differences, distances and fingerprints: The fundamentals of stylometry and multivariate text analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused]. _Keel Ja Kirjandus_, **8–9**: 696–718. [https://doi.org/10.54013/kk764a3](https://doi.org/10.54013/kk764a3).
 

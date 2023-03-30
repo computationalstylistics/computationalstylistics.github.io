@@ -26,6 +26,6 @@ You can try how it works! Check out the following link: [http://149.156.30.114:8
 
 ## References
 
-**Idziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J. and Eder, M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. _Computational Science – ICCS 2021_, vol. 1. (LNCS 12742). Springer, pp. 137–50, [[pre-print](https://arxiv.org/)].
+**Idziak, J., Šeļa, A., Woźniak, M., Leśniak, A., Byszuk, J. and Eder, M.** (2021). Scalable handwritten text recognition system for lexicographic sources of under-resourced languages and alphabets. _Computational Science – ICCS 2021_, vol. 1. (LNCS 12742). Springer, pp. 137–50, [[pre-print](https://arxiv.org/abs/2303.16256)].
 
 
