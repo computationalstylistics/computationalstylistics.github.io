@@ -30,15 +30,15 @@ The following selection of links is but a tip of an iceberg when it comes to the
 
 
 
-Blog posts on non-obvious functions of `stylo`:
+Blog posts on non-obvious functions of the package ‘stylo’:
 
 * [Performance measures in supervised classification](https://computationalstylistics.github.io/blog/performance_measures/)
 * [Using the function `stylo()` in batch mode](https://computationalstylistics.github.io/blog/stylo_in_batch_mode/)
-* [Authorship verification with the package 'stylo'](https://computationalstylistics.github.io/blog/imposters/)
+* [Authorship verification with the package ‘stylo’](https://computationalstylistics.github.io/blog/imposters/)
 * [Cross-validation using the function `classify()`](https://computationalstylistics.github.io/blog/cross-validation/)
 * [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances/)
 * [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry/)
-* [Using ‘Stylo’ with languages other than English](https://computationalstylistics.github.io/blog/stylo_and_languages/)
+* [Using ‘stylo’ with languages other than English](https://computationalstylistics.github.io/blog/stylo_and_languages/)
 * [Performance measures in supervised classification](https://computationalstylistics.github.io/blog/performance_measures/)
 
 
