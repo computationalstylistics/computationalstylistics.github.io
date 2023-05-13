@@ -1,7 +1,14 @@
-From texts to topics, with some NLP in between
-================
-Maciej Eder
-12.05.2023
+---
+layout: post
+title: "From texts to topics, with some NLP in between"
+date: 2023-05-12
+author: Maciej Eder
+description: "A tutorial on training a topic model in R. Before doing that, however, the input texts will be lemmatized using Universal Dependencies models."
+---
+
+
+
+
 
 In this post I describe a step-by-step procedure of training a topic
 model in R, using the package `topicmodels`. Since in most situations
