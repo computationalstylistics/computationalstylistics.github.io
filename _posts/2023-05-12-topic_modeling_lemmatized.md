@@ -35,7 +35,8 @@ directory, which is convenient – no need to remember where it is stored
 
 ``` r
 library(udpipe)
-udmodel = udpipe_download_model(language = "ancient_greek-proiel", model_dir = tempdir())
+udmodel = udpipe_download_model(language = "ancient_greek-proiel", 
+                                model_dir = tempdir())
 ```
 
 Assuming that the texts are stored within the working directory, in the
@@ -111,7 +112,7 @@ column with the original word forms (named `token`), the column with
 lemmatized words (named `lemma`) and the column with grammatical
 categories, or parts-of-speech tags (named `upos`). Please also note
 that the 9th line the table was not correctly parsed by the model; the
-token πάντων (*all*) received the label `VERB` rather than `NOUN` (a
+token πάντων (_each/every_) received the label `VERB` rather than `ADJ` (a
 similar situation can be spotted in the 11th line). For some reason the
 model appears to struggle with punctuation marks. It would be wise,
 then, to remove all the commas before invoking `udpipe`, and indeed it
@@ -159,6 +160,7 @@ parsed_text$lemma[1:100]
     ##  [89] "ἁγίος"         "οὐ"            "μετά"          "πολύς"        
     ##  [93] "ταύτης"        "ἡμέρας."       "6"             "ὁ"            
     ##  [97] "μέν"           "οὖν"           "συνελθόντες"   "ἠρώτων"
+
 
 Certainly, parts of speech can be accessed in a similar way, via
 `parsed_text$upos`. Not only this, though. If you look carefully at the
@@ -210,7 +212,7 @@ trained without taking into account proper nouns as a separate category.
 Consequently, they don’t recognize named entities at all. E.g. if you
 use an alternative model for Ancient Greek, nemely
 `ancient_greek-perseus` (which is larger and generally much better than
-‘ancient_greek-proiel’, by the way), then the word, say, Φιλίππος
+`ancient_greek-proiel`, by the way), then the word, say, Φιλίππος
 (Philippos) will be recognized as “NOUN” rather than “PROPN”. Secondly,
 as the above list clearly suggests, the NER module returns wrong answers
 at times, e.g. the word τοῦτ is clearly misrecognized by the model.
@@ -421,7 +423,8 @@ the model specified as arguments of the LDA function:
 
 ``` r
 topic_model = LDA(doc_term_matrix, k = number_of_topics, method = "Gibbs", 
-                  control = list(seed = 1234, burnin = 100, thin = 100, iter = 1000, verbose = 1))
+                  control = list(seed = 1234, burnin = 100, thin = 100, 
+                  iter = 1000, verbose = 1))
 ```
 
     ## K = 25; V = 1464; M = 112
@@ -454,7 +457,7 @@ If training took a considerable amount of time, it really makes sense to
 save the final model somewhere on disk:
 
 ``` r
-#save(topic_model, file = "topic_model_k-25.RData")
+save(topic_model, file = "topic_model_k-25.RData")
 ```
 
 Now, a non-obvious step follows. Since the variable `topic_model` is
