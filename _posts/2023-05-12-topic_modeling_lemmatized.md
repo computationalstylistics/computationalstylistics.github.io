@@ -49,7 +49,7 @@ text_files = list.files(path = "corpus")
 Before we discuss how to massively analyze all the texts from the
 subfolder `corpus`, let’s take a breath and look at the NLP step alone,
 as applied to a single text. This is going to be the first text in the
-said subfolder, namely `act_1_g.txt` (the first chapter of the Acts). We
+said subfolder, namely `act.txt` (containing the Acts). We
 read the text, and then we collapse all the paragraphs to one long
 string of words:
 
@@ -213,7 +213,7 @@ Consequently, they don’t recognize named entities at all. E.g. if you
 use an alternative model for Ancient Greek, nemely
 `ancient_greek-perseus` (which is larger and generally much better than
 `ancient_greek-proiel`, by the way), then the word, say, Φιλίππος
-(Philippos) will be recognized as “NOUN” rather than “PROPN”. Secondly,
+(Philippos) will be recognized as `NOUN` rather than `PROPN`. Secondly,
 as the above list clearly suggests, the NER module returns wrong answers
 at times, e.g. the word τοῦτ is clearly misrecognized by the model.
 
