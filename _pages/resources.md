@@ -62,25 +62,30 @@ A list of relevant publications by the CSG members can be found on this website,
 The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig. Below we aim to list some upcoming events:
 
 
+
 ### 2024 major workshops
 
-* 3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder.
-* 10–14 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 2, taught by Joanna Byszuk and Jeremi Ochab.
 * 15–26 July [European Summer University in Digital Humanities "Culture & Technology"](https://esu-ct.conference.ubbcluj.ro/) in Cluj-Napoca, Romania. Taught by Artjoms Šeļa and Jeremi Ochab.
+* 10–14 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 2, taught by Joanna Byszuk and Jeremi Ochab.
+* 3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder.
 
 
 
 ### 2023 major workshops
 
-* 4–8 September [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/summer%20school) in Padua, Italy. Taught by Joanna Byszuk.
-* 10–12 May [CLS INFRA Training School](https://clsinfra.io/events/training-school/) in Madrid, at UNED. Taught by Joanna Byszuk and Artjoms Šeļa.
+* 4–8 Sept [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/summer%20school) in Padua, Italy. Taught by Joanna Byszuk.
 * 5–9 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder.
+* 10–12 May [CLS INFRA Training School](https://clsinfra.io/events/training-school/) in Madrid, at UNED. Taught by Joanna Byszuk and Artjoms Šeļa.
+
+
 
 
 ### 2022 major workshops
 
 * 2–12 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.
 * 22–24 March COST Action Winter School in Belgrade. Taught (remotely) by Joanna Byszuk, Artjoms Šeļa and Maciej Eder.
+
+
 
 
 ### 2021 major workshops
@@ -98,6 +103,7 @@ The members of the group regularly conduct invited workshops at various places o
 * ~~28 Jul – 7 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.~~ Postponed to 2021.
 * ~~15–19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.~~ Cancelled.
 * ~~8–12 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.~~ Postponed to 2021.
+
 
 
 
