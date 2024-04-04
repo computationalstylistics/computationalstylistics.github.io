@@ -59,20 +59,54 @@ A list of relevant publications by the CSG members can be found on this website,
 
 ## Learn with us
 
-The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig.
-Below we will aim to regularly add updates on upcoming events.
+The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig. Below we aim to list some upcoming events:
+
+
+### 2024 major workshops
+
+* 3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder.
+* 10–14 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 2, taught by Joanna Byszuk and Jeremi Ochab.
+* 15–26 July [European Summer University in Digital Humanities "Culture & Technology"](https://esu-ct.conference.ubbcluj.ro/) in Cluj-Napoca, Romania. Taught by Artjoms Šeļa and Jeremi Ochab.
+
+
+
+### 2023 major workshops
+
+* 4–8 September [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/summer%20school) in Padua, Italy. Taught by Joanna Byszuk.
+* 10–12 May [CLS INFRA Training School](https://clsinfra.io/events/training-school/) in Madrid, at UNED. Taught by Joanna Byszuk and Artjoms Šeļa.
+* 5–9 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder.
+
+
+### 2022 major workshops
+
+* 2–12 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.
+* 22–24 March COST Action Winter School in Belgrade. Taught (remotely) by Joanna Byszuk, Artjoms Šeļa and Maciej Eder.
+
+
+### 2021 major workshops
+
+* 3–13 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught (remotely) by Maciej Eder and Jeremi K. Ochab.
+* 26–30 July [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/home) in Padua, Italy. Taught (remotely) by Maciej Eder. 
+* 14–18 July [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught (remotely) by Joanna Byszuk, Artjoms Šeļa and Maciej Eder.
+
+
+
 
 ### 2020 major workshops
 
-* ~~8–12 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.~~ Postponed to 2021.
-* ~~15–19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.~~ Cancelled.
+* 1–3 July _Stylometry and Arabic Sources_, in London, at Aga Khan University. Taught (remotely) by Maciej Eder.
 * ~~28 Jul – 7 Aug [European Summer University in Digital Humanities](http://esu.culintec.de/?q=node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.~~ Postponed to 2021.
+* ~~15–19 June [DHSI Atlantic](https://www.ucc.ie/en/dhsiatlantic/) in Cork, Ireland. Taught by Jan Rybicki.~~ Cancelled.
+* ~~8–12 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.~~ Postponed to 2021.
+
+
 
 ### 2019 major workshops 
 
-* 28 Feb – 1 Mar _Style/Content – Literary Modeling_ in Stockholm, Sweden. Taught by Jan Rybicki.  
-* 3–5 May [Stylometry at DHI Beirut](https://dhibeirut.wordpress.com/) in Beirut, Lebanon. Taught by Jan Rybicki.  
-* 10–14 June [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.  
+* 9–13 Sep [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/home) in Padua, Italy. Taught by Maciej Eder and Jan Rybicki. 
 * 23 Jul – 2 Aug [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) in Leipzig, Germany. Taught by Maciej Eder and Jeremi K. Ochab.    
-* 9–13 Sep [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](http://www.giat.org/?page_id=11&lang=en) in Padua, Italy. Taught by Maciej Eder and Jan Rybicki.  
+* 10–14 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder and Joanna Byszuk.  
+* 3–5 May [Stylometry at DHI Beirut](https://dhibeirut.wordpress.com/) in Beirut, Lebanon. Taught by Jan Rybicki.  
+* 28 Feb – 1 Mar _Style/Content – Literary Modeling_ in Stockholm, Sweden. Taught by Jan Rybicki.
+
 
