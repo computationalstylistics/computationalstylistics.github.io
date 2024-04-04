@@ -8,11 +8,33 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B. and Eder, M.** (forthcoming). From stage to page: language independent bootstrap measures of distinctiveness in fictional speech, [[pre-print](https://arxiv.org/abs/2301.05659)].
 
-**Hernández-Lorenzo, L., and Byszuk J.** (2023). Challenging stylometry: the authorship of the baroque play La Segunda Celestina, _Digital Scholarship in the Humanities_, advance access: [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
+**Eder, M. and Ochab, J. K.** (forthcoming). Manhattan, Euclidean, and their siblings: exploring exotic similarity measures in text classification. In: _Digital Humanities 2024: Conference Abstracts_.
 
-**Byszuk, J.** (2023). On Computers in text analysis. In: J. O'Sullivan (ed.), _The Bloomsbury Handbook to the Digital Humanities_, 159–68. London: Bloomsbury.
+**Sobchuk, O. and Šeļa, A.** (2024). Computational thematics: comparing algorithms for clustering the genres of literary fiction. _Humanities and Social Sciences Communications_, 11(1): 438 [https://doi.org/10.1057/s41599-024-02933-6](https://doi.org/10.1057/s41599-024-02933-6).
+
+**Byszuk, J.** (2023). What is Authorship Attribution? In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+
+**Byszuk, J.** (2023). Analysis in Authorship Attribution. In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+
+**Byszuk, J.** (2023). Evaluation in Authorship Attribution. In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+
+**Šeļa, A.** (2023). Introduction: Corpus building and language variation. In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+
+**Šeļa, A.** (2023). What is Literary History? In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+
+**Šeļa, A.** (2023). Evaluation in Literary History. In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
+ 
+**Martynenko, A. and Šeļa, A.** (2023). The fall of genres that did not happen: formalising history of the ‘universal’ semantics of Russian iambic tetrameter. _Studia Metrica et Poetica_, **10**(2): 89–111.
+
+**Hernández-Lorenzo, L., and Byszuk J.** (2023). Challenging stylometry: the authorship of the baroque play La Segunda Celestina, _Digital Scholarship in the Humanities_, **38**(2): 544–558 [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
+
+**Byszuk, J.** (2023). On Computers in text analysis. In: J. O'Sullivan (ed.), _The Bloomsbury Handbook to the Digital Humanities_, 159–168. London: Bloomsbury.
 
 **Eder, M. and Górski, R. L.** (2023). Stylistic fingerprints, POS-tags, and inflected languages: A case study in Polish. _Journal of Quantitative Linguistics_, **30**(1): 86–103, doi:10.1080/09296174.2022.2122751, [[pre-print](https://arxiv.org/abs/2206.02208)].
+
+**Eder, M.** (2023). Tekst w humanistyce cyfrowej. Modelowanie tematyczne. In Pawłowski, A. (ed), _Od Gutenberga Do Zuckerberga. Wstęp Do Humanistyki Cyfrowej_. Kraków: Universitas, pp. 129–141.
+
+**Maryl, M. and Eder, M.** (2023). Słowozbiory „Tekstów Drugich”. _Teksty Drugie_, 1: 346–64 [https://doi.org/10.18318/td.2023.1.21](https://doi.org/10.18318/td.2023.1.21).
 
 **Šeļa, A. and Gronas, M.** (2022). [Measuring rhythm regularity in verse: Entropy of inter-stress intervals](https://ceur-ws.org/Vol-3290/short_paper5417.pdf). _CHR 2022: Computational Humanities Research Conference_. Antwerp: CEUR-WS, pp. 231–42.
 
@@ -21,6 +43,10 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 **Górski, R. L. and Eder, M.** (2022). Modeling the dynamics of language change: logistic regression, Piotrowski’s law, and a handful of examples in Polish. _Journal of Quantitative Linguistics_, doi:10.1080/09296174.2022.2151208, [[pre-print](https://arxiv.org/abs/2104.06324)].
 
 **Hernández-Lorenzo, L.** (2022). Stylistic change in early modern Spanish poetry through network analysis (with an especial focus on Fernando de Herrera’s role). _Neophilologus_ 106: 397–417. [https://doi.org/10.1007/s11061-021-09717-2](https://doi.org/10.1007/s11061-021-09717-2).
+
+**Hernández-Lorenzo, L.** (2022). La prosa de Gustavo Adolfo Bécquer en los límites de la poesía: Análisis estilométrico. _Apropos [Perspektiven Auf Die Romania]_, **9**: 37–56 [https://doi.org/0.15460/apropos.9.1875](https://doi.org/0.15460/apropos.9.1875).
+
+**Eder, M., & Šeļa, A.** (2022). One word to rule them all: Understanding word embeddings for authorship attribution. _Digital Humanities 2022: Book of Abstracts_, Tokyo: University of Tokyo, pp. 199–201. [https://dh2022.dhii.asia/dh2022bookofabsts.pdf](https://dh2022.dhii.asia/dh2022bookofabsts.pdf).
 
 **Herrmann, J. B., Byszuk, J. and Grisot, G.** (2022). Using word embeddings for validation and enhancement of spatial entity lists. _Digital Humanities 2022: Conference Abstracts_. Tokyo: University of Tokyo, pp. 239–41, [https://dh2022.dhii.asia/dh2022bookofabsts.pdf](https://dh2022.dhii.asia/dh2022bookofabsts.pdf).
 
@@ -34,11 +60,11 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Šeļa, A.** (2021). Differences, distances and fingerprints: The fundamentals of stylometry and multivariate text analysis [Erinevused, Kaugused Ja Sõrmejäljed: Stilomeetria Ja Mitmemõõtmelise Tekstianalüüsi Alused]. _Keel Ja Kirjandus_, **8–9**: 696–718. [https://doi.org/10.54013/kk764a3](https://doi.org/10.54013/kk764a3).
 
-**Byszuk, J.** (2020). [The voices of Doctor Who – how stylometry can be useful in revealing new information about TV series](http://www.digitalhumanities.org/dhq/vol/14/4/000499/000499.html). _Digital Humanities Quarterly_, **14**(4).
+**Byszuk, J.** (2020). [The voices of Doctor Who – how stylometry can be useful in revealing new information about TV series](http://www.digitalhumanities.org/dhq/vol/14/4/000499/000499.html). _Digital Humanities Quarterly_, **14**(4): 1-71.
 
 **Šeļa, A., Orekhov B. and Leibov, R.** (2020). [Weak genres: Modeling association between poetic meter and meaning in Russian poetry](https://ceur-ws.org/Vol-2723/long35.pdf). _CHR 2020: Workshop on Computational Humanities Research_: Amsterdam, pp. 12–31.
 
-**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). [Detecting direct speech in multilingual collection of 19th century novels](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). _Proceedings of the LREC 2020. Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2020)_. Marseille, pp. 100–04.
+**Byszuk, J., Woźniak, M., Kestemont, M., Leśniak, A., Łukasik, W., Šeļa, A. and Eder, M.** (2020). [Detecting direct speech in multilingual collection of 19th century novels](https://lrec2020.lrec-conf.org/media/proceedings/Workshops/Books/LT4HALAbook.pdf). _Proceedings of the LREC 2020. Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2020)_. Marseille, pp. 100–104.
 
 **Schöch, C., Eder, M., Arias, R., Francois, P. and Primorac, A.** (2020). [Foundations of distant reading. Historical roots, conceptual development and theoretical assumptions around computational approaches to literary texts](https://dh2020.adho.org/wp-content/uploads/2020/07/521_FoundationsofDistantReadingHistoricalRootsConceptualDevelopmentandTheoreticalAssumptionsaroundComputationalApproachestoLiteraryTexts.html). _Digital Humanities 2020: Book of Abstracts_. Ottawa.
 
