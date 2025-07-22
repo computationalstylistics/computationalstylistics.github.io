@@ -60,7 +60,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Hernández-Lorenzo, L.** (2022). Stylistic change in early modern Spanish poetry through network analysis (with an especial focus on Fernando de Herrera’s role). _Neophilologus_ 106: 397–417. [https://doi.org/10.1007/s11061-021-09717-2](https://doi.org/10.1007/s11061-021-09717-2).
 
-**Hernández-Lorenzo, L.** (2022). La prosa de Gustavo Adolfo Bécquer en los límites de la poesía: Análisis estilométrico. _Apropos [Perspektiven Auf Die Romania]_, **9**: 37–56 [https://doi.org/0.15460/apropos.9.1875](https://doi.org/0.15460/apropos.9.1875).
+**Hernández-Lorenzo, L.** (2022). La prosa de Gustavo Adolfo Bécquer en los límites de la poesía: Análisis estilométrico. _Apropos [Perspektiven Auf Die Romania]_, **9**: 37–56 [https://doi.org/10.15460/apropos.9.1875](https://doi.org/10.15460/apropos.9.1875).
 
 **Eder, M., & Šeļa, A.** (2022). One word to rule them all: Understanding word embeddings for authorship attribution. _Digital Humanities 2022: Book of Abstracts_, Tokyo: University of Tokyo, pp. 199–201. [https://dh2022.dhii.asia/dh2022bookofabsts.pdf](https://dh2022.dhii.asia/dh2022bookofabsts.pdf).
 
