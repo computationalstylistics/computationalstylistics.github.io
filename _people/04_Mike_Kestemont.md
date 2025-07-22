@@ -10,5 +10,5 @@ social: false
 ---
 
 
-Assistant Professor at the University of Antwerp (<a href="https://www.uantwerpen.be/en/staff/mike-kestemont/" target="_blank">personal webpage</a>). His interest lies with the computational text analysis of historic texts, in particular medieval texts from western Europe. Much of his publications are concerned with stylometric authorship attribution.
+professor in the department of literature at the University of Antwerp, Belgium (<a href="http://mikekestemont.github.io/" target="_blank">personal webpage</a>). His interest lies with the computational text analysis of historic texts, in particular medieval texts from western Europe. Much of his publications are concerned with stylometric authorship attribution.
 

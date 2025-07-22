@@ -10,4 +10,4 @@ social: false
 ---
 
 
-Head of the Methodology Department at the Institute of Polish Language (Polish Academy of Sciences), and Associate Professor at the Faculty of Philology, at the Jagiellonian University, Kraków. A linguist, interested in corpus linguistics and, to a lesser extent, in quantitative linguistics. 
+Professor of Linguistics at the Institute of Polish Language (Polish Academy of Sciences), and Associate Professor at the Faculty of Philology, at the Jagiellonian University, Kraków. A linguist, interested in corpus linguistics and, to a lesser extent, in quantitative linguistics. 

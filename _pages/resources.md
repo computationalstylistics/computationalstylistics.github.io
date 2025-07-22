@@ -39,7 +39,6 @@ Blog posts on non-obvious functions of the package ‘stylo’:
 * [Custom distance measures](https://computationalstylistics.github.io/blog/custom_distances/)
 * [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry/)
 * [Using ‘stylo’ with languages other than English](https://computationalstylistics.github.io/blog/stylo_and_languages/)
-* [Performance measures in supervised classification](https://computationalstylistics.github.io/blog/performance_measures/)
 
 
 
