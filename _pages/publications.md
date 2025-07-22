@@ -86,7 +86,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Sbalchiero, S. and Eder, M.** (2020). Topic modeling, long texts and the best number of topics: some problems and solutions. _Quality & Quantity_, **54**(4): 1095–1108, [doi:10.1007/s11135-020-00976-w](https://doi.org/10.1007/s11135-020-00976-w).
 
-**Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://www.questia.com/library/journal/1G1-606942042/harper-lee-and-other-people-a-stylometric-diagnosis). _Mississippi Quarterly_, **70/71**(3): 355–374.
+**Choiński, M., Eder, M. and Rybicki, J.** (2019). [Harper Lee and other people: a stylometric diagnosis](https://muse.jhu.edu/pub/1/article/747862/pdf). _Mississippi Quarterly_, **70/71**(3): 355–374.
 
 **Górski, R. L., Król, M. and Eder, M.** (2019). [_Zmiana w języku. Studia kwantytatywno-korpusowe_](http://maciejeder.org/projects/language-change/). Kraków: IJP PAN.
 

@@ -70,9 +70,10 @@ A list of relevant publications by the CSG members can be found on this website,
 The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig. Below we aim to list some upcoming events:
 
 ### 2025 major workshops
+
 * 19-23 May [Interdisciplinary Methodologies in Linguistic Research](https://intermet.ijppan.pl/) in Kraków, Poland. Lectures offered by Joanna Byszuk, Maciej Eder and Rafał L. Górski.
 * 26-20 May [Digital Humanities Summer Institute](https://dhsi.org/) in Montreal, Canada. Week 1, taught by Joanna Byszuk and Jacek Bąkowski.
-* 21 July - 2 August [European Summer University in Digital Humanities "Culture & Technology"](https://esudh.github.io/) in Besançon, France. Course: Distant Reading in R. Analyse the text & visualize the data (Artjoms Šeļa, Czech Academy of Sciences and Giovanni Pietro Vitali, University of Versailles Saint-Quentin-en-Yvelines)
+* 21 July - 2 August [European Summer University in Digital Humanities "Culture & Technology"](https://esudh.github.io/) in Besançon, France. Course: Distant Reading in R. Analyse the text & visualize the data (Artjoms Šeļa, Czech Academy of Sciences, and Giovanni Pietro Vitali, University of Versailles Saint-Quentin-en-Yvelines)
 
 
 
@@ -80,7 +81,7 @@ The members of the group regularly conduct invited workshops at various places o
 
 * 15–26 July [European Summer University in Digital Humanities "Culture & Technology"](https://esu-ct.conference.ubbcluj.ro/) in Cluj-Napoca, Romania. Taught by Artjoms Šeļa and Jeremi Ochab.
 * 10–14 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 2, taught by Joanna Byszuk and Jeremi Ochab.
-* 3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder.
+* ~~3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder~~.
 
 
 ### 2023 major workshops
