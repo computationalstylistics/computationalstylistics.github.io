@@ -6,11 +6,23 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 ---
 
 
-**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B. and Eder, M.** (forthcoming). From stage to page: language independent bootstrap measures of distinctiveness in fictional speech, [[pre-print](https://arxiv.org/abs/2301.05659)].
+**Nagy, B., Šeļa, A., De Sisto, M. and Plecháč, P.** (2024). Metronome: tracing variation in poetic meters via local sequence alignment. _Computational Humanities Research_, 1: e1 https://doi.org/10.1017/chr.2025.1.
 
-**Eder, M. and Ochab, J. K.** (forthcoming). Manhattan, Euclidean, and their siblings: exploring exotic similarity measures in text classification. In: _Digital Humanities 2024: Conference Abstracts_.
+**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B. and Eder, M.** (2024). From stage to page: language independent bootstrap measures of distinctiveness in fictional speech. In Andersen, M. and Reiter, N. (eds), _Computational Drama Analysis: Reflecting on Methods and Interpretations_. de Gruyter, pp. 149–66 https://www.degruyter.com/document/doi/10.1515/9783111071824/html, [[pre-print](https://arxiv.org/abs/2301.05659)]
+
+**Bąkowski, J.** (2024). Ḵẖūn for rakt and duniyā for saṃsār. A cognitive approach based on word embeddings to Sanskrit and Perso-Arabic loanwords in Hindi. In Andrijanić, I. and Browarczyk, M. (eds), _Between Language and Literature: Hindi in Classroom and Beyond_. Zagreb: University of Zagreb, pp. 127–41 https://indolog.ffzg.unizg.hr/wp-content/uploads/Between-Languages-and-Literature.pdf.
+
+**Beullens, P., Haverals, W. and Nagy, B.** (2024). The elementary particles: A computational stylometric inquiry into the Mediaeval Greek-Latin Aristotle. _Mediterranea, International Journal on the Transfer of Knowledge_, 9: 385–408 https://doi.org/0.21071/mijtk.v9i.16723.
+
+**Nagy, B.** (2024). Bootstrap Distance Imposters: High precision authorship verification with improved interpretability. _Proceedings of the Computational Humanities Research Conference 2024_. Aarhus, pp. 482–93 https://ceur-ws.org/Vol-3834/.
+
+**Nagy, B.** (2024). (Not) Understanding Latin Poetic Style with Deep Learning. https://arxiv.org/abs/2404.06150.
+
+**Eder, M. and Ochab, J.** (2024). Manhattan, Euclidean, and their siblings: exploring exotic similarity measures in text classification. In _Digital Humanities 2024: Book of Abstracts_. pp. 162–66 https://zenodo.org/records/13761079.
 
 **Sobchuk, O. and Šeļa, A.** (2024). Computational thematics: comparing algorithms for clustering the genres of literary fiction. _Humanities and Social Sciences Communications_, 11(1): 438 [https://doi.org/10.1057/s41599-024-02933-6](https://doi.org/10.1057/s41599-024-02933-6).
+
+**Andrijanić, I. and Bąkowski, J.** (2023). On the authenticity of prose writings attributed to Śaṅkara. _Acta Asiatica Varsoviensia_, 36: 5–38 https://doi.org/10.60018/AcAsVa.npqm2712.
 
 **Byszuk, J.** (2023). What is Authorship Attribution? In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
 
@@ -23,7 +35,11 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 **Šeļa, A.** (2023). What is Literary History? In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
 
 **Šeļa, A.** (2023). Evaluation in Literary History. In: Schöch, C., Dudar, J., and Fileva, E. (eds). _CLS INFRA D3.2: Series of Five Short Survey Papers on Methodological Issues_ (= _Survey of Methods in Computational Literary Studies_) (v1.1.0), url: [https://methods.clsinfra.io](https://methods.clsinfra.io), doi: [10.5281/zenodo.7892112](10.5281/zenodo.7892112).
- 
+
+**Nagy, B.** (2023). Some stylometric remarks on Ovid’s Heroides and the Epistula Sapphus. _Digital Scholarship in the Humanities_, **38**(3): 1183–99 https://doi.org/10.1093/llc/fqac098.
+
+**Nagy, B. and Lee, J. M.** (2023). New Light on the Additamentvm Aldinvm (Silius Italicus, Pvnica 8.144–223). _The Classical Quarterly_, **73**(1): 271–92 https://doi.org/10.1017/S0009838823000502.
+
 **Martynenko, A. and Šeļa, A.** (2023). The fall of genres that did not happen: formalising history of the ‘universal’ semantics of Russian iambic tetrameter. _Studia Metrica et Poetica_, **10**(2): 89–111.
 
 **Hernández-Lorenzo, L., and Byszuk J.** (2023). Challenging stylometry: the authorship of the baroque play La Segunda Celestina, _Digital Scholarship in the Humanities_, **38**(2): 544–558 [https://doi.org/10.1093/llc/fqac063](https://doi.org/10.1093/llc/fqac063).
