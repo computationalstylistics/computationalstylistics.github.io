@@ -12,7 +12,7 @@ description: Publications by the Group members. Sometimes not as up-to-date as w
 
 **Bąkowski, J.** (2024). Ḵẖūn for rakt and duniyā for saṃsār. A cognitive approach based on word embeddings to Sanskrit and Perso-Arabic loanwords in Hindi. In Andrijanić, I. and Browarczyk, M. (eds), _Between Language and Literature: Hindi in Classroom and Beyond_. Zagreb: University of Zagreb, pp. 127–41 [https://indolog.ffzg.unizg.hr/wp-content/uploads/Between-Languages-and-Literature.pdf](https://indolog.ffzg.unizg.hr/wp-content/uploads/Between-Languages-and-Literature.pdf).
 
-**Beullens, P., Haverals, W. and Nagy, B.** (2024). The elementary particles: A computational stylometric inquiry into the Mediaeval Greek-Latin Aristotle. _Mediterranea, International Journal on the Transfer of Knowledge_, **9**: 385–408 [https://doi.org/0.21071/mijtk.v9i.16723](https://doi.org/0.21071/mijtk.v9i.16723).
+**Beullens, P., Haverals, W. and Nagy, B.** (2024). The elementary particles: A computational stylometric inquiry into the Mediaeval Greek-Latin Aristotle. _Mediterranea, International Journal on the Transfer of Knowledge_, **9**: 385–408 [https://doi.org/10.21071/mijtk.v9i.16723](https://doi.org/10.21071/mijtk.v9i.16723).
 
 **Nagy, B.** (2024). Bootstrap Distance Imposters: High precision authorship verification with improved interpretability. _Proceedings of the Computational Humanities Research Conference 2024_. Aarhus, pp. 482–93 [https://ceur-ws.org/Vol-3834/](https://ceur-ws.org/Vol-3834/).
 
