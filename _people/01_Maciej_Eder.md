@@ -1,10 +1,10 @@
 ---
 layout: about
 title: Maciej Eder
-img: /assets/img/maciej_eder_thumbnail.png
+img: /assets/img/maciej_eder_thumbnail_2.jpg
 profile:
   align: right
-  image: maciej_eder.png
+  image: maciej_eder_2.jpg
 news: false
 social: false
 ---
