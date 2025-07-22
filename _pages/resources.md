@@ -9,7 +9,7 @@ description: Materials prepared by the Group. (More to be added soon...).
 
 ## Corpora
 
-The following selection of links is but a tip of an iceberg when it comes to the corpora (text collections) suitable for text analysis. The corpora listed below, however, are compiled by the members of CSG, and checked for compatibility with commonly known stylometric software. 
+The following selection of links is but a tip of the iceberg when it comes to the corpora (text collections) suitable for text analysis. The corpora listed below, however, are compiled by the members of CSG, and checked for compatibility with commonly known stylometric software. 
 
 * [A Small Collection of British Fiction](https://github.com/computationalstylistics/A_Small_Collection_of_British_Fiction)
 * [100 Polish Novels](https://github.com/computationalstylistics/100_polish_novels)
@@ -18,12 +18,17 @@ The following selection of links is but a tip of an iceberg when it comes to the
 * [100 Russian Novels](https://github.com/JoannaBy/RussianNovels)
 * [Latin New Testament](https://github.com/computationalstylistics/NT_Vulgate)
 * [_Roman de la Rose_](https://github.com/computationalstylistics/RdlR_for_rolling_classify), to play with the [Rolling Classify](https://computationalstylistics.github.io/projects/rolling-stylometry/) method
+* [ELTeC corpora](https://github.com/COST-ELTeC) - while our team prepared only the Polish corpus in the collection, we participated in all stages of collection design and strongly encourage you to check it out!  
+
+If you're looking to test the methods on poetry or drama, we are also happy to recommend befriended projects:
+* [PoeTree](https://versologie.cz/poetree/) -  "a standardized collection of poetry corpora comprising over 330,000 poems in ten languages (Czech, English, French, German, Hungarian, Italian, Portuguese, Russian, Slovenian, Spanish). Each corpus has been deduplicated, enriched with Universal Dependencies, provided with additional metadata and converted into a unified JSON structure." PoeTree is a project headed by our colleagues from the Czech Academy of Sciences and is continuously growing.
+* [DraCor](https://dracor.org/) - "(short for »drama corpora«) is an open digital infrastructure developed for the computational study of (mostly) European drama from Greco-Roman antiquity to the 20th century." The project includes 21 and counting corpora of dramatic works with rich encoding facilitating analysis of various levels of drama. Like in the case of PoeTree, the corpora are continuously growing.
 
 
 
 ## Documentation of the package ‘stylo’
 
-* for (real) beginners: a crush introduction in the form of a [slideshow](https://computationalstylistics.github.io/stylo_nutshell/)
+* for (real) beginners: a crash introduction in the form of a [slideshow](https://computationalstylistics.github.io/stylo_nutshell/)
 * for (sort of) beginners: a concise [HOWTO](https://github.com/computationalstylistics/stylo_howto/blob/master/stylo_howto.pdf)
 * for advanced users: a paper in [R Journal](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
 * full documentation at [CRAN](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
@@ -40,6 +45,10 @@ Blog posts on non-obvious functions of the package ‘stylo’:
 * [Testing rolling stylometry](https://computationalstylistics.github.io/blog/rolling_stylometry/)
 * [Using ‘stylo’ with languages other than English](https://computationalstylistics.github.io/blog/stylo_and_languages/)
 
+Method discussions:
+* [CLS Infra Survey of Methods](https://clsinfra.io/resources/d3-2-methods/) - an explorable grid of short papers introducing various aspects of stylometric studies in regard to some literary problems, i.a., corpus preparation, analysis and evaluation steps.
+* [Multilingual stylometry showcases](https://showcases.clsinfra.io/stylometry)
+
 
 
 ## Video introductions
@@ -47,7 +56,7 @@ Blog posts on non-obvious functions of the package ‘stylo’:
 * [Introduction to the package ‘stylo’: first steps](https://www.youtube.com/watch?v=pWOCfZnitdc&t=6s)
 * [Introduction to the package ‘stylo’: installation](https://www.youtube.com/watch?v=Rv7u4UNZJrA&t=86s)
 * [Introduction to the package ‘stylo’: basic parameters](https://www.youtube.com/watch?v=uPHPhIo2Drc)
-
+* [Materials from CLS Infra Training School 2023 - Day Two](https://campus.dariah.eu/resources/events/digging-for-gold-knowledge-extraction-from-text)
 
 
 ## Publications
@@ -60,6 +69,11 @@ A list of relevant publications by the CSG members can be found on this website,
 
 The members of the group regularly conduct invited workshops at various places of the world, including yearly course offerings at [Digital Humanities Summer Institute](http://www.dhsi.org/index.php) (DHSI) in Victoria BC and [The European Summer University in Digital Humanities](http://www.culingtec.uni-leipzig.de/ESU_C_T/node/97) (ESUDH) in Leipzig. Below we aim to list some upcoming events:
 
+### 2025 major workshops
+* 19-23 May [Interdisciplinary Methodologies in Linguistic Research](https://intermet.ijppan.pl/) in Kraków, Poland. Lectures offered by Joanna Byszuk, Maciej Eder and Rafał L. Górski.
+* 26-20 May [Digital Humanities Summer Institute](https://dhsi.org/) in Montreal, Canada. Week 1, taught by Joanna Byszuk and Jacek Bąkowski.
+* 21 July - 2 August [European Summer University in Digital Humanities "Culture & Technology"](https://esudh.github.io/) in Besançon, France. Course: Distant Reading in R. Analyse the text & visualize the data (Artjoms Šeļa, Czech Academy of Sciences and Giovanni Pietro Vitali, University of Versailles Saint-Quentin-en-Yvelines)
+
 
 
 ### 2024 major workshops
@@ -69,13 +83,11 @@ The members of the group regularly conduct invited workshops at various places o
 * 3–7 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Week 1, taught by Maciej Eder.
 
 
-
 ### 2023 major workshops
 
 * 4–8 Sept [IQLA-GIAT Summer School in Quantitative Analysis of Textual Data](https://www.fisppa.unipd.it/giat-en/summer%20school) in Padua, Italy. Taught by Joanna Byszuk.
 * 5–9 June [Digital Humanities Summer Institute](https://dhsi.org/) in Victoria BC, Canada. Taught by Maciej Eder.
 * 10–12 May [CLS INFRA Training School](https://clsinfra.io/events/training-school/) in Madrid, at UNED. Taught by Joanna Byszuk and Artjoms Šeļa.
-
 
 
 
