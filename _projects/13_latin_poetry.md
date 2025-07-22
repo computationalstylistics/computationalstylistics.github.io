@@ -21,8 +21,19 @@ The importance of Latin poetry to the modern literary tradition (in many languag
 
 ## Preliminary outcomes
 
-**Nagy, B.** (2022). Rhyme in classical Latin poetry: Stylistic or stochastic?. _Digital Scholarship in the Humanities_, **37**(4): 1097–1118, doi:10.1093/llc/fqab105.
+**Nagy, B., Šeļa, A., De Sisto, M. and Plecháč, P.** (2024). Metronome: tracing variation in poetic meters via local sequence alignment. _Computational Humanities Research_, **1**: e1 [https://doi.org/10.1017/chr.2025.1](https://doi.org/10.1017/chr.2025.1).
 
-**Nagy, B.** (2023). Some stylometric remarks on Ovid’s Heroides and the Epistula Sapphus. _Digital Scholarship in the Humanities_, doi:10.1093/llc/fqac098.
+**Šeļa, A., Nagy, B., Byszuk, J., Hernández-Lorenzo, L., Szemes, B. and Eder, M.** (2024). From stage to page: language independent bootstrap measures of distinctiveness in fictional speech. In Andersen, M. and Reiter, N. (eds), _Computational Drama Analysis: Reflecting on Methods and Interpretations_. de Gruyter, pp. 149–66 [https://www.degruyter.com/document/doi/10.1515/9783111071824/html](https://www.degruyter.com/document/doi/10.1515/9783111071824/html), [[pre-print](https://arxiv.org/abs/2301.05659)]
 
+**Beullens, P., Haverals, W. and Nagy, B.** (2024). The elementary particles: A computational stylometric inquiry into the Mediaeval Greek-Latin Aristotle. _Mediterranea, International Journal on the Transfer of Knowledge_, **9**: 385–408 [https://doi.org/10.21071/mijtk.v9i.16723](https://doi.org/10.21071/mijtk.v9i.16723).
+
+**Nagy, B.** (2024). Bootstrap Distance Imposters: High precision authorship verification with improved interpretability. _Proceedings of the Computational Humanities Research Conference 2024_. Aarhus, pp. 482–93 [https://ceur-ws.org/Vol-3834/](https://ceur-ws.org/Vol-3834/).
+
+**Nagy, B.** (2024). (Not) Understanding Latin poetic style with deep learning. [https://arxiv.org/abs/2404.06150](https://arxiv.org/abs/2404.06150).
+
+**Nagy, B.** (2023). Some stylometric remarks on Ovid’s Heroides and the Epistula Sapphus. _Digital Scholarship in the Humanities_, **38**(3): 1183–99 [https://doi.org/10.1093/llc/fqac098](https://doi.org/10.1093/llc/fqac098).
+
+**Nagy, B. and Lee, J. M.** (2023). New Light on the Additamentvm Aldinvm (Silius Italicus, Pvnica 8.144–223). _The Classical Quarterly_, **73**(1): 271–92 [https://doi.org/10.1017/S0009838823000502](https://doi.org/10.1017/S0009838823000502).
+
+**Nagy, B.** (2022). Rhyme in classical Latin poetry: Stylistic or stochastic?. _Digital Scholarship in the Humanities_, **37**(4): 1097–1118, [https://doi.org/10.1093/llc/fqab105](https://doi.org/10.1093/llc/fqab105).
 
