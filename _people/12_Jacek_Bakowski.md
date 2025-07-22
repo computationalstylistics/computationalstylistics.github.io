@@ -4,7 +4,7 @@ title: Jacek Bąkowski
 img: /assets/img/jacek_bakowski_thumbnail.png
 profile:
   align: right
-  image: jacek_bakowski.png
+  image: jacek_bakowski_thumbnail.png
 news: false
 social: false
 ---
