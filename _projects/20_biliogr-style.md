@@ -43,9 +43,19 @@ bibliography: bibliography.bib
 csl: digital_humanities_abstracts.csl
 ---
 
-Here's the content of my paper with some bibliographic references [@JoyceLetters1957] that will then be rendered according to the style definition.
+## Introduction
+
+Here's the content of my paper with some bibliographic 
+references [@JoyceLetters1957] that will then be rendered 
+according to the style definition. The References section
+will be appended automatically to the end of the resulting
+file -- be it PDF, HTML, or whatever you define.
+
+## Conclusions
+
+The conclusions will be added later.
 
 ```
 
-
+Actually, most of the pages on this CSG website have been authored using the above technology. E.g. this [blog post](https://computationalstylistics.github.io/blog/imposters/) is a good example.
 
