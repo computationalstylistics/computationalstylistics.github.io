@@ -3,7 +3,7 @@ layout: page
 title: Bibliography style
 description: for DH publications
 permalink: /projects/htr/
-img: /assets/img/slowniki_karoteka.jpg
+#img: /assets/img/slowniki_karoteka.jpg
 ---
 
 
@@ -23,29 +23,17 @@ It's an open-source repository, so feel free to grab it and use it! The file `di
 
 Those who use MS Word as their daily writer, should check out the functionalities of Zotero with a dedicated [MS Word plugin](https://www.zotero.org/support/word_processor_plugin_usage). Using bibliographic entries with such a combination of tools is extremely easy, and kind of awesome! LibreOffice users will find [a similar plugin](https://www.zotero.org/support/libreoffice_writer_plugin_usage), too, and the same applies to the combination of GoogleDocs and Zotero. 
 
-More adventurous users (including all diehard geeks) might want to explore the art of writing scholarly articles directly in plain text, using Markdown codes for minimal styling, and BibTeX files to store the accompanying bibliography. Without any doubt, It's the pinnacle of scholarly reproducibility, since both the code and the actual paper are integrated, and can easily be put on any public repository. 
+More adventurous users (including all diehard geeks) might want to explore the art of writing scholarly articles directly in plain text, using Markdown codes for minimal styling, and BibTeX files to store the accompanying bibliography. Without any doubt, It's the pinnacle of scholarly reproducibility, since both the code and the actual paper are integrated, and can easily be put on any public repository. There are a few ways of writing in plain text mode.
 
-a lesson in Programming Historian:
-https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown
+A great introduction to writing your stuff in Markdown and then rendering it using `pandoc` is the following lesson at [Programming Historian](https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown). R users might want to discover the package `Rmarkdown` to get [to the next level](https://rmarkdown.rstudio.com/). It allows the users to combine the code and the narrative in one file. The code is then being evaluated (compiled), and all the plots, generated on the fly, are nicely put where you want them to appear in your manuscript. Finally, the users who value both simplicity and visual refinement, should definitely try out [Quarto](https://quarto.org), which allows not only to write static papers, websites, and presentations, but also to create dynamic content with Python, R, Julia, and Observable. 
 
-
-R users might want to discover the package `Rmarkdown` to get to the next level
-https://rmarkdown.rstudio.com/
-What it does, it allows the users to combine the code and the narrative in one file. The code is then being evaluated (or compiled) and all the plots are being generated on the fly
-
-
-quarto:
-https://quarto.org
-
-Create dynamic content with Python, R, Julia, and Observable.
-
-
+In order to unleash the potential of rendering your manuscripts with automatically generated references, you need to have the `.cls` file with your bibliography style, the bibliography itself, stored in a `.bib` file, and obviously the manuscript itself -- usually a `.md` file formatted using Markdown. In the `.md` file, you're supposed to define a few things, including the bibliographic style to be used. Here's a dummy example how such a file might look like:  
 
 ``` txt
 ---
-title: "Short samples in authorship attribution: a new approach"
+title: "My new exciting paper"
 author: Maciej Eder
-date: 29.03.2020
+date: 29.07.2025
 output: 
   html_document:
     pandoc_args: [ --mathjax, -f, markdown+tex_math_double_backslash ]
@@ -54,12 +42,10 @@ output:
 bibliography: bibliography.bib
 csl: digital_humanities_abstracts.csl
 ---
+
+Here's the content of my paper with some bibliographic references [@JoyceLetters1957] that will then be rendered according to the style definition.
+
 ```
-
-
-
-
-
 
 
 
