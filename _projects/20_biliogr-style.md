@@ -2,8 +2,8 @@
 layout: page
 title: Bibliography style
 description: for DH publications
-permalink: /projects/htr/
-#img: /assets/img/slowniki_karoteka.jpg
+permalink: /projects/biblio/
+img: /assets/img/biblio_style.png
 ---
 
 
