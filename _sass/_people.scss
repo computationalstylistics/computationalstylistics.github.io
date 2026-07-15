@@ -51,3 +51,19 @@
         }
     }
 }
+
+@media (hover: none) {
+    .person .thumbnail a span {
+        display: block;
+        position: static;
+        background: none;
+        padding: $space-1 0;
+        h1, p { color: inherit; }
+    }
+}
+
+@media (max-width: $on-palm) {
+    .person {
+        width: 50%;
+    }
+}
